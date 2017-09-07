@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/n_lightgray" android:layout_width="match_parent" android:layout_height="match_parent"
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:background="@drawable/img_header_cover" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f090070">
+            <com.telkom.mwallet.view.BalanceView android:id="@id/tcash_balance" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2301" />
+        </LinearLayout>
+        <FrameLayout android:id="@id/tcash_airtime_fragment" android:layout_width="match_parent" android:layout_height="match_parent" />
+    </LinearLayout>
+</LinearLayout>

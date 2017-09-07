@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/help_container" android:background="#55000000" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:background="@drawable/ic_onboarding_side_navigation_in" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="11dp" android:layout_marginTop="33dp" android:scaleType="fitXY" />
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="39dp" android:layout_marginRight="25dp" android:src="@drawable/ic_onboarding_coupon_info_in" android:scaleType="fitXY" android:layout_alignParentRight="true" />
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="164dp" android:layout_marginTop="216dp" android:src="@drawable/ic_onboarding_balance_info_in" android:scaleType="fitXY" />
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="380dp" android:layout_marginRight="39dp" android:src="@drawable/ic_onboarding_cash_in_button_in" android:scaleType="fitXY" android:layout_alignParentRight="true" />
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="27dp" android:layout_marginTop="395dp" android:src="@drawable/ic_onboarding_top_features_in" android:scaleType="fitXY" />
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="480dp" android:layout_marginRight="122dp" android:src="@drawable/ic_onboarding_quick_button_in" android:scaleType="fitXY" android:layout_alignParentRight="true" />
+</RelativeLayout>

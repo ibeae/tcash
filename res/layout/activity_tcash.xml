@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/n_lightgray" android:layout_width="match_parent" android:layout_height="match_parent"
+    <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@id/tcash_top_layout" android:layout_width="match_parent" android:layout_height="wrap_content"
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:background="@drawable/img_header_cover" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f090070">
+            <com.telkom.mwallet.view.BalanceView android:id="@id/tcash_balance" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2301" />
+        </LinearLayout>
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:id="@id/tcash_bottom_layout" android:background="@color/orangered" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2401">
+            <TextView android:id="@id/tcash_rp_detail_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="4dp" android:text="" style="@style/tcash_top_service_description" />
+            <TextView android:id="@id/tcash_rp_detail2_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="4dp" android:text="" style="@style/tcash_top_service_type" />
+            <TextView android:id="@id/tcash_rp_detail3_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" style="@style/tcash_top_service_description" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/tcash_bottom_layout">
+        <ScrollView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/tcash_bottom_layout_scrollview" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/tcash_scroll">
+            <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:background="0x0" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <RelativeLayout android:id="@id/tcash_airtime_purchase_button" android:clickable="true" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f090073" style="@style/n_submenu">
+                    <ImageView android:layout_width="UNKNOWN_DATA_0x1801" android:layout_height="UNKNOWN_DATA_0x1801" android:layout_marginLeft="@dimen/n_margin_frame" android:src="@drawable/ic_menu_airtime" android:scaleType="fitXY" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/button_airtime_data_purchase" android:layout_centerInParent="true" style="@style/n_tcash_main_button_txt" />
+                    <ImageView android:layout_width="UNKNOWN_DATA_0x1801" android:layout_height="UNKNOWN_DATA_0x1801" android:layout_marginRight="@dimen/n_margin_frame" android:src="@drawable/ic_chevron_right" android:scaleType="fitXY" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@id/tcash_payment_button" android:clickable="true" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f090073" style="@style/n_submenu">
+                    <ImageView android:layout_width="UNKNOWN_DATA_0x1801" android:layout_height="UNKNOWN_DATA_0x1801" android:layout_marginLeft="@dimen/n_margin_frame" android:src="@drawable/ic_menu_payment" android:scaleType="fitXY" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/button_payment" android:layout_centerInParent="true" style="@style/n_tcash_main_button_txt" />
+                    <ImageView android:layout_width="UNKNOWN_DATA_0x1801" android:layout_height="UNKNOWN_DATA_0x1801" android:layout_marginRight="@dimen/n_margin_frame" android:src="@drawable/ic_chevron_right" android:scaleType="fitXY" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@id/tcash_transfer_button" android:clickable="true" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f090073" style="@style/n_submenu">
+                    <ImageView android:layout_width="UNKNOWN_DATA_0x1801" android:layout_height="UNKNOWN_DATA_0x1801" android:layout_marginLeft="@dimen/n_margin_frame" android:src="@drawable/ic_menu_transfer" android:scaleType="fitXY" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/button_transfer" android:layout_centerInParent="true" style="@style/n_tcash_main_button_txt" />
+                    <ImageView android:layout_width="UNKNOWN_DATA_0x1801" android:layout_height="UNKNOWN_DATA_0x1801" android:layout_marginRight="@dimen/n_margin_frame" android:src="@drawable/ic_chevron_right" android:scaleType="fitXY" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@id/tcash_cash_in_out_button" android:clickable="true" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f090073" style="@style/n_submenu">
+                    <ImageView android:layout_width="UNKNOWN_DATA_0x1801" android:layout_height="UNKNOWN_DATA_0x1801" android:layout_marginLeft="@dimen/n_margin_frame" android:src="@drawable/ic_menu_in_out" android:scaleType="fitXY" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+                    <TextView android:id="@id/tcash_cash_in_out_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/button_cash" android:layout_centerInParent="true" style="@style/n_tcash_main_button_txt" />
+                    <ImageView android:layout_width="UNKNOWN_DATA_0x1801" android:layout_height="UNKNOWN_DATA_0x1801" android:layout_marginRight="@dimen/n_margin_frame" android:src="@drawable/ic_chevron_right" android:scaleType="fitXY" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@id/tcash_token_button" android:clickable="true" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f090073" style="@style/n_submenu">
+                    <ImageView android:layout_width="UNKNOWN_DATA_0x1801" android:layout_height="UNKNOWN_DATA_0x1801" android:layout_marginLeft="@dimen/n_margin_frame" android:src="@drawable/ic_menu_token" android:scaleType="fitXY" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/button_token" android:layout_centerInParent="true" style="@style/n_tcash_main_button_txt" />
+                    <ImageView android:layout_width="UNKNOWN_DATA_0x1801" android:layout_height="UNKNOWN_DATA_0x1801" android:layout_marginRight="@dimen/n_margin_frame" android:src="@drawable/ic_chevron_right" android:scaleType="fitXY" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@id/tcash_transaction_history_button" android:clickable="true" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f090073" style="@style/n_submenu">
+                    <ImageView android:layout_width="UNKNOWN_DATA_0x1801" android:layout_height="UNKNOWN_DATA_0x1801" android:layout_marginLeft="@dimen/n_margin_frame" android:src="@drawable/ic_menu_history" android:scaleType="fitXY" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/button_transaction_history" android:layout_centerInParent="true" style="@style/n_tcash_main_button_txt" />
+                    <ImageView android:layout_width="UNKNOWN_DATA_0x1801" android:layout_height="UNKNOWN_DATA_0x1801" android:layout_marginRight="@dimen/n_margin_frame" android:src="@drawable/ic_chevron_right" android:scaleType="fitXY" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                </RelativeLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>

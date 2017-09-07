@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/n_lightgray" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:padding="@dimen/n_margin_frame" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/card_add_detail_imageview" android:background="0x0" android:layout_width="UNKNOWN_DATA_0x13401" android:layout_height="UNKNOWN_DATA_0xc301" android:layout_marginTop="5dp" />
+        <EditText android:id="@id/card_add_detail_number_edittext" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f090071" android:layout_marginTop="40dp" android:layout_marginBottom="16dp" android:hint="Card Number" android:maxLength="19" android:inputType="number|numberSigned|numberDecimal|numberPassword|phone" style="@style/n_input_edittext_bottom" />
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f090071" android:layout_marginBottom="@dimen/n_margin_frame" style="@style/checkbox_layout">
+            <Button android:id="@id/card_add_detail_set_main_button" android:layout_width="UNKNOWN_DATA_0x1901" android:layout_height="UNKNOWN_DATA_0x1b01" style="@style/checkbox_button" />
+            <TextView android:textSize="15dp" android:textColor="@color/n_black" android:paddingLeft="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/set_as_card" style="@style/checkbox_textview" />
+        </LinearLayout>
+        <Button android:id="@id/card_add_detail_confirm_button" android:padding="@dimen/n_margin_frame" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f090076" android:layout_marginTop="80dp" android:text="@string/btn_confirm" style="@style/n_common_orange_button" />
+    </LinearLayout>
+</ScrollView>

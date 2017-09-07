@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/n_lightgray" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ListView android:id="@id/twallet_news_listview" android:layout_width="match_parent" android:layout_height="match_parent" android:divider="@color/n_lightgray" android:dividerHeight="1dp" />
+    <ScrollView android:id="@id/twallet_news_nodata_scrollview" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/common_scroll">
+        <RelativeLayout android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="match_parent" android:layout_height="match_parent">
+            <ImageView android:id="@id/nodata_list_imageview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_no_news" android:layout_centerHorizontal="true" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="@string/no_twallet_news" android:layout_below="@id/nodata_list_imageview" android:layout_centerInParent="true" style="@style/n_darkgray20" />
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

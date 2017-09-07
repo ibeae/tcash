@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/help_container" android:background="#55000000" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:layout_width="UNKNOWN_DATA_0x7e01" android:layout_height="UNKNOWN_DATA_0x3401" android:layout_marginLeft="12dp" android:layout_marginTop="26dp" android:src="@drawable/img_cochmark_main01" android:scaleType="fitXY" />
+    <ImageView android:layout_width="UNKNOWN_DATA_0x7e01" android:layout_height="UNKNOWN_DATA_0x2501" android:layout_marginTop="33dp" android:layout_marginRight="24dp" android:src="@drawable/img_cochmark_main02" android:scaleType="fitXY" android:layout_alignParentRight="true" />
+    <ImageView android:layout_width="UNKNOWN_DATA_0x6601" android:layout_height="UNKNOWN_DATA_0x3601" android:layout_marginLeft="0dp" android:layout_marginTop="230dp" android:src="@drawable/img_cochmark_main03" android:scaleType="fitXY" android:layout_toRightOf="@id/home_help_center" />
+    <View android:id="@id/home_help_center" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="UNKNOWN_DATA_0x1" android:layout_marginTop="440dp" android:layout_centerInParent="true" />
+    <ImageView android:layout_width="UNKNOWN_DATA_0x4b01" android:layout_height="UNKNOWN_DATA_0x2d01" android:layout_marginTop="525dp" android:layout_marginRight="85dp" android:src="@drawable/img_cochmark_main04" android:scaleType="fitXY" android:layout_toLeftOf="@id/home_help_center" />
+    <ImageView android:layout_width="UNKNOWN_DATA_0x5c01" android:layout_height="UNKNOWN_DATA_0x3a01" android:layout_marginLeft="-30dp" android:layout_marginTop="585dp" android:src="@drawable/img_cochmark_main05" android:scaleType="fitXY" android:layout_toRightOf="@id/home_help_center" />
+    <ImageView android:layout_width="UNKNOWN_DATA_0x7f01" android:layout_height="UNKNOWN_DATA_0x3601" android:layout_marginLeft="0dp" android:layout_marginTop="410dp" android:src="@drawable/img_cochmark_main06" android:scaleType="fitXY" android:layout_toRightOf="@id/home_help_center" />
+</RelativeLayout>

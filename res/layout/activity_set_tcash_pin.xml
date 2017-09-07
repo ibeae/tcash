@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@id/pageArea" android:background="@color/n_lightgray" android:layout_width="match_parent" android:layout_height="match_parent"
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:id="@id/n_titlebar_logo" android:background="@color/n_orange" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f090079" android:layout_alignParentTop="true">
+        <ImageView android:background="@drawable/logo_tcash" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@id/n_titlebar_logo"
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:background="@drawable/img_header_cover" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:id="@id/titlebar_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/title_set_tcash_pin" style="@style/n_titlebar_text" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/n_margin_frame">
+        <EditText android:id="@id/set_tcash_pin_change_pin_edittext" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f090071" android:hint="@string/new_pin" android:maxLength="6" android:inputType="textUri|textEmailSubject|textLongMessage|textPostalAddress|textVisiblePassword|textFilter|textWebEmailAddress|number|numberSigned|numberDecimal|numberPassword|phone|date" style="@style/n_input_edittext_middle" />
+        <EditText android:id="@id/set_tcash_pin_confirm_pin_edittext" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f090071" android:layout_marginBottom="16dp" android:hint="@string/confirm_new_pin" android:maxLength="6" android:inputType="textUri|textEmailSubject|textLongMessage|textPostalAddress|textVisiblePassword|textFilter|textWebEmailAddress|number|numberSigned|numberDecimal|numberPassword|phone|date" style="@style/n_input_edittext_bottom" />
+        <Button android:id="@id/set_tcash_pin_done_button" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f090071" android:text="@string/btn_done" style="@style/n_common_orange_button" />
+    </LinearLayout>
+</LinearLayout>

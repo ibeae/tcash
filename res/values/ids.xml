@@ -1,0 +1,1446 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="about_mcash_fsg_layout" />
+    <item type="id" name="about_mcash_fsg_text" />
+    <item type="id" name="about_mcash_fsg_text_layout" />
+    <item type="id" name="about_mcash_pds_layout" />
+    <item type="id" name="about_mcash_pds_text" />
+    <item type="id" name="about_mcash_pds_text_layout" />
+    <item type="id" name="about_mwallet_tnc_layout" />
+    <item type="id" name="about_mwallet_tnc_text" />
+    <item type="id" name="about_mwallet_tnc_text_layout" />
+    <item type="id" name="about_twallet_contents_layout" />
+    <item type="id" name="about_twallet_email_button" />
+    <item type="id" name="about_twallet_email_layout" />
+    <item type="id" name="about_twallet_facebook_button" />
+    <item type="id" name="about_twallet_facebook_layout" />
+    <item type="id" name="about_twallet_logo_imageview" />
+    <item type="id" name="about_twallet_share_textview1" />
+    <item type="id" name="about_twallet_share_textview2" />
+    <item type="id" name="about_twallet_share_textview3" />
+    <item type="id" name="about_twallet_sms_button" />
+    <item type="id" name="about_twallet_sms_layout" />
+    <item type="id" name="about_twallet_twitter_button" />
+    <item type="id" name="about_twallet_twitter_layout" />
+    <item type="id" name="about_twallet_version_textview" />
+    <item type="id" name="abs__action_menu_divider" />
+    <item type="id" name="abs__action_menu_presenter" />
+    <item type="id" name="abs__home" />
+    <item type="id" name="abs__progress_circular" />
+    <item type="id" name="abs__progress_horizontal" />
+    <item type="id" name="abs__up" />
+    <item type="id" name="account_locked_quit_button" />
+    <item type="id" name="account_locked_try_again_button" />
+    <item type="id" name="activate_completion_add_fund_button" />
+    <item type="id" name="activate_completion_button_layout" />
+    <item type="id" name="activate_completion_imageview" />
+    <item type="id" name="activate_completion_not_now_button" />
+    <item type="id" name="activate_confirm_info_address_layout" />
+    <item type="id" name="activate_confirm_info_address_textview" />
+    <item type="id" name="activate_confirm_info_button_layout" />
+    <item type="id" name="activate_confirm_info_cancel_button" />
+    <item type="id" name="activate_confirm_info_continue_button" />
+    <item type="id" name="activate_confirm_info_email_layout" />
+    <item type="id" name="activate_confirm_info_email_textview" />
+    <item type="id" name="activate_confirm_info_fullname_layout" />
+    <item type="id" name="activate_confirm_info_fullname_textview" />
+    <item type="id" name="activate_confirm_info_introduction_textview" />
+    <item type="id" name="activate_confirm_info_mobile_layout" />
+    <item type="id" name="activate_confirm_info_mobile_textview" />
+    <item type="id" name="activate_confirm_info_saved_address_edittext" />
+    <item type="id" name="activate_confirm_info_saved_email_edittext" />
+    <item type="id" name="activate_confirm_info_saved_fullname_textview" />
+    <item type="id" name="activate_confirm_info_saved_mobile_textview" />
+    <item type="id" name="activate_confirm_info_title_textview" />
+    <item type="id" name="activate_intro_activate_button" />
+    <item type="id" name="activate_intro_button_layout" />
+    <item type="id" name="activate_intro_imageview" />
+    <item type="id" name="activate_intro_not_now_button" />
+    <item type="id" name="activate_pin_button_layout" />
+    <item type="id" name="activate_pin_cancel_button" />
+    <item type="id" name="activate_pin_confirm_pin1_edittext" />
+    <item type="id" name="activate_pin_confirm_pin2_edittext" />
+    <item type="id" name="activate_pin_confirm_pin3_edittext" />
+    <item type="id" name="activate_pin_confirm_pin4_edittext" />
+    <item type="id" name="activate_pin_confirm_pin_layout" />
+    <item type="id" name="activate_pin_continue_button" />
+    <item type="id" name="activate_pin_introduction_textview" />
+    <item type="id" name="activate_pin_pin1_edittext" />
+    <item type="id" name="activate_pin_pin2_edittext" />
+    <item type="id" name="activate_pin_pin3_edittext" />
+    <item type="id" name="activate_pin_pin4_edittext" />
+    <item type="id" name="activate_pin_pin_layout" />
+    <item type="id" name="activate_pin_title_textview" />
+    <item type="id" name="activity_coupon_detail_campaign_date" />
+    <item type="id" name="activity_coupon_detail_campaign_desc" />
+    <item type="id" name="activity_coupon_detail_campaign_layout" />
+    <item type="id" name="activity_coupon_detail_campaign_shortdesc" />
+    <item type="id" name="activity_coupon_detail_campaign_title" />
+    <item type="id" name="activity_coupon_detail_coupon_imageview" />
+    <item type="id" name="activity_coupon_detail_delete_button" />
+    <item type="id" name="activity_coupon_detail_divider" />
+    <item type="id" name="activity_coupon_detail_facebook_button" />
+    <item type="id" name="activity_coupon_detail_relative_layout" />
+    <item type="id" name="activity_coupon_detail_save_button" />
+    <item type="id" name="activity_coupon_detail_status_date" />
+    <item type="id" name="activity_coupon_detail_status_layout" />
+    <item type="id" name="activity_coupon_detail_status_text" />
+    <item type="id" name="activity_coupon_detail_tag_imageview" />
+    <item type="id" name="activity_coupon_detail_tnc_button" />
+    <item type="id" name="activity_coupon_detail_use_button" />
+    <item type="id" name="agreement_accept_button" />
+    <item type="id" name="agreement_dont_accept_button" />
+    <item type="id" name="auto_focus" />
+    <item type="id" name="auto_topup_detail_edit_button" />
+    <item type="id" name="auto_topup_detail_stop_button" />
+    <item type="id" name="auto_topup_stopped_start_button" />
+    <item type="id" name="balance_amount_layout" />
+    <item type="id" name="balance_loading_layout" />
+    <item type="id" name="btn_key_0" />
+    <item type="id" name="btn_key_1" />
+    <item type="id" name="btn_key_2" />
+    <item type="id" name="btn_key_3" />
+    <item type="id" name="btn_key_4" />
+    <item type="id" name="btn_key_5" />
+    <item type="id" name="btn_key_6" />
+    <item type="id" name="btn_key_7" />
+    <item type="id" name="btn_key_8" />
+    <item type="id" name="btn_key_9" />
+    <item type="id" name="btn_key_back" />
+    <item type="id" name="card_add_detail_confirm_button" />
+    <item type="id" name="card_add_detail_imageview" />
+    <item type="id" name="card_add_detail_number_edittext" />
+    <item type="id" name="card_add_detail_set_main_button" />
+    <item type="id" name="card_add_listitem_desc" />
+    <item type="id" name="card_add_listitem_imageview" />
+    <item type="id" name="card_add_listitem_layout" />
+    <item type="id" name="card_add_listitem_title" />
+    <item type="id" name="card_home_activate_pin_button" />
+    <item type="id" name="card_home_card_history_button" />
+    <item type="id" name="card_home_default_card_button" />
+    <item type="id" name="card_home_main_card_button" />
+    <item type="id" name="card_home_pay_wave_button" />
+    <item type="id" name="card_home_rp_coin_textview" />
+    <item type="id" name="card_home_rp_textview" />
+    <item type="id" name="card_home_topup_button" />
+    <item type="id" name="card_img" />
+    <item type="id" name="card_list_action_menu_linear" />
+    <item type="id" name="card_list_balance_title_txt" />
+    <item type="id" name="card_list_balance_txt" />
+    <item type="id" name="card_list_delete" />
+    <item type="id" name="card_list_empty_linear" />
+    <item type="id" name="card_list_indicator" />
+    <item type="id" name="card_list_redeem" />
+    <item type="id" name="card_list_transaction_history_button" />
+    <item type="id" name="card_list_viewpager" />
+    <item type="id" name="card_listitem_balance_textview" />
+    <item type="id" name="card_listitem_balance_value_textview" />
+    <item type="id" name="card_listitem_card_imageview" />
+    <item type="id" name="card_listitem_card_name_textview" />
+    <item type="id" name="card_listitem_default_card_button" />
+    <item type="id" name="card_listitem_empty_card_layout" />
+    <item type="id" name="card_listitem_empty_card_textview" />
+    <item type="id" name="card_listitem_exist_card_layout" />
+    <item type="id" name="card_number_textview" />
+    <item type="id" name="card_topup_amount_button" />
+    <item type="id" name="card_topup_amount_picker_button" />
+    <item type="id" name="card_topup_bottom_layout_scrollview" />
+    <item type="id" name="card_topup_card_button" />
+    <item type="id" name="card_topup_confirm_amount_textview" />
+    <item type="id" name="card_topup_confirm_card_name" />
+    <item type="id" name="card_topup_confirm_card_type" />
+    <item type="id" name="card_topup_confirm_close_button" />
+    <item type="id" name="card_topup_confirm_layout" />
+    <item type="id" name="card_topup_confirm_pin1_edittext" />
+    <item type="id" name="card_topup_confirm_pin2_edittext" />
+    <item type="id" name="card_topup_confirm_pin3_edittext" />
+    <item type="id" name="card_topup_confirm_pin4_edittext" />
+    <item type="id" name="card_topup_confirm_pin5_edittext" />
+    <item type="id" name="card_topup_confirm_pin6_edittext" />
+    <item type="id" name="card_topup_confirm_topup_button" />
+    <item type="id" name="card_topup_content_layout" />
+    <item type="id" name="card_topup_default_card_button" />
+    <item type="id" name="card_topup_next_button" />
+    <item type="id" name="card_topup_rp_coin_textview" />
+    <item type="id" name="card_topup_rp_textview" />
+    <item type="id" name="card_topup_type_button" />
+    <item type="id" name="card_topup_type_picker_button" />
+    <item type="id" name="card_transaction_history_listitem_amount_textview" />
+    <item type="id" name="card_transaction_history_listitem_date_textview" />
+    <item type="id" name="card_transaction_history_listitem_description_textview" />
+    <item type="id" name="card_transaction_history_listview" />
+    <item type="id" name="cardhome_card_account_textview" />
+    <item type="id" name="cardhome_card_layout" />
+    <item type="id" name="cardhome_card_name_textview" />
+    <item type="id" name="cardhome_card_number_textview" />
+    <item type="id" name="cardhome_card_title_textview" />
+    <item type="id" name="cardhome_card_type_textview" />
+    <item type="id" name="cardhome_cards_button" />
+    <item type="id" name="cardhome_topup_amount_edittext" />
+    <item type="id" name="cardhome_topup_prepaidcard_button" />
+    <item type="id" name="cardlist_listview" />
+    <item type="id" name="changePINImgButton" />
+    <item type="id" name="changePINLayout" />
+    <item type="id" name="changePINText" />
+    <item type="id" name="change_pin_code_change_pin_edittext" />
+    <item type="id" name="change_pin_code_confirm_pin_edittext" />
+    <item type="id" name="change_pin_code_current_pin_edittext" />
+    <item type="id" name="change_pin_code_done_button" />
+    <item type="id" name="change_pin_code_text" />
+    <item type="id" name="change_tcash_pin_change_pin_edittext" />
+    <item type="id" name="change_tcash_pin_confirm_pin_edittext" />
+    <item type="id" name="change_tcash_pin_current_pin_edittext" />
+    <item type="id" name="change_tcash_pin_done_button" />
+    <item type="id" name="confirm_auto_topup_cancel_button" />
+    <item type="id" name="confirm_auto_topup_continue_button" />
+    <item type="id" name="confirm_keypad" />
+    <item type="id" name="confirm_micro_deposit_amount_edittext" />
+    <item type="id" name="confirm_micro_deposit_amount_layout" />
+    <item type="id" name="confirm_micro_deposit_amount_textview" />
+    <item type="id" name="confirm_micro_deposit_button_layout" />
+    <item type="id" name="confirm_micro_deposit_cancel_button" />
+    <item type="id" name="confirm_micro_deposit_finish_link_button" />
+    <item type="id" name="confirm_micro_deposit_introduction_textview" />
+    <item type="id" name="confirm_micro_deposit_noti_textview" />
+    <item type="id" name="confirm_micro_deposit_reference_number_edittext" />
+    <item type="id" name="confirm_micro_deposit_reference_number_layout" />
+    <item type="id" name="confirm_micro_deposit_reference_number_textview" />
+    <item type="id" name="confirm_passcode_button_layout" />
+    <item type="id" name="confirm_passcode_cancel_button" />
+    <item type="id" name="confirm_passcode_confirm_button" />
+    <item type="id" name="confirm_passcode_info_imageview" />
+    <item type="id" name="confirm_passcode_input_layout" />
+    <item type="id" name="confirm_passcode_introduction2_textview" />
+    <item type="id" name="confirm_passcode_introduction_textview" />
+    <item type="id" name="confirm_passcode_passcode1_textview" />
+    <item type="id" name="confirm_passcode_passcode2_textview" />
+    <item type="id" name="confirm_passcode_passcode3_textview" />
+    <item type="id" name="confirm_passcode_passcode4_textview" />
+    <item type="id" name="confirm_passcode_passcode5_textview" />
+    <item type="id" name="confirm_passcode_passcode6_textview" />
+    <item type="id" name="confirm_topup_button_layout" />
+    <item type="id" name="confirm_topup_cancel_button" />
+    <item type="id" name="confirm_topup_continue_button" />
+    <item type="id" name="confirm_user_info_address_layout" />
+    <item type="id" name="confirm_user_info_address_textview" />
+    <item type="id" name="confirm_user_info_birth_layout" />
+    <item type="id" name="confirm_user_info_birth_textview" />
+    <item type="id" name="confirm_user_info_button_layout" />
+    <item type="id" name="confirm_user_info_continue_button" />
+    <item type="id" name="confirm_user_info_edit_button" />
+    <item type="id" name="confirm_user_info_email_layout" />
+    <item type="id" name="confirm_user_info_email_textview" />
+    <item type="id" name="confirm_user_info_firstname_layout" />
+    <item type="id" name="confirm_user_info_firstname_textview" />
+    <item type="id" name="confirm_user_info_introduction_textview" />
+    <item type="id" name="confirm_user_info_saved_address_textview" />
+    <item type="id" name="confirm_user_info_saved_birth_textview" />
+    <item type="id" name="confirm_user_info_saved_email_textview" />
+    <item type="id" name="confirm_user_info_saved_firstname_textview" />
+    <item type="id" name="confirm_user_info_step_textview" />
+    <item type="id" name="content_frame" />
+    <item type="id" name="coupon_branch_id_edittext" />
+    <item type="id" name="coupon_listitem_date" />
+    <item type="id" name="coupon_listitem_desc" />
+    <item type="id" name="coupon_listitem_imageview" />
+    <item type="id" name="coupon_listitem_tag_imageview" />
+    <item type="id" name="coupon_listitem_title" />
+    <item type="id" name="coupon_redeem_menu_button_layout" />
+    <item type="id" name="coupon_redeem_menu_nfc_button" />
+    <item type="id" name="coupon_redeem_menu_pin_button" />
+    <item type="id" name="coupon_redeem_menu_qr_button" />
+    <item type="id" name="coupon_redeem_menu_scanner_button" />
+    <item type="id" name="coupon_redeem_menu_slide_button" />
+    <item type="id" name="coupon_redeem_menu_ussd_button" />
+    <item type="id" name="coupon_redeem_pin_edittext" />
+    <item type="id" name="coupon_redeem_pin_ok_button" />
+    <item type="id" name="coupon_redeem_pin_text" />
+    <item type="id" name="coupon_redeem_topin_button" />
+    <item type="id" name="couponlist_couponlist_button" />
+    <item type="id" name="couponlist_couponlist_picker_button" />
+    <item type="id" name="couponlist_couponlist_picker_imageview" />
+    <item type="id" name="couponlist_listview" />
+    <item type="id" name="couponlist_mycoupon_button" />
+    <item type="id" name="couponlist_mycoupon_picker_button" />
+    <item type="id" name="couponlist_nodata_scrollview" />
+    <item type="id" name="couponlist_tab" />
+    <item type="id" name="custom_title" />
+    <item type="id" name="decode" />
+    <item type="id" name="decode_failed" />
+    <item type="id" name="decode_succeeded" />
+    <item type="id" name="dialog_title" />
+    <item type="id" name="disable_keypad" />
+    <item type="id" name="disable_passcode_button_layout" />
+    <item type="id" name="disable_passcode_cancel_button" />
+    <item type="id" name="disable_passcode_input_layout" />
+    <item type="id" name="disable_passcode_introduction_textview" />
+    <item type="id" name="disable_passcode_ok_button" />
+    <item type="id" name="disable_passcode_passcode1_textview" />
+    <item type="id" name="disable_passcode_passcode2_textview" />
+    <item type="id" name="disable_passcode_passcode3_textview" />
+    <item type="id" name="disable_passcode_passcode4_textview" />
+    <item type="id" name="edit_auto_topup_accountname_textview" />
+    <item type="id" name="edit_auto_topup_amount_edittext" />
+    <item type="id" name="edit_auto_topup_amount_imageview" />
+    <item type="id" name="edit_auto_topup_cancel_button" />
+    <item type="id" name="edit_auto_topup_dollor2_textview" />
+    <item type="id" name="edit_auto_topup_dollor_textview" />
+    <item type="id" name="edit_auto_topup_minbalance_edittext" />
+    <item type="id" name="edit_auto_topup_minbalance_imageview" />
+    <item type="id" name="edit_auto_topup_ok_button" />
+    <item type="id" name="eligibility_error_close_app_button" />
+    <item type="id" name="eligibility_error_not_available_nfc_layout" />
+    <item type="id" name="eligibility_error_not_available_se_layout" />
+    <item type="id" name="eligibility_error_not_firmware_certified_layout" />
+    <item type="id" name="eligibility_error_not_optus_customer_layout" />
+    <item type="id" name="encode_failed" />
+    <item type="id" name="encode_succeeded" />
+    <item type="id" name="fee_table_button_layout" />
+    <item type="id" name="fee_table_cancel_button" />
+    <item type="id" name="fee_table_continue_button" />
+    <item type="id" name="forget_tcashpin_birth_picker_button" />
+    <item type="id" name="forget_tcashpin_birth_select_button" />
+    <item type="id" name="forget_tcashpin_button_layout" />
+    <item type="id" name="forget_tcashpin_done_button" />
+    <item type="id" name="forget_tcashpin_email_edittext" />
+    <item type="id" name="forget_tcashpin_email_layout" />
+    <item type="id" name="forget_tcashpin_email_textview" />
+    <item type="id" name="forget_tcashpin_firstname_edittext" />
+    <item type="id" name="forget_tcashpin_identity_number_edittext" />
+    <item type="id" name="forget_tcashpin_introduction_textview" />
+    <item type="id" name="forget_tcashpin_lastname_edittext" />
+    <item type="id" name="forget_tcashpin_mobilenum_edittext" />
+    <item type="id" name="forget_tcashpin_mobilenum_layout" />
+    <item type="id" name="forget_tcashpin_mobilenum_textview" />
+    <item type="id" name="forget_tcashpin_warning_textview" />
+    <item type="id" name="frame_drawer_right_coupon_listitem_imageview" />
+    <item type="id" name="frame_drawer_right_coupon_listitem_status_date" />
+    <item type="id" name="frame_drawer_right_coupon_listitem_status_layout" />
+    <item type="id" name="frame_drawer_right_coupon_listitem_status_text" />
+    <item type="id" name="frame_drawer_right_coupon_listitem_tag_imageview" />
+    <item type="id" name="frame_layout" />
+    <item type="id" name="history_detail_amount_layout" />
+    <item type="id" name="history_detail_amount_textview" />
+    <item type="id" name="history_detail_content_layout" />
+    <item type="id" name="history_detail_date_textview" />
+    <item type="id" name="history_detail_details_textview" />
+    <item type="id" name="history_detail_ok_button" />
+    <item type="id" name="history_detail_related_layout" />
+    <item type="id" name="history_detail_related_textview" />
+    <item type="id" name="history_detail_time_textview" />
+    <item type="id" name="history_empty_textview" />
+    <item type="id" name="history_listview" />
+    <item type="id" name="home_add_card" />
+    <item type="id" name="home_button" />
+    <item type="id" name="home_card_imageView" />
+    <item type="id" name="home_card_message" />
+    <item type="id" name="home_coupon_button" />
+    <item type="id" name="home_coupon_event_textview" />
+    <item type="id" name="home_coupon_layout" />
+    <item type="id" name="home_coupon_title_textview" />
+    <item type="id" name="home_loyalty_button" />
+    <item type="id" name="home_loyalty_event_textview" />
+    <item type="id" name="home_loyalty_layout" />
+    <item type="id" name="home_loyalty_title_textview" />
+    <item type="id" name="home_mycards_account_textview" />
+    <item type="id" name="home_mycards_layout" />
+    <item type="id" name="home_mycards_title_textview" />
+    <item type="id" name="home_promotion_button" />
+    <item type="id" name="home_promotion_layout" />
+    <item type="id" name="home_promotion_page_button" />
+    <item type="id" name="home_setting_button" />
+    <item type="id" name="home_setting_event_textview" />
+    <item type="id" name="home_setting_layout" />
+    <item type="id" name="home_setting_title_textview" />
+    <item type="id" name="home_tcash_account_textview" />
+    <item type="id" name="home_tcash_balance_bar_tip" />
+    <item type="id" name="home_tcash_button" />
+    <item type="id" name="home_tcash_layout" />
+    <item type="id" name="home_tcash_title_textview" />
+    <item type="id" name="info_dialog_balance" />
+    <item type="id" name="info_dialog_date" />
+    <item type="id" name="info_dialog_info" />
+    <item type="id" name="info_dialog_title" />
+    <item type="id" name="info_dialog_type" />
+    <item type="id" name="info_webview" />
+    <item type="id" name="input_dialog_button_ok" />
+    <item type="id" name="input_dialog_imsi" />
+    <item type="id" name="input_dialog_msisdn" />
+    <item type="id" name="input_dialog_msisdn_textview" />
+    <item type="id" name="input_dialog_title" />
+    <item type="id" name="launch_product_query" />
+    <item type="id" name="layout_notice_root" />
+    <item type="id" name="layout_notification_dialog" />
+    <item type="id" name="layout_notification_root" />
+    <item type="id" name="layout_progress_root" />
+    <item type="id" name="left_drawer" />
+    <item type="id" name="list_dialog_listview" />
+    <item type="id" name="login_btn" />
+    <item type="id" name="login_forget_pin_btn" />
+    <item type="id" name="login_forgot_passcode_layout" />
+    <item type="id" name="login_forgot_passcode_textview" />
+    <item type="id" name="login_introduction_textview" />
+    <item type="id" name="login_keypad" />
+    <item type="id" name="login_logo_imageview" />
+    <item type="id" name="login_mobile_num_edit" />
+    <item type="id" name="login_mwallet_pin_edit" />
+    <item type="id" name="login_new_to_btn" />
+    <item type="id" name="login_passcode1_textview" />
+    <item type="id" name="login_passcode2_textview" />
+    <item type="id" name="login_passcode3_textview" />
+    <item type="id" name="login_passcode4_textview" />
+    <item type="id" name="login_passcode_layout" />
+    <item type="id" name="login_sign_up_btn" />
+    <item type="id" name="login_user_name_textview" />
+    <item type="id" name="main_promotion_pager_imageView" />
+    <item type="id" name="manual_topup_accountname_textview" />
+    <item type="id" name="manual_topup_amount_edittext" />
+    <item type="id" name="manual_topup_amount_imageview" />
+    <item type="id" name="manual_topup_available_cash_textview" />
+    <item type="id" name="manual_topup_button_layout" />
+    <item type="id" name="manual_topup_cancel_button" />
+    <item type="id" name="manual_topup_continue_button" />
+    <item type="id" name="manual_topup_dollor_textview" />
+    <item type="id" name="manual_topup_receipt_button_layout" />
+    <item type="id" name="manual_topup_receipt_ok_button" />
+    <item type="id" name="manual_topup_receipt_result" />
+    <item type="id" name="mcash_pager" />
+    <item type="id" name="n_about_twallet_logo_layout" />
+    <item type="id" name="n_couponlist_nodata_imageview" />
+    <item type="id" name="n_titlebar_logo" />
+    <item type="id" name="n_wallet_news_nodata_imageview" />
+    <item type="id" name="navi_item_img" />
+    <item type="id" name="navi_item_title" />
+    <item type="id" name="nodata_list_imageview" />
+    <item type="id" name="nodata_list_textview" />
+    <item type="id" name="notice_dialog_button_cancel" />
+    <item type="id" name="notice_dialog_button_ok" />
+    <item type="id" name="notice_dialog_link" />
+    <item type="id" name="notice_dialog_message" />
+    <item type="id" name="notice_dialog_title" />
+    <item type="id" name="notierror_detail_amount_textview" />
+    <item type="id" name="notierror_detail_content_layout" />
+    <item type="id" name="notierror_detail_date_textview" />
+    <item type="id" name="notierror_detail_details_textview" />
+    <item type="id" name="notierror_detail_more_button" />
+    <item type="id" name="notierror_detail_time_textview" />
+    <item type="id" name="notification_dialog_anim" />
+    <item type="id" name="notification_dialog_button_ok" />
+    <item type="id" name="notification_dialog_message" />
+    <item type="id" name="notification_dialog_title" />
+    <item type="id" name="notification_listitem_date_textview" />
+    <item type="id" name="notification_listitem_description_textview" />
+    <item type="id" name="notification_listitem_eventname_textview" />
+    <item type="id" name="notification_listitem_layout" />
+    <item type="id" name="notification_listitem_time_textview" />
+    <item type="id" name="notification_listitem_title_textview" />
+    <item type="id" name="on_refresh_loading_layout" />
+    <item type="id" name="online_infoview_layout" />
+    <item type="id" name="online_payment_button" />
+    <item type="id" name="online_payment_layout" />
+    <item type="id" name="passcode_disabled_ok_button" />
+    <item type="id" name="passcode_enabled_button_layout" />
+    <item type="id" name="passcode_enabled_ok_button" />
+    <item type="id" name="passcode_keypad" />
+    <item type="id" name="passcode_settings_cancel_button" />
+    <item type="id" name="passcode_settings_disable_button" />
+    <item type="id" name="passcode_settings_disable_cancel_button" />
+    <item type="id" name="passcode_settings_set_button" />
+    <item type="id" name="pay_animation_imageview" />
+    <item type="id" name="pay_available_textview" />
+    <item type="id" name="pay_balance_fraction_textview" />
+    <item type="id" name="pay_balance_textview" />
+    <item type="id" name="pay_cash_detail_info_layout" />
+    <item type="id" name="pay_cash_info_layout" />
+    <item type="id" name="pay_cvv2_textview" />
+    <item type="id" name="pay_expires_textview" />
+    <item type="id" name="pay_last_update_textview" />
+    <item type="id" name="pay_name_textview" />
+    <item type="id" name="pay_pan_textview" />
+    <item type="id" name="pay_reveal_card_detail_layout" />
+    <item type="id" name="pay_reveal_card_detail_textview" />
+    <item type="id" name="paywave_infoview_layout" />
+    <item type="id" name="paywave_payment_button" />
+    <item type="id" name="paywave_payment_layout" />
+    <item type="id" name="pick_keypad" />
+    <item type="id" name="pick_passcode_button_layout" />
+    <item type="id" name="pick_passcode_cancel_button" />
+    <item type="id" name="pick_passcode_info_imageview" />
+    <item type="id" name="pick_passcode_input_layout" />
+    <item type="id" name="pick_passcode_introduction2_textview" />
+    <item type="id" name="pick_passcode_introduction_textview" />
+    <item type="id" name="pick_passcode_ok_button" />
+    <item type="id" name="pick_passcode_passcode1_textview" />
+    <item type="id" name="pick_passcode_passcode2_textview" />
+    <item type="id" name="pick_passcode_passcode3_textview" />
+    <item type="id" name="pick_passcode_passcode4_textview" />
+    <item type="id" name="pick_passcode_passcode5_textview" />
+    <item type="id" name="pick_passcode_passcode6_textview" />
+    <item type="id" name="pin1tv" />
+    <item type="id" name="pin2tv" />
+    <item type="id" name="pin3tv" />
+    <item type="id" name="pin4tv" />
+    <item type="id" name="pin5tv" />
+    <item type="id" name="pin6tv" />
+    <item type="id" name="pinkeypad" />
+    <item type="id" name="pinview" />
+    <item type="id" name="pointer1_imageview" />
+    <item type="id" name="pointer2_imageview" />
+    <item type="id" name="pointer3_imageview" />
+    <item type="id" name="pointer4_imageview" />
+    <item type="id" name="profile_address_city_button" />
+    <item type="id" name="profile_address_city_picker_button" />
+    <item type="id" name="profile_address_edittext" />
+    <item type="id" name="profile_address_layout" />
+    <item type="id" name="profile_address_postcode_edittext" />
+    <item type="id" name="profile_address_province_edittext" />
+    <item type="id" name="profile_address_textview" />
+    <item type="id" name="profile_birth_date_button" />
+    <item type="id" name="profile_birth_date_picker_button" />
+    <item type="id" name="profile_button_layout" />
+    <item type="id" name="profile_cancel_button" />
+    <item type="id" name="profile_email_edittext" />
+    <item type="id" name="profile_first_name_edittext" />
+    <item type="id" name="profile_gennder_female_button" />
+    <item type="id" name="profile_gennder_layout" />
+    <item type="id" name="profile_gennder_male_button" />
+    <item type="id" name="profile_gennder_textview" />
+    <item type="id" name="profile_last_name_edittext" />
+    <item type="id" name="profile_middle_name_edittext" />
+    <item type="id" name="profile_partnet_bank_sub_layout" />
+    <item type="id" name="profile_partnet_bank_sub_textview1" />
+    <item type="id" name="profile_partnet_bank_subtype_textview" />
+    <item type="id" name="profile_security_answer_edittext" />
+    <item type="id" name="profile_security_question_button" />
+    <item type="id" name="profile_security_question_layout" />
+    <item type="id" name="profile_security_question_picker_button" />
+    <item type="id" name="profile_security_question_textview" />
+    <item type="id" name="profile_submit_button" />
+    <item type="id" name="profile_tcash_sub_layout" />
+    <item type="id" name="profile_tcash_sub_textview1" />
+    <item type="id" name="profile_tcash_subtype_textview" />
+    <item type="id" name="profile_wallet_pin_confirm_edittext" />
+    <item type="id" name="profile_wallet_pin_edittext" />
+    <item type="id" name="progressbar_dialog_message" />
+    <item type="id" name="progressbar_dialog_title" />
+    <item type="id" name="promotion_webview" />
+    <item type="id" name="push_animation" />
+    <item type="id" name="quit" />
+    <item type="id" name="recharge_available_textview" />
+    <item type="id" name="recharge_balance_fraction_textview" />
+    <item type="id" name="recharge_balance_textview" />
+    <item type="id" name="recharge_bottom_layout" />
+    <item type="id" name="recharge_from_linked_account_button" />
+    <item type="id" name="recharge_last_update_textview" />
+    <item type="id" name="recharge_text_layout" />
+    <item type="id" name="recharge_via_auto_topup_button" />
+    <item type="id" name="recharge_via_online_banking_button" />
+    <item type="id" name="refresh_button" />
+    <item type="id" name="refresh_text" />
+    <item type="id" name="resetPINImgButton" />
+    <item type="id" name="resetPINLayout" />
+    <item type="id" name="resetPINText" />
+    <item type="id" name="reset_passcode_birth_layout" />
+    <item type="id" name="reset_passcode_birth_select_button" />
+    <item type="id" name="reset_passcode_birth_textview" />
+    <item type="id" name="reset_passcode_button_layout" />
+    <item type="id" name="reset_passcode_cancel_button" />
+    <item type="id" name="reset_passcode_email_edittext" />
+    <item type="id" name="reset_passcode_email_layout" />
+    <item type="id" name="reset_passcode_email_textview" />
+    <item type="id" name="reset_passcode_fail_help_button" />
+    <item type="id" name="reset_passcode_fail_try_again_button" />
+    <item type="id" name="reset_passcode_firstname_edittext" />
+    <item type="id" name="reset_passcode_firstname_layout" />
+    <item type="id" name="reset_passcode_firstname_textview" />
+    <item type="id" name="reset_passcode_introduction_textview" />
+    <item type="id" name="reset_passcode_lastname_edittext" />
+    <item type="id" name="reset_passcode_lastname_layout" />
+    <item type="id" name="reset_passcode_lastname_textview" />
+    <item type="id" name="reset_passcode_ok_button" />
+    <item type="id" name="reset_passcode_success_email_info_textview" />
+    <item type="id" name="reset_passcode_success_ok_button" />
+    <item type="id" name="reset_passcode_warning_textview" />
+    <item type="id" name="restart_preview" />
+    <item type="id" name="return_scan_result" />
+    <item type="id" name="revalidation_birth_layout" />
+    <item type="id" name="revalidation_birth_picker_button" />
+    <item type="id" name="revalidation_birth_select_button" />
+    <item type="id" name="revalidation_button_layout" />
+    <item type="id" name="revalidation_done_button" />
+    <item type="id" name="revalidation_email_edittext" />
+    <item type="id" name="revalidation_email_layout" />
+    <item type="id" name="revalidation_email_textview" />
+    <item type="id" name="revalidation_firstname_edittext" />
+    <item type="id" name="revalidation_introduction_textview" />
+    <item type="id" name="revalidation_lastname_edittext" />
+    <item type="id" name="revalidation_mobilenum_edittext" />
+    <item type="id" name="revalidation_mobilenum_layout" />
+    <item type="id" name="revalidation_mobilenum_textview" />
+    <item type="id" name="revalidation_warning_textview" />
+    <item type="id" name="scroll_frame" />
+    <item type="id" name="search_book_contents_failed" />
+    <item type="id" name="search_book_contents_succeeded" />
+    <item type="id" name="search_button" />
+    <item type="id" name="search_list_dialog_edittext" />
+    <item type="id" name="search_list_dialog_listview" />
+    <item type="id" name="security_qs_answer_edittext" />
+    <item type="id" name="security_qs_answer_layout" />
+    <item type="id" name="security_qs_answer_textview" />
+    <item type="id" name="security_qs_button_layout" />
+    <item type="id" name="security_qs_done_button" />
+    <item type="id" name="security_qs_introduction_textview" />
+    <item type="id" name="security_qs_question_layout" />
+    <item type="id" name="security_qs_question_select_button" />
+    <item type="id" name="security_qs_question_textview1" />
+    <item type="id" name="security_qs_question_textview2" />
+    <item type="id" name="security_qs_step_textview" />
+    <item type="id" name="selected_view" />
+    <item type="id" name="set_passcode_button_layout" />
+    <item type="id" name="set_passcode_not_now_button" />
+    <item type="id" name="set_passcode_ok_button" />
+    <item type="id" name="setting_general_menu_about_twallet_button" />
+    <item type="id" name="setting_general_menu_button_layout" />
+    <item type="id" name="setting_general_menu_change_pin_button" />
+    <item type="id" name="setting_general_menu_language_button" />
+    <item type="id" name="setting_general_menu_notification_button" />
+    <item type="id" name="setting_general_menu_profile_button" />
+    <item type="id" name="setting_general_menu_slide_button" />
+    <item type="id" name="setting_general_menu_title" />
+    <item type="id" name="setting_main_general_button" />
+    <item type="id" name="setting_main_mycards_button" />
+    <item type="id" name="setting_main_tcash_button" />
+    <item type="id" name="setting_sub_general_about_twallet_button" />
+    <item type="id" name="setting_sub_general_change_pin_button" />
+    <item type="id" name="setting_sub_general_noti_inbox_button" />
+    <item type="id" name="setting_sub_general_noti_setting_button" />
+    <item type="id" name="setting_sub_general_pin_on_button" />
+    <item type="id" name="setting_sub_general_profile_button" />
+    <item type="id" name="setting_sub_tcash_change_tcash_pin_button" />
+    <item type="id" name="setting_sub_tcash_favorite_list_button" />
+    <item type="id" name="setting_sub_tcash_tcash_noti_button" />
+    <item type="id" name="setting_tcash_menu_button_layout" />
+    <item type="id" name="setting_tcash_menu_change_tcash_pin_button" />
+    <item type="id" name="setting_tcash_menu_forgot_tcash_pin_button" />
+    <item type="id" name="setting_tcash_menu_myfavorite_button" />
+    <item type="id" name="setting_tcash_menu_slide_button" />
+    <item type="id" name="settings_about_layout" />
+    <item type="id" name="settings_about_text_layout" />
+    <item type="id" name="settings_about_textview" />
+    <item type="id" name="settings_auto_topups_layout" />
+    <item type="id" name="settings_auto_topups_state_textview" />
+    <item type="id" name="settings_auto_topups_text_layout" />
+    <item type="id" name="settings_help_layout" />
+    <item type="id" name="settings_help_text_layout" />
+    <item type="id" name="settings_help_textview" />
+    <item type="id" name="settings_link_account_layout" />
+    <item type="id" name="settings_link_account_state_textview" />
+    <item type="id" name="settings_link_account_text_layout" />
+    <item type="id" name="settings_notifications_layout" />
+    <item type="id" name="settings_notifications_text_layout" />
+    <item type="id" name="settings_notifications_textview" />
+    <item type="id" name="settings_passcode_settings_layout" />
+    <item type="id" name="settings_passcode_settings_text_layout" />
+    <item type="id" name="settings_passcode_settings_textview" />
+    <item type="id" name="settings_state_loading_layout" />
+    <item type="id" name="setup_auto_topup_accountname_textview" />
+    <item type="id" name="setup_auto_topup_amount_edittext" />
+    <item type="id" name="setup_auto_topup_amount_imageview" />
+    <item type="id" name="setup_auto_topup_cancel_button" />
+    <item type="id" name="setup_auto_topup_dollor2_textview" />
+    <item type="id" name="setup_auto_topup_dollor_textview" />
+    <item type="id" name="setup_auto_topup_minbalance_edittext" />
+    <item type="id" name="setup_auto_topup_minbalance_imageview" />
+    <item type="id" name="setup_auto_topup_ok_button" />
+    <item type="id" name="setup_button_layout" />
+    <item type="id" name="setup_overview_cancel_button" />
+    <item type="id" name="setup_overview_next_button" />
+    <item type="id" name="signup_address_city_button" />
+    <item type="id" name="signup_address_city_picker_button" />
+    <item type="id" name="signup_address_edittext" />
+    <item type="id" name="signup_address_layout" />
+    <item type="id" name="signup_address_postcode_edittext" />
+    <item type="id" name="signup_address_province_textview" />
+    <item type="id" name="signup_address_textview" />
+    <item type="id" name="signup_birth_date_button" />
+    <item type="id" name="signup_birth_date_picker_button" />
+    <item type="id" name="signup_button_layout" />
+    <item type="id" name="signup_cancel_button" />
+    <item type="id" name="signup_email_edittext" />
+    <item type="id" name="signup_first_name_edittext" />
+    <item type="id" name="signup_gennder_female_button" />
+    <item type="id" name="signup_gennder_layout" />
+    <item type="id" name="signup_gennder_male_button" />
+    <item type="id" name="signup_gennder_textview" />
+    <item type="id" name="signup_last_name_edittext" />
+    <item type="id" name="signup_middle_name_edittext" />
+    <item type="id" name="signup_security_answer_edittext" />
+    <item type="id" name="signup_security_question_button" />
+    <item type="id" name="signup_security_question_layout" />
+    <item type="id" name="signup_security_question_picker_button" />
+    <item type="id" name="signup_security_question_textview" />
+    <item type="id" name="signup_submit_button" />
+    <item type="id" name="signup_tcash_sub_layout" />
+    <item type="id" name="signup_tcash_sub_textview1" />
+    <item type="id" name="signup_tcash_subtype_textview" />
+    <item type="id" name="signup_wallet_pin_confirm_edittext" />
+    <item type="id" name="signup_wallet_pin_edittext" />
+    <item type="id" name="sub_menu_title_textview" />
+    <item type="id" name="tableLayout1" />
+    <item type="id" name="tableRow1" />
+    <item type="id" name="tableRow2" />
+    <item type="id" name="tableRow3" />
+    <item type="id" name="tableRow4" />
+    <item type="id" name="tcash_airtime_bottom_layout_scrollview" />
+    <item type="id" name="tcash_airtime_content_layout" />
+    <item type="id" name="tcash_airtime_denomination_edittext" />
+    <item type="id" name="tcash_airtime_fragment" />
+    <item type="id" name="tcash_airtime_mobile_num_edittext" />
+    <item type="id" name="tcash_airtime_next_button" />
+    <item type="id" name="tcash_airtime_other_button" />
+    <item type="id" name="tcash_airtime_purchase_button" />
+    <item type="id" name="tcash_airtime_rp_textview" />
+    <item type="id" name="tcash_airtime_self_button" />
+    <item type="id" name="tcash_airtime_set_favorite_button" />
+    <item type="id" name="tcash_airtime_set_reminder_button" />
+    <item type="id" name="tcash_airtime_snd_amount_textview" />
+    <item type="id" name="tcash_airtime_snd_button_layout" />
+    <item type="id" name="tcash_airtime_snd_content_layout" />
+    <item type="id" name="tcash_airtime_snd_menu_amount_textview" />
+    <item type="id" name="tcash_airtime_snd_menu_number_textview" />
+    <item type="id" name="tcash_airtime_snd_number_textview" />
+    <item type="id" name="tcash_airtime_snd_rp_textview" />
+    <item type="id" name="tcash_airtime_snd_topup_textview" />
+    <item type="id" name="tcash_airtime_title_favorite_edittext" />
+    <item type="id" name="tcash_amount_edittext" />
+    <item type="id" name="tcash_amount_textview" />
+    <item type="id" name="tcash_balance" />
+    <item type="id" name="tcash_bankcode_button" />
+    <item type="id" name="tcash_bankcode_edittext" />
+    <item type="id" name="tcash_bankcode_layout" />
+    <item type="id" name="tcash_bankcode_textview" />
+    <item type="id" name="tcash_beneficiary_textview" />
+    <item type="id" name="tcash_bottom_layout" />
+    <item type="id" name="tcash_bottom_layout_scrollview" />
+    <item type="id" name="tcash_cash_bottom_layout_scrollview" />
+    <item type="id" name="tcash_cash_button_layout" />
+    <item type="id" name="tcash_cash_in_ATM_Banking_button" />
+    <item type="id" name="tcash_cash_in_SMS_Banking_button" />
+    <item type="id" name="tcash_cash_in_atm_bersama_find_button" />
+    <item type="id" name="tcash_cash_in_atm_bersama_topup_detail_message1" />
+    <item type="id" name="tcash_cash_in_atm_bersama_topup_detail_message2" />
+    <item type="id" name="tcash_cash_in_atm_bersama_topup_detail_message3" />
+    <item type="id" name="tcash_cash_in_atm_bersama_topup_detail_message4" />
+    <item type="id" name="tcash_cash_in_atm_bersama_topup_detail_message5" />
+    <item type="id" name="tcash_cash_in_atm_bersama_topup_detail_message6" />
+    <item type="id" name="tcash_cash_in_atm_bersama_topup_detail_message_top" />
+    <item type="id" name="tcash_cash_in_button" />
+    <item type="id" name="tcash_cash_in_button_layout" />
+    <item type="id" name="tcash_cash_in_grapari_bottom_layout_scrollview" />
+    <item type="id" name="tcash_cash_in_grapari_button" />
+    <item type="id" name="tcash_cash_in_grapari_content_layout" />
+    <item type="id" name="tcash_cash_in_grapari_find_button" />
+    <item type="id" name="tcash_cash_in_grapari_find_imageview" />
+    <item type="id" name="tcash_cash_in_grapari_message_top" />
+    <item type="id" name="tcash_cash_in_out_button" />
+    <item type="id" name="tcash_cash_in_retail_store_bottom_layout_scrollview" />
+    <item type="id" name="tcash_cash_in_retail_store_button" />
+    <item type="id" name="tcash_cash_in_retail_store_content_layout" />
+    <item type="id" name="tcash_cash_in_retail_store_find_button" />
+    <item type="id" name="tcash_cash_in_retail_store_find_imageview" />
+    <item type="id" name="tcash_cash_in_retail_store_message_top" />
+    <item type="id" name="tcash_cash_in_slide_button" />
+    <item type="id" name="tcash_cash_in_sms_banking_fragment" />
+    <item type="id" name="tcash_cash_in_sms_mandiri_fragment" />
+    <item type="id" name="tcash_cash_out_bank_acount_button" />
+    <item type="id" name="tcash_cash_out_button" />
+    <item type="id" name="tcash_cash_out_button_layout" />
+    <item type="id" name="tcash_cash_out_grapari_bottom_layout_scrollview" />
+    <item type="id" name="tcash_cash_out_grapari_button" />
+    <item type="id" name="tcash_cash_out_grapari_content_layout" />
+    <item type="id" name="tcash_cash_out_grapari_find_button" />
+    <item type="id" name="tcash_cash_out_grapari_find_imageview" />
+    <item type="id" name="tcash_cash_out_grapari_top_text" />
+    <item type="id" name="tcash_cash_out_retail_store_bottom_layout_scrollview" />
+    <item type="id" name="tcash_cash_out_retail_store_button" />
+    <item type="id" name="tcash_cash_out_retail_store_content_layout" />
+    <item type="id" name="tcash_cash_out_retail_store_create_token_button" />
+    <item type="id" name="tcash_cash_out_retail_store_find_button" />
+    <item type="id" name="tcash_cash_out_retail_store_find_imageview" />
+    <item type="id" name="tcash_cash_out_retail_store_top_text" />
+    <item type="id" name="tcash_cash_out_slide_button" />
+    <item type="id" name="tcash_cash_slide_button" />
+    <item type="id" name="tcash_comment_edittext" />
+    <item type="id" name="tcash_comment_textview" />
+    <item type="id" name="tcash_confirm_button" />
+    <item type="id" name="tcash_credit_card_min_payment_textview" />
+    <item type="id" name="tcash_credit_card_no_textview" />
+    <item type="id" name="tcash_credit_card_number_button" />
+    <item type="id" name="tcash_credit_card_number_picker_button" />
+    <item type="id" name="tcash_credit_card_your_bill_textview" />
+    <item type="id" name="tcash_customerid_edittext" />
+    <item type="id" name="tcash_customerid_text" />
+    <item type="id" name="tcash_customerid_textview" />
+    <item type="id" name="tcash_denomination_button" />
+    <item type="id" name="tcash_denomination_layout" />
+    <item type="id" name="tcash_denomination_picker_button" />
+    <item type="id" name="tcash_digital_services_amount" />
+    <item type="id" name="tcash_favorite_cash_in_button" />
+    <item type="id" name="tcash_favorite_list_listview" />
+    <item type="id" name="tcash_favorite_list_nodata_scrollview" />
+    <item type="id" name="tcash_favorite_listitem_balance_textview" />
+    <item type="id" name="tcash_favorite_listitem_edit_button" />
+    <item type="id" name="tcash_favorite_listitem_layout" />
+    <item type="id" name="tcash_favorite_listitem_more_button" />
+    <item type="id" name="tcash_favorite_listitem_more_layout" />
+    <item type="id" name="tcash_favorite_listitem_proceed_button" />
+    <item type="id" name="tcash_favorite_listitem_title_textview" />
+    <item type="id" name="tcash_favorite_listitem_type_textview" />
+    <item type="id" name="tcash_fee_layout" />
+    <item type="id" name="tcash_fee_textview" />
+    <item type="id" name="tcash_forget_pin_birth_layout" />
+    <item type="id" name="tcash_forget_pin_birth_select_button" />
+    <item type="id" name="tcash_forget_pin_birth_textview" />
+    <item type="id" name="tcash_forget_pin_button" />
+    <item type="id" name="tcash_forget_pin_button_layout" />
+    <item type="id" name="tcash_forget_pin_done_button" />
+    <item type="id" name="tcash_forget_pin_email_edittext" />
+    <item type="id" name="tcash_forget_pin_email_layout" />
+    <item type="id" name="tcash_forget_pin_email_textview" />
+    <item type="id" name="tcash_forget_pin_mobilenum_edittext" />
+    <item type="id" name="tcash_forget_pin_mobilenum_layout" />
+    <item type="id" name="tcash_forget_pin_mobilenum_textview" />
+    <item type="id" name="tcash_insurance_address_edit" />
+    <item type="id" name="tcash_insurance_city_button" />
+    <item type="id" name="tcash_insurance_city_picker_button" />
+    <item type="id" name="tcash_insurance_date_birth_button" />
+    <item type="id" name="tcash_insurance_date_birth_picker_button" />
+    <item type="id" name="tcash_insurance_heirs_edit" />
+    <item type="id" name="tcash_insurance_type_button" />
+    <item type="id" name="tcash_insurance_type_picker_button" />
+    <item type="id" name="tcash_kartu_halo_amount_edittext" />
+    <item type="id" name="tcash_kartu_halo_amount_textview" />
+    <item type="id" name="tcash_kartu_halo_bottom_layout_scrollview" />
+    <item type="id" name="tcash_kartu_halo_button_layout" />
+    <item type="id" name="tcash_kartu_halo_confirm_button" />
+    <item type="id" name="tcash_kartu_halo_content_layout" />
+    <item type="id" name="tcash_kartu_halo_denomination_edittext" />
+    <item type="id" name="tcash_kartu_halo_fee_edittext" />
+    <item type="id" name="tcash_kartu_halo_mobile_num_edittext" />
+    <item type="id" name="tcash_kartu_halo_name_textview" />
+    <item type="id" name="tcash_kartu_halo_next_button" />
+    <item type="id" name="tcash_kartu_halo_number_edittext" />
+    <item type="id" name="tcash_kartu_halo_number_textview" />
+    <item type="id" name="tcash_kartu_halo_other_button" />
+    <item type="id" name="tcash_kartu_halo_pin_edittext" />
+    <item type="id" name="tcash_kartu_halo_region_button" />
+    <item type="id" name="tcash_kartu_halo_rp_textview" />
+    <item type="id" name="tcash_kartu_halo_self_button" />
+    <item type="id" name="tcash_kartu_halo_set_favorite_button" />
+    <item type="id" name="tcash_kartu_halo_simpati_edittext" />
+    <item type="id" name="tcash_kartu_halo_title_favorite_edittext" />
+    <item type="id" name="tcash_kartu_halo_topup_textview" />
+    <item type="id" name="tcash_map_mapview" />
+    <item type="id" name="tcash_menu_arrow_imageview" />
+    <item type="id" name="tcash_menu_title_button" />
+    <item type="id" name="tcash_mobilenum_picker_button" />
+    <item type="id" name="tcash_multi_finance_id_no_textview" />
+    <item type="id" name="tcash_multi_finance_min_payment_textview" />
+    <item type="id" name="tcash_multi_finance_your_bill_textview" />
+    <item type="id" name="tcash_name_edittext" />
+    <item type="id" name="tcash_name_textview" />
+    <item type="id" name="tcash_noti_msg_textview" />
+    <item type="id" name="tcash_noti_title_textview" />
+    <item type="id" name="tcash_others_billing_code" />
+    <item type="id" name="tcash_others_partner_code" />
+    <item type="id" name="tcash_others_pay_menu" />
+    <item type="id" name="tcash_package_button" />
+    <item type="id" name="tcash_package_picker_button" />
+    <item type="id" name="tcash_payment_Internet_button" />
+    <item type="id" name="tcash_payment_button" />
+    <item type="id" name="tcash_payment_button_layout" />
+    <item type="id" name="tcash_payment_cabletv_button" />
+    <item type="id" name="tcash_payment_confirm_button" />
+    <item type="id" name="tcash_payment_creditcard_button" />
+    <item type="id" name="tcash_payment_fixedline_button" />
+    <item type="id" name="tcash_payment_fragment" />
+    <item type="id" name="tcash_payment_id_number" />
+    <item type="id" name="tcash_payment_id_number_picker_button" />
+    <item type="id" name="tcash_payment_kartu_halo_button" />
+    <item type="id" name="tcash_payment_label_id_txt" />
+    <item type="id" name="tcash_payment_menu_slide_button" />
+    <item type="id" name="tcash_payment_min_payment_textview" />
+    <item type="id" name="tcash_payment_multifinance_button" />
+    <item type="id" name="tcash_payment_next_button" />
+    <item type="id" name="tcash_payment_others_button" />
+    <item type="id" name="tcash_payment_pdam_button" />
+    <item type="id" name="tcash_payment_pln_button" />
+    <item type="id" name="tcash_payment_put" />
+    <item type="id" name="tcash_payment_second_num_textview" />
+    <item type="id" name="tcash_payment_submenu" />
+    <item type="id" name="tcash_payment_submenu_layout" />
+    <item type="id" name="tcash_payment_submenu_list" />
+    <item type="id" name="tcash_payment_submenu_slide_button" />
+    <item type="id" name="tcash_payment_submenu_title_txt" />
+    <item type="id" name="tcash_payment_your_bill_textview" />
+    <item type="id" name="tcash_pdam_amount_edittext" />
+    <item type="id" name="tcash_pdam_area" />
+    <item type="id" name="tcash_pdam_area_picker_button" />
+    <item type="id" name="tcash_pdam_bottom_layout_scrollview" />
+    <item type="id" name="tcash_pdam_button_layout" />
+    <item type="id" name="tcash_pdam_confirm_button" />
+    <item type="id" name="tcash_pdam_content_layout" />
+    <item type="id" name="tcash_pdam_denomination_edittext" />
+    <item type="id" name="tcash_pdam_fee_edittext" />
+    <item type="id" name="tcash_pdam_fragment" />
+    <item type="id" name="tcash_pdam_mobile_num_edittext" />
+    <item type="id" name="tcash_pdam_next_button" />
+    <item type="id" name="tcash_pdam_number_edittext" />
+    <item type="id" name="tcash_pdam_pin_edittext" />
+    <item type="id" name="tcash_pdam_region_button" />
+    <item type="id" name="tcash_pdam_region_edittext" />
+    <item type="id" name="tcash_pdam_rp_textview" />
+    <item type="id" name="tcash_pdam_selected_area" />
+    <item type="id" name="tcash_pdam_set_favorite_button" />
+    <item type="id" name="tcash_pdam_simpati_edittext" />
+    <item type="id" name="tcash_pdam_title_favorite_edittext" />
+    <item type="id" name="tcash_pdam_topup_textview" />
+    <item type="id" name="tcash_pln_amount_edittext" />
+    <item type="id" name="tcash_pln_bottom_layout_scrollview" />
+    <item type="id" name="tcash_pln_button_layout" />
+    <item type="id" name="tcash_pln_confirm_button" />
+    <item type="id" name="tcash_pln_content_layout" />
+    <item type="id" name="tcash_pln_denomination_edittext" />
+    <item type="id" name="tcash_pln_fee_edittext" />
+    <item type="id" name="tcash_pln_mobile_num_edittext" />
+    <item type="id" name="tcash_pln_next_button" />
+    <item type="id" name="tcash_pln_number_edittext" />
+    <item type="id" name="tcash_pln_pin_edittext" />
+    <item type="id" name="tcash_pln_rp_textview" />
+    <item type="id" name="tcash_pln_set_favorite_button" />
+    <item type="id" name="tcash_pln_simpati_edittext" />
+    <item type="id" name="tcash_pln_title_favorite_edittext" />
+    <item type="id" name="tcash_pln_topup_textview" />
+    <item type="id" name="tcash_postpaid_menu_button" />
+    <item type="id" name="tcash_prepaid_menu_button" />
+    <item type="id" name="tcash_purchase_button_layout" />
+    <item type="id" name="tcash_purchase_content_amount_txt" />
+    <item type="id" name="tcash_purchase_content_fee_txt" />
+    <item type="id" name="tcash_purchase_content_id_txt" />
+    <item type="id" name="tcash_purchase_content_name_txt" />
+    <item type="id" name="tcash_purchase_delivery_button" />
+    <item type="id" name="tcash_purchase_denomination_button" />
+    <item type="id" name="tcash_purchase_denomination_picker_button" />
+    <item type="id" name="tcash_purchase_digital_services_button" />
+    <item type="id" name="tcash_purchase_id_number_edit" />
+    <item type="id" name="tcash_purchase_insurance_button" />
+    <item type="id" name="tcash_purchase_label_amount_txt" />
+    <item type="id" name="tcash_purchase_label_content_layout" />
+    <item type="id" name="tcash_purchase_label_fee_txt" />
+    <item type="id" name="tcash_purchase_label_id_txt" />
+    <item type="id" name="tcash_purchase_label_name_txt" />
+    <item type="id" name="tcash_purchase_menu_layout" />
+    <item type="id" name="tcash_purchase_menu_listview" />
+    <item type="id" name="tcash_purchase_menu_slide_button" />
+    <item type="id" name="tcash_purchase_merchant_button" />
+    <item type="id" name="tcash_purchase_mobile_number_edit" />
+    <item type="id" name="tcash_purchase_mobile_number_picker_button" />
+    <item type="id" name="tcash_purchase_multi_top_up_button" />
+    <item type="id" name="tcash_purchase_next_button" />
+    <item type="id" name="tcash_purchase_online_game_button" />
+    <item type="id" name="tcash_purchase_other_button" />
+    <item type="id" name="tcash_purchase_other_txt" />
+    <item type="id" name="tcash_purchase_package_button" />
+    <item type="id" name="tcash_purchase_package_picker_button" />
+    <item type="id" name="tcash_purchase_pulsa_button" />
+    <item type="id" name="tcash_purchase_retail_button" />
+    <item type="id" name="tcash_purchase_rp_textview" />
+    <item type="id" name="tcash_purchase_self_button" />
+    <item type="id" name="tcash_purchase_self_txt" />
+    <item type="id" name="tcash_purchase_ticket_button" />
+    <item type="id" name="tcash_purchase_transport_travel_button" />
+    <item type="id" name="tcash_purchase_type1_layout" />
+    <item type="id" name="tcash_purchase_type2_layout" />
+    <item type="id" name="tcash_purchase_webview" />
+    <item type="id" name="tcash_recipient_button_layout" />
+    <item type="id" name="tcash_recipient_edittext" />
+    <item type="id" name="tcash_region_textview" />
+    <item type="id" name="tcash_retail_purchase_bottom_layout" />
+    <item type="id" name="tcash_retail_purchase_bottom_layout_scrollview" />
+    <item type="id" name="tcash_retail_purchase_button" />
+    <item type="id" name="tcash_retail_purchase_button_layout" />
+    <item type="id" name="tcash_retail_purchase_create_token_button" />
+    <item type="id" name="tcash_retail_purchase_find_retail_store_button" />
+    <item type="id" name="tcash_retail_purchase_find_retail_store_imageview" />
+    <item type="id" name="tcash_retail_purchase_rp_textview" />
+    <item type="id" name="tcash_retail_purchase_token_close_button" />
+    <item type="id" name="tcash_retail_purchase_token_expire_textview" />
+    <item type="id" name="tcash_retail_purchase_token_layout" />
+    <item type="id" name="tcash_retail_purchase_token_success_edittext" />
+    <item type="id" name="tcash_retail_purchase_token_success_textview" />
+    <item type="id" name="tcash_retail_token1_edittext" />
+    <item type="id" name="tcash_retail_token2_edittext" />
+    <item type="id" name="tcash_retail_token3_edittext" />
+    <item type="id" name="tcash_retail_token_close_button" />
+    <item type="id" name="tcash_retail_token_coin_imageview" />
+    <item type="id" name="tcash_retail_token_head_imageview" />
+    <item type="id" name="tcash_retail_token_layout" />
+    <item type="id" name="tcash_retail_token_remain_time1_edittext" />
+    <item type="id" name="tcash_retail_token_remain_time2_edittext" />
+    <item type="id" name="tcash_retail_token_scrollview" />
+    <item type="id" name="tcash_rp_detail2_textview" />
+    <item type="id" name="tcash_rp_detail3_textview" />
+    <item type="id" name="tcash_rp_detail_textview" />
+    <item type="id" name="tcash_scroll" />
+    <item type="id" name="tcash_security_qs_answer_edittext" />
+    <item type="id" name="tcash_security_qs_birth_picker_button" />
+    <item type="id" name="tcash_security_qs_birth_select_button" />
+    <item type="id" name="tcash_security_qs_done_button" />
+    <item type="id" name="tcash_security_qs_identity_number_edittext" />
+    <item type="id" name="tcash_security_qs_question_textview" />
+    <item type="id" name="tcash_set_favorite_button" />
+    <item type="id" name="tcash_sms_banking_amount_edittext" />
+    <item type="id" name="tcash_sms_banking_bni_button" />
+    <item type="id" name="tcash_sms_banking_button_layout" />
+    <item type="id" name="tcash_sms_banking_mandiri_button" />
+    <item type="id" name="tcash_sms_banking_mega_button" />
+    <item type="id" name="tcash_sms_banking_mobile_num_edittext" />
+    <item type="id" name="tcash_sms_banking_next_button" />
+    <item type="id" name="tcash_sms_banking_other_button" />
+    <item type="id" name="tcash_sms_banking_self_button" />
+    <item type="id" name="tcash_sms_banking_set_favorite_button" />
+    <item type="id" name="tcash_sms_banking_slide_button" />
+    <item type="id" name="tcash_sms_banking_snd_amount_textview" />
+    <item type="id" name="tcash_sms_banking_snd_confirm_button" />
+    <item type="id" name="tcash_sms_banking_snd_content_layout" />
+    <item type="id" name="tcash_sms_banking_snd_menu_amount_textview" />
+    <item type="id" name="tcash_sms_banking_snd_menu_number_textview" />
+    <item type="id" name="tcash_sms_banking_snd_menu_simpati_textview" />
+    <item type="id" name="tcash_sms_banking_snd_number_textview" />
+    <item type="id" name="tcash_sms_banking_snd_simpati_textview" />
+    <item type="id" name="tcash_sms_banking_title_favorite_edittext" />
+    <item type="id" name="tcash_sms_mandiri_bni_button" />
+    <item type="id" name="tcash_sms_mandiri_button_layout" />
+    <item type="id" name="tcash_sms_mandiri_first_amount_edittext" />
+    <item type="id" name="tcash_sms_mandiri_first_bank_code_button" />
+    <item type="id" name="tcash_sms_mandiri_first_bottom_layout_scrollview" />
+    <item type="id" name="tcash_sms_mandiri_first_content_layout" />
+    <item type="id" name="tcash_sms_mandiri_first_mobile_num_edittext" />
+    <item type="id" name="tcash_sms_mandiri_first_next_button" />
+    <item type="id" name="tcash_sms_mandiri_first_other_button" />
+    <item type="id" name="tcash_sms_mandiri_first_self_button" />
+    <item type="id" name="tcash_sms_mandiri_first_set_favorite_button" />
+    <item type="id" name="tcash_sms_mandiri_first_title_favorite_edittext" />
+    <item type="id" name="tcash_sms_mandiri_mandiri_button" />
+    <item type="id" name="tcash_sms_mandiri_mega_button" />
+    <item type="id" name="tcash_sms_mandiri_slide_button" />
+    <item type="id" name="tcash_sms_mandiri_snd_amount_textview" />
+    <item type="id" name="tcash_sms_mandiri_snd_confirm_button" />
+    <item type="id" name="tcash_sms_mandiri_snd_content_layout" />
+    <item type="id" name="tcash_sms_mandiri_snd_menu_amount_textview" />
+    <item type="id" name="tcash_sms_mandiri_snd_menu_number_textview" />
+    <item type="id" name="tcash_sms_mandiri_snd_menu_simpati_textview" />
+    <item type="id" name="tcash_sms_mandiri_snd_number_textview" />
+    <item type="id" name="tcash_sms_mandiri_snd_simpati_textview" />
+    <item type="id" name="tcash_tap_activation_container" />
+    <item type="id" name="tcash_tap_image_button" />
+    <item type="id" name="tcash_tap_info_text" />
+    <item type="id" name="tcash_tap_serial_edit" />
+    <item type="id" name="tcash_tap_state_text" />
+    <item type="id" name="tcash_telkomvision_postpaid_textview" />
+    <item type="id" name="tcash_template_mobile_num_edittext" />
+    <item type="id" name="tcash_template_other_button" />
+    <item type="id" name="tcash_template_other_txt" />
+    <item type="id" name="tcash_template_postpaid_menu_button" />
+    <item type="id" name="tcash_template_prepaid_menu_button" />
+    <item type="id" name="tcash_template_self_button" />
+    <item type="id" name="tcash_template_self_txt" />
+    <item type="id" name="tcash_title_favorite_edittext" />
+    <item type="id" name="tcash_token_button" />
+    <item type="id" name="tcash_top_layout" />
+    <item type="id" name="tcash_tranfer_fragment" />
+    <item type="id" name="tcash_tranfer_snd_fee_textview" />
+    <item type="id" name="tcash_tranfer_snd_menu_fee_textview" />
+    <item type="id" name="tcash_transaction_history_button" />
+    <item type="id" name="tcash_transaction_history_listitem_amount_fraction_textview" />
+    <item type="id" name="tcash_transaction_history_listitem_amount_textview" />
+    <item type="id" name="tcash_transaction_history_listitem_date_textview" />
+    <item type="id" name="tcash_transaction_history_listitem_description_textview" />
+    <item type="id" name="tcash_transaction_history_listitem_layout" />
+    <item type="id" name="tcash_transaction_history_listview" />
+    <item type="id" name="tcash_transaction_history_nodata_scrollview" />
+    <item type="id" name="tcash_transfer_bank_name_button" />
+    <item type="id" name="tcash_transfer_bank_name_layout" />
+    <item type="id" name="tcash_transfer_bank_name_picker_button" />
+    <item type="id" name="tcash_transfer_beneficiary_picker_button" />
+    <item type="id" name="tcash_transfer_button" />
+    <item type="id" name="tcash_transfer_comment_edittext" />
+    <item type="id" name="tcash_transfer_confirm_button" />
+    <item type="id" name="tcash_transfer_next_button" />
+    <item type="id" name="tcash_transfer_pin1_edittext" />
+    <item type="id" name="tcash_transfer_pin2_edittext" />
+    <item type="id" name="tcash_transfer_pin3_edittext" />
+    <item type="id" name="tcash_transfer_pin4_edittext" />
+    <item type="id" name="tcash_transfer_pin5_edittext" />
+    <item type="id" name="tcash_transfer_pin6_edittext" />
+    <item type="id" name="tcash_transfer_snd_content_layout" />
+    <item type="id" name="tcash_transfer_snd_menu_simpati_textview" />
+    <item type="id" name="tcash_transfer_snd_menu_total_textview" />
+    <item type="id" name="tcash_transfer_snd_simpati_textview" />
+    <item type="id" name="tcash_transfer_snd_total_textview" />
+    <item type="id" name="tcash_transfer_transaction_type_button" />
+    <item type="id" name="tcash_transfer_type_button" />
+    <item type="id" name="tcash_transfer_type_picker_button" />
+    <item type="id" name="timeout_dialog_button_ok" />
+    <item type="id" name="timeout_dialog_message" />
+    <item type="id" name="titlebar_back_button" />
+    <item type="id" name="titlebar_delete_button" />
+    <item type="id" name="titlebar_edit_button" />
+    <item type="id" name="titlebar_filter_button" />
+    <item type="id" name="titlebar_logo_imageview" />
+    <item type="id" name="titlebar_refresh_button" />
+    <item type="id" name="titlebar_step_imageview" />
+    <item type="id" name="titlebar_title_textview" />
+    <item type="id" name="titlebar_view" />
+    <item type="id" name="titlebar_view_bold" />
+    <item type="id" name="tnc_agree_button" />
+    <item type="id" name="tnc_tcash_agree_webview" />
+    <item type="id" name="tnc_tcash_agreement_button" />
+    <item type="id" name="tnc_tcash_layout" />
+    <item type="id" name="tnc_twallet_agree_webview" />
+    <item type="id" name="tnc_twallet_agreement_button" />
+    <item type="id" name="tnc_twallet_layout" />
+    <item type="id" name="tour_button_layout" />
+    <item type="id" name="tour_indicator" />
+    <item type="id" name="tour_pager" />
+    <item type="id" name="tour_skip_button" />
+    <item type="id" name="tour_video_videoview" />
+    <item type="id" name="tour_videostarter_imageview" />
+    <item type="id" name="tvTitle" />
+    <item type="id" name="twallet_news_listview" />
+    <item type="id" name="twallet_news_nodata_scrollview" />
+    <item type="id" name="user_info_address_hint_imageview" />
+    <item type="id" name="user_info_address_layout" />
+    <item type="id" name="user_info_address_textview" />
+    <item type="id" name="user_info_birth_hint_imageview" />
+    <item type="id" name="user_info_birth_layout" />
+    <item type="id" name="user_info_birth_select_button" />
+    <item type="id" name="user_info_birth_textview" />
+    <item type="id" name="user_info_button_layout" />
+    <item type="id" name="user_info_cancel_button" />
+    <item type="id" name="user_info_check_checkbox" />
+    <item type="id" name="user_info_check_layout" />
+    <item type="id" name="user_info_confirm_email_edittext" />
+    <item type="id" name="user_info_confirm_email_hint_imageview" />
+    <item type="id" name="user_info_confirm_email_layout" />
+    <item type="id" name="user_info_confirm_email_textview" />
+    <item type="id" name="user_info_continue_button" />
+    <item type="id" name="user_info_email_edittext" />
+    <item type="id" name="user_info_email_hint_imageview" />
+    <item type="id" name="user_info_email_layout" />
+    <item type="id" name="user_info_email_textview" />
+    <item type="id" name="user_info_firstname_edittext" />
+    <item type="id" name="user_info_firstname_hint_imageview" />
+    <item type="id" name="user_info_firstname_layout" />
+    <item type="id" name="user_info_firstname_textview" />
+    <item type="id" name="user_info_introduction_textview" />
+    <item type="id" name="user_info_lastname_edittext" />
+    <item type="id" name="user_info_lastname_layout" />
+    <item type="id" name="user_info_lastname_textview" />
+    <item type="id" name="user_info_layout" />
+    <item type="id" name="user_info_postcode_edittext" />
+    <item type="id" name="user_info_postcode_hint_imageview" />
+    <item type="id" name="user_info_postcode_layout" />
+    <item type="id" name="user_info_postcode_textview" />
+    <item type="id" name="user_info_step_textview" />
+    <item type="id" name="user_info_street_name_edittext" />
+    <item type="id" name="user_info_street_name_hint_imageview" />
+    <item type="id" name="user_info_street_name_layout" />
+    <item type="id" name="user_info_street_name_textview" />
+    <item type="id" name="user_info_street_number_edittext" />
+    <item type="id" name="user_info_street_number_hint_imageview" />
+    <item type="id" name="user_info_street_number_layout" />
+    <item type="id" name="user_info_street_number_textview" />
+    <item type="id" name="user_info_street_state_hint_imageview" />
+    <item type="id" name="user_info_street_state_layout" />
+    <item type="id" name="user_info_street_state_select_button" />
+    <item type="id" name="user_info_street_state_textview" />
+    <item type="id" name="user_info_street_type_edittext" />
+    <item type="id" name="user_info_street_type_hint_imageview" />
+    <item type="id" name="user_info_street_type_row" />
+    <item type="id" name="user_info_street_type_select_button" />
+    <item type="id" name="user_info_street_type_textview" />
+    <item type="id" name="user_info_suburb_edittext" />
+    <item type="id" name="user_info_suburb_hint_imageview" />
+    <item type="id" name="user_info_suburb_layout" />
+    <item type="id" name="user_info_suburb_select_button" />
+    <item type="id" name="user_info_suburb_textview" />
+    <item type="id" name="user_info_title_hint_imageview" />
+    <item type="id" name="user_info_title_layout" />
+    <item type="id" name="user_info_title_select_button" />
+    <item type="id" name="user_info_title_textview" />
+    <item type="id" name="user_info_unit_number_edittext" />
+    <item type="id" name="user_info_unit_number_hint_imageview" />
+    <item type="id" name="verify_msisdn_agreement_button" />
+    <item type="id" name="verify_msisdn_autofillotp_button" />
+    <item type="id" name="verify_msisdn_autofillotp_layout" />
+    <item type="id" name="verify_msisdn_greement_layout" />
+    <item type="id" name="verify_msisdn_greement_text" />
+    <item type="id" name="verify_msisdn_mobilenum_edittext" />
+    <item type="id" name="verify_msisdn_mobilenum_layout" />
+    <item type="id" name="verify_msisdn_mobilenum_textview" />
+    <item type="id" name="verify_msisdn_otp_edittext" />
+    <item type="id" name="verify_msisdn_otp_layout" />
+    <item type="id" name="verify_msisdn_otp_textview" />
+    <item type="id" name="verify_msisdn_request_new_otp_button" />
+    <item type="id" name="verify_msisdn_request_new_otp_layout" />
+    <item type="id" name="verify_msisdn_sendotp_button" />
+    <item type="id" name="verify_msisdn_sendotp_layout" />
+    <item type="id" name="verify_msisdn_tnc_text1" />
+    <item type="id" name="verify_msisdn_tnc_text2" />
+    <item type="id" name="verify_msisdn_verifyotp_button" />
+    <item type="id" name="verify_msisdn_verifyotp_layout" />
+    <item type="id" name="verify_tnc_greement_text" />
+    <item type="id" name="welcome_button_layout" />
+    <item type="id" name="welcome_skip_tour_button" />
+    <item type="id" name="welcome_start_tour_button" />
+    <item type="id" name="abs__action_bar_title">false</item>
+    <item type="id" name="abs__action_bar_subtitle">false</item>
+    <item type="id" name="abs__imageButton">false</item>
+    <item type="id" name="abs__textButton">false</item>
+    <item type="id" name="abs__action_mode_close_button">false</item>
+    <item type="id" name="abs__activity_chooser_view_content">false</item>
+    <item type="id" name="abs__expand_activities_button">false</item>
+    <item type="id" name="abs__image">false</item>
+    <item type="id" name="abs__default_activity_button">false</item>
+    <item type="id" name="abs__list_item">false</item>
+    <item type="id" name="abs__icon">false</item>
+    <item type="id" name="abs__title">false</item>
+    <item type="id" name="abs__checkbox">false</item>
+    <item type="id" name="abs__radio">false</item>
+    <item type="id" name="abs__shortcut">false</item>
+    <item type="id" name="abs__action_bar_container">false</item>
+    <item type="id" name="abs__action_bar">false</item>
+    <item type="id" name="abs__action_context_bar">false</item>
+    <item type="id" name="abs__content">false</item>
+    <item type="id" name="abs__split_action_bar">false</item>
+    <item type="id" name="abs__action_mode_bar_stub">false</item>
+    <item type="id" name="abs__action_mode_bar">false</item>
+    <item type="id" name="edit_query">false</item>
+    <item type="id" name="abs__search_bar">false</item>
+    <item type="id" name="abs__search_badge">false</item>
+    <item type="id" name="abs__search_button">false</item>
+    <item type="id" name="abs__search_edit_frame">false</item>
+    <item type="id" name="abs__search_mag_icon">false</item>
+    <item type="id" name="abs__search_plate">false</item>
+    <item type="id" name="abs__search_src_text">false</item>
+    <item type="id" name="abs__search_close_btn">false</item>
+    <item type="id" name="abs__submit_area">false</item>
+    <item type="id" name="abs__search_go_btn">false</item>
+    <item type="id" name="abs__search_voice_btn">false</item>
+    <item type="id" name="pageArea">false</item>
+    <item type="id" name="about_support_call">false</item>
+    <item type="id" name="card_balance_refresh">false</item>
+    <item type="id" name="vertical_line">false</item>
+    <item type="id" name="placeholder">false</item>
+    <item type="id" name="coupon_code_text">false</item>
+    <item type="id" name="coupon_redeem_topin_text">false</item>
+    <item type="id" name="app_fragment_placeholder">false</item>
+    <item type="id" name="coupon_qr_text">false</item>
+    <item type="id" name="enter_tcash_pin">false</item>
+    <item type="id" name="verify_tcash_pin_button">false</item>
+    <item type="id" name="forgot_tcash_pin_textview">false</item>
+    <item type="id" name="scrollview">false</item>
+    <item type="id" name="img_wallet">false</item>
+    <item type="id" name="set_tcash_pin_change_pin_edittext">false</item>
+    <item type="id" name="set_tcash_pin_confirm_pin_edittext">false</item>
+    <item type="id" name="set_tcash_pin_done_button">false</item>
+    <item type="id" name="top_layout">false</item>
+    <item type="id" name="setting_main_tcashtap_button">false</item>
+    <item type="id" name="img_wallet_icon">false</item>
+    <item type="id" name="tcash_cash_in_out_text">false</item>
+    <item type="id" name="enter_otp_edittext">false</item>
+    <item type="id" name="request_new_otp_button">false</item>
+    <item type="id" name="editText1">false</item>
+    <item type="id" name="pin_edit_view">false</item>
+    <item type="id" name="button1">false</item>
+    <item type="id" name="request_new_code_button">false</item>
+    <item type="id" name="com_facebook_picker_list_view">false</item>
+    <item type="id" name="com_facebook_picker_activity_circle">false</item>
+    <item type="id" name="com_facebook_login_activity_progress_bar">false</item>
+    <item type="id" name="com_facebook_picker_row_activity_circle">false</item>
+    <item type="id" name="com_facebook_picker_checkbox">false</item>
+    <item type="id" name="com_facebook_picker_image">false</item>
+    <item type="id" name="com_facebook_picker_profile_pic_stub">false</item>
+    <item type="id" name="com_facebook_picker_title">false</item>
+    <item type="id" name="com_facebook_picker_checkbox_stub">false</item>
+    <item type="id" name="com_facebook_picker_list_section_header">false</item>
+    <item type="id" name="com_facebook_picker_top_bar">false</item>
+    <item type="id" name="com_facebook_picker_done_button">false</item>
+    <item type="id" name="com_facebook_picker_divider">false</item>
+    <item type="id" name="com_facebook_picker_title_bar_stub">false</item>
+    <item type="id" name="com_facebook_picker_title_bar">false</item>
+    <item type="id" name="picker_subtitle">false</item>
+    <item type="id" name="com_facebook_search_bar_view">false</item>
+    <item type="id" name="com_facebook_picker_search_text">false</item>
+    <item type="id" name="com_facebook_body_frame">false</item>
+    <item type="id" name="com_facebook_tooltip_bubble_view_top_pointer">false</item>
+    <item type="id" name="com_facebook_button_xout">false</item>
+    <item type="id" name="com_facebook_tooltip_bubble_view_text_body">false</item>
+    <item type="id" name="com_facebook_tooltip_bubble_view_bottom_pointer">false</item>
+    <item type="id" name="com_facebook_usersettingsfragment_logo_image">false</item>
+    <item type="id" name="com_facebook_usersettingsfragment_profile_name">false</item>
+    <item type="id" name="com_facebook_usersettingsfragment_login_button">false</item>
+    <item type="id" name="couponQRcode">false</item>
+    <item type="id" name="couponBarcode">false</item>
+    <item type="id" name="coupon_btn_tab_mycoupon">false</item>
+    <item type="id" name="coupon_btn_tab_discover">false</item>
+    <item type="id" name="coupon_lay_contents">false</item>
+    <item type="id" name="coupon_txt_dialog_listitem">false</item>
+    <item type="id" name="coupon_txt_dialog_title">false</item>
+    <item type="id" name="coupon_list_dialog_listview">false</item>
+    <item type="id" name="coupon_txt_list_item_title">false</item>
+    <item type="id" name="coupon_txt_list_item_desc">false</item>
+    <item type="id" name="coupon_btn_list_item_rss">false</item>
+    <item type="id" name="coupon_img_list_item_redeemed">false</item>
+    <item type="id" name="coupon_txt_list_section">false</item>
+    <item type="id" name="coupon_list_mycoupons">false</item>
+    <item type="id" name="coupon_txt_mycoup_nolist">false</item>
+    <item type="id" name="coupon_list_mycoupons_redeemed">false</item>
+    <item type="id" name="cardQRcode">false</item>
+    <item type="id" name="cardBarcode">false</item>
+    <item type="id" name="date_dialog_datepicker">false</item>
+    <item type="id" name="date_dialog_button_ok">false</item>
+    <item type="id" name="dialog_favorite_title1">false</item>
+    <item type="id" name="favorite_title_edittext">false</item>
+    <item type="id" name="dialog_favorite_reminder_button">false</item>
+    <item type="id" name="dialog_favorite_title2">false</item>
+    <item type="id" name="reminder_layout">false</item>
+    <item type="id" name="dialog_txt1">false</item>
+    <item type="id" name="date_dialog_numberpicker">false</item>
+    <item type="id" name="dialog_txt2">false</item>
+    <item type="id" name="date_dialog_button_cancel">false</item>
+    <item type="id" name="list_dialog_noti_layout">false</item>
+    <item type="id" name="dialog_success_img">false</item>
+    <item type="id" name="dialog_failed_img">false</item>
+    <item type="id" name="card_add_img">false</item>
+    <item type="id" name="help_container">false</item>
+    <item type="id" name="home_help_center">false</item>
+    <item type="id" name="home_web_view">false</item>
+    <item type="id" name="home_tcash_progress">false</item>
+    <item type="id" name="home_cash_in">false</item>
+    <item type="id" name="home_menu_topup">false</item>
+    <item type="id" name="ic_topup">false</item>
+    <item type="id" name="home_menu_halo">false</item>
+    <item type="id" name="ic_halo">false</item>
+    <item type="id" name="home_menu_pln">false</item>
+    <item type="id" name="ic_pln">false</item>
+    <item type="id" name="home_menu_water">false</item>
+    <item type="id" name="ic_water">false</item>
+    <item type="id" name="home_menu_internet">false</item>
+    <item type="id" name="ic_internet">false</item>
+    <item type="id" name="home_menu_pay">false</item>
+    <item type="id" name="ic_payment">false</item>
+    <item type="id" name="home_menu_share">false</item>
+    <item type="id" name="ic_share">false</item>
+    <item type="id" name="home_menu_scan">false</item>
+    <item type="id" name="ic_scan">false</item>
+    <item type="id" name="home_menu_token">false</item>
+    <item type="id" name="ic_token">false</item>
+    <item type="id" name="home_menu_history">false</item>
+    <item type="id" name="ic_history">false</item>
+    <item type="id" name="menuContainer">false</item>
+    <item type="id" name="inner_content">false</item>
+    <item type="id" name="zxing_scanner">false</item>
+    <item type="id" name="preview_view">false</item>
+    <item type="id" name="viewfinder_view">false</item>
+    <item type="id" name="qr_scan_center">false</item>
+    <item type="id" name="logout_button">false</item>
+    <item type="id" name="tcash_airtime_menu_button">false</item>
+    <item type="id" name="tcash_data_menu_button">false</item>
+    <item type="id" name="tcash_airtime_self_txt">false</item>
+    <item type="id" name="tcash_airtime_other_txt">false</item>
+    <item type="id" name="tcash_airtime_denomination_button">false</item>
+    <item type="id" name="tcash_airtime_denomination_picker_button">false</item>
+    <item type="id" name="tcash_sms_banking_self_txt">false</item>
+    <item type="id" name="tcash_sms_banking_other_txt">false</item>
+    <item type="id" name="tcash_sms_banking_name_layout">false</item>
+    <item type="id" name="tcash_kartu_halo_self_txt">false</item>
+    <item type="id" name="tcash_kartu_halo_other_txt">false</item>
+    <item type="id" name="tcash_payment_ticket_button">false</item>
+    <item type="id" name="tcash_payment_transport_button">false</item>
+    <item type="id" name="tcash_payment_insurance_button">false</item>
+    <item type="id" name="tcash_payment_merchant_button">false</item>
+    <item type="id" name="tcash_pln_prepaid_menu_button">false</item>
+    <item type="id" name="tcash_pln_postpaid_menu_button">false</item>
+    <item type="id" name="tcash_electricity_denomination_button">false</item>
+    <item type="id" name="tcash_electricity_denomination_picker_button">false</item>
+    <item type="id" name="token_qrcode_imageview">false</item>
+    <item type="id" name="token_barcode_imageview">false</item>
+    <item type="id" name="tcash_retail_token_expired_textview">false</item>
+    <item type="id" name="tcash_retail_token_min_textview">false</item>
+    <item type="id" name="tcash_transfer_type">false</item>
+    <item type="id" name="menu_left">false</item>
+    <item type="id" name="menu_right">false</item>
+    <item type="id" name="friend_item">false</item>
+    <item type="id" name="profile_pic">false</item>
+    <item type="id" name="name">false</item>
+    <item type="id" name="info">false</item>
+    <item type="id" name="secTitle">false</item>
+    <item type="id" name="friends_list">false</item>
+    <item type="id" name="main_ui_container">false</item>
+    <item type="id" name="login_button">false</item>
+    <item type="id" name="greeting">false</item>
+    <item type="id" name="profilePicture">false</item>
+    <item type="id" name="postStatusUpdateButton">false</item>
+    <item type="id" name="fragment_container">false</item>
+    <item type="id" name="coupon_title">false</item>
+    <item type="id" name="my_coupon_count">false</item>
+    <item type="id" name="coupon_seeall">false</item>
+    <item type="id" name="coupon_menu">false</item>
+    <item type="id" name="couponlist_nodata_layout">false</item>
+    <item type="id" name="voucher_title">false</item>
+    <item type="id" name="voucher_seeall">false</item>
+    <item type="id" name="voucher_menu">false</item>
+    <item type="id" name="voucherlist_nodata_layout">false</item>
+    <item type="id" name="llPersonalDetails">false</item>
+    <item type="id" name="navi_user_name">false</item>
+    <item type="id" name="navi_user_phonenum">false</item>
+    <item type="id" name="inbox_linear">false</item>
+    <item type="id" name="button_inbox">false</item>
+    <item type="id" name="inbox_title">false</item>
+    <item type="id" name="index_new_count">false</item>
+    <item type="id" name="rlKyc">false</item>
+    <item type="id" name="tvKyc">false</item>
+    <item type="id" name="drawer_menu">false</item>
+    <item type="id" name="slidingmenumain">false</item>
+    <item type="id" name="titlebar_menu_imageview">false</item>
+    <item type="id" name="btn_logout">false</item>
+    <item type="id" name="friendsList">false</item>
+    <item type="id" name="logoutBtn">false</item>
+    <item type="id" name="sns_title">false</item>
+    <item type="id" name="postBtn">false</item>
+    <item type="id" name="contentEdit">false</item>
+    <item type="id" name="to">false</item>
+    <item type="id" name="toEdit">false</item>
+    <item type="id" name="webView1">false</item>
+    <item type="id" name="layout">false</item>
+    <item type="id" name="pin1">false</item>
+    <item type="id" name="pin2">false</item>
+    <item type="id" name="pin3">false</item>
+    <item type="id" name="pin4">false</item>
+    <item type="id" name="pin5">false</item>
+    <item type="id" name="pin6">false</item>
+    <item type="id" name="titlebar_menu_image_layout">false</item>
+    <item type="id" name="titlebar_chat_image_layout">false</item>
+    <item type="id" name="titlebar_chat_imageview">false</item>
+    <item type="id" name="titlebar_add_imageview">false</item>
+    <item type="id" name="title_my_coupon_count">false</item>
+    <item type="id" name="titlebar_title_imageview">false</item>
+    <item type="id" name="n_rp_imageview">false</item>
+    <item type="id" name="rp_textview">false</item>
+    <item type="id" name="rp_coin_textview">false</item>
+    <item type="id" name="circle_img">false</item>
+    <item type="id" name="coupon_listitem_layout">false</item>
+    <item type="id" name="menu_home">false</item>
+</resources>

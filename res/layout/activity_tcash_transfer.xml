@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/background" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+        <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0xc301" android:layout_marginLeft="40dp" android:layout_marginRight="40dp" style="@style/tcash_top_layout">
+            <ImageView android:layout_width="UNKNOWN_DATA_0x4201" android:layout_height="UNKNOWN_DATA_0x4901" android:layout_marginBottom="18dp" style="@style/tcash_top_logo" />
+            <com.telkom.mwallet.view.BalanceView android:id="@id/tcash_balance" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2301" android:layout_marginBottom="26dp" />
+        </LinearLayout>
+        <FrameLayout android:id="@id/tcash_tranfer_fragment" android:layout_width="match_parent" android:layout_height="match_parent" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/friend_item" android:background="0x106000d" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3201">
+    <ImageView android:id="@id/profile_pic" android:layout_width="UNKNOWN_DATA_0x3201" android:layout_height="UNKNOWN_DATA_0x3201" android:layout_marginRight="6dp" android:layout_alignParentTop="true" android:layout_alignParentBottom="true" />
+    <TextView android:textColor="@color/darkgray" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/name" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/profile_pic" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_alignWithParentIfMissing="true" />
+    <TextView android:ellipsize="marquee" android:id="@id/info" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" android:layout_toRightOf="@id/profile_pic" android:layout_below="@id/name" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:layout_alignWithParentIfMissing="true" />
+</RelativeLayout>

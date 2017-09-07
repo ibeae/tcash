@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/background" android:layout_width="match_parent" android:layout_height="match_parent"
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:background="@drawable/img_header_cover" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f090070">
+        <com.telkom.mwallet.view.BalanceView android:id="@id/tcash_balance" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2301" />
+    </LinearLayout>
+    <ScrollView android:id="@id/tcash_airtime_bottom_layout_scrollview" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/tcash_scroll">
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@id/tcash_airtime_content_layout" android:paddingLeft="48dp" android:paddingRight="48dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="54dp">
+            <TextView android:id="@id/tcash_cash_in_atm_bersama_topup_detail_message_top" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="18dp" android:text="@string/tcash_cash_in_atm_bersama_topup_message" style="@style/black15b" />
+            <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="35dp"
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="5dp">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1. " style="@style/n_black12" />
+                    <TextView android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:text="@string/tcash_cash_in_atm_bersama_topup_detail_message1" android:layout_weight="1.0" style="@style/n_black12" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="5dp">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="3dp" android:text="@string/tcash_cash_in_atm_bersama_topup_detail_message2" style="@style/n_black12" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="911" style="@style/n_red12" />
+                </LinearLayout>
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="5dp" android:text="@string/tcash_cash_in_atm_bersama_topup_detail_message3" style="@style/n_black12" />
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="5dp" android:text="@string/tcash_cash_in_atm_bersama_topup_detail_message4" style="@style/n_black12" />
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="5dp" android:text="@string/tcash_cash_in_atm_bersama_topup_detail_message5" style="@style/n_black12" />
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="5dp" android:text="@string/tcash_cash_in_atm_bersama_topup_detail_message6" style="@style/n_black12" />
+            </LinearLayout>
+            <ImageView android:layout_width="UNKNOWN_DATA_0x3c01" android:layout_height="UNKNOWN_DATA_0x3c01" android:src="@drawable/img_cashin_atm" />
+            <Button android:id="@id/tcash_cash_in_atm_bersama_find_button" android:background="0x0" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="10dp" android:text="@string/tcash_cash_in_atm_bersama_find_button" style="@style/n_red16" />
+            <TextView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginBottom="5dp" android:text="@string/tcash_cash_in_out_find_message" style="@style/gray12" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

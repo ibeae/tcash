@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:background="@color/n_lightgray" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/tcash_fragment_layout"
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:textSize="17dp" android:id="@id/tcash_pln_prepaid_menu_button" android:background="@drawable/shape_btn_submenu_press" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="UNKNOWN_DATA_0x7f090071" android:text="@string/title_pln_prepaid" android:layout_weight="1.0" style="@style/tcash_fragment_title_bold" />
+        <Button android:textSize="17dp" android:textColor="@color/n_darkgray" android:id="@id/tcash_pln_postpaid_menu_button" android:background="@drawable/shape_btn_submenu" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="UNKNOWN_DATA_0x7f090071" android:text="@string/title_pln_postpaid" android:layout_weight="1.0" style="@style/tcash_fragment_title_bold" />
+    </LinearLayout>
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent" style="@style/tcash_scroll">
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+            <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/n_margin_frame" android:paddingTop="@dimen/n_margin_frame_top_bottom" android:paddingRight="@dimen/n_margin_frame" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <EditText android:id="@id/tcash_customerid_edittext" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f090071" android:layout_marginBottom="@dimen/n_margin_frame" android:hint="@string/pln_meter_id_no" android:inputType="number|numberSigned|numberDecimal|numberPassword|phone" style="@style/n_input_edittext" />
+                <EditText android:id="@id/tcash_amount_edittext" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f090071" android:hint="@string/pln_amount_hint" android:inputType="number|numberSigned|numberDecimal|numberPassword|phone" style="@style/n_input_edittext_bottom" />
+            </LinearLayout>
+            <include layout="@layout/tcash_common_bottom_pin_confirm" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

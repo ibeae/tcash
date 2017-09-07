@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="0x0" android:layout_width="match_parent" android:layout_height="match_parent"
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@id/tcash_payment_button_layout" android:background="@color/white" android:paddingBottom="19dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/n_title_height">
+        <RelativeLayout android:gravity="UNKNOWN_DATA_0x0" android:clickable="true" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f09006e" style="@style/n_tcash_sub_menu_head">
+            <ImageView android:layout_width="UNKNOWN_DATA_0x1801" android:layout_height="UNKNOWN_DATA_0x1801" android:layout_marginTop="@dimen/n_margin_frame" android:src="@drawable/ic_bottom_payment" android:scaleType="fitXY" android:layout_centerHorizontal="true" />
+            <TextView android:id="@id/sub_menu_title_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/n_margin_frame" android:text="@string/subtitle_payment" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" style="@style/n_tcash_sub_menu_head_txt" />
+            <Button android:id="@id/tcash_payment_menu_slide_button" android:layout_width="UNKNOWN_DATA_0x1801" android:layout_height="UNKNOWN_DATA_0x1801" android:layout_marginTop="@dimen/n_margin_frame" android:layout_marginRight="@dimen/n_margin_frame" android:layout_alignParentRight="true" style="@style/n_fragment_menu_slide_down" />
+        </RelativeLayout>
+        <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/n_tcash_menu_scroll">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <Button android:id="@id/tcash_payment_kartu_halo_button" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f090077" android:text="@string/button_kartu_halo" style="@style/n_submenu" />
+                <Button android:id="@id/tcash_payment_pln_button" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f090077" android:text="@string/button_pln" style="@style/n_submenu" />
+                <RelativeLayout android:clickable="true" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f090077">
+                    <Button android:id="@id/tcash_payment_cabletv_button" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/button_cabletv" style="@style/n_submenu" />
+                    <ImageView android:layout_width="UNKNOWN_DATA_0x1801" android:layout_height="UNKNOWN_DATA_0x1801" android:src="@drawable/ic_chevron_right" android:scaleType="fitXY" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                </RelativeLayout>
+                <RelativeLayout android:clickable="true" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f090077">
+                    <Button android:id="@id/tcash_payment_Internet_button" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/button_internet" style="@style/n_submenu" />
+                    <ImageView android:layout_width="UNKNOWN_DATA_0x1801" android:layout_height="UNKNOWN_DATA_0x1801" android:src="@drawable/ic_chevron_right" android:scaleType="fitXY" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                </RelativeLayout>
+                <Button android:id="@id/tcash_payment_fixedline_button" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f090077" android:text="@string/button_fixed_line_phone" style="@style/n_submenu" />
+                <Button android:id="@id/tcash_payment_pdam_button" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f090077" android:text="@string/button_pdam" style="@style/n_submenu" />
+                <RelativeLayout android:clickable="true" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f090077">
+                    <Button android:id="@id/tcash_payment_multifinance_button" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/button_multi_finance" style="@style/n_submenu" />
+                    <ImageView android:layout_width="UNKNOWN_DATA_0x1801" android:layout_height="UNKNOWN_DATA_0x1801" android:src="@drawable/ic_chevron_right" android:scaleType="fitXY" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                </RelativeLayout>
+                <RelativeLayout android:clickable="true" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f090077">
+                    <Button android:id="@id/tcash_payment_ticket_button" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/button_ticket" style="@style/n_submenu" />
+                    <ImageView android:layout_width="UNKNOWN_DATA_0x1801" android:layout_height="UNKNOWN_DATA_0x1801" android:src="@drawable/ic_chevron_right" android:scaleType="fitXY" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                </RelativeLayout>
+                <RelativeLayout android:clickable="true" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f090077">
+                    <Button android:id="@id/tcash_payment_transport_button" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/button_transport_travel" style="@style/n_submenu" />
+                    <ImageView android:layout_width="UNKNOWN_DATA_0x1801" android:layout_height="UNKNOWN_DATA_0x1801" android:src="@drawable/ic_chevron_right" android:scaleType="fitXY" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                </RelativeLayout>
+                <RelativeLayout android:clickable="true" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f090077">
+                    <Button android:id="@id/tcash_payment_insurance_button" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/button_insurance" style="@style/n_submenu" />
+                    <ImageView android:layout_width="UNKNOWN_DATA_0x1801" android:layout_height="UNKNOWN_DATA_0x1801" android:src="@drawable/ic_chevron_right" android:scaleType="fitXY" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                </RelativeLayout>
+                <RelativeLayout android:clickable="true" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f090077">
+                    <Button android:id="@id/tcash_payment_merchant_button" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/button_merchant" style="@style/n_submenu" />
+                    <ImageView android:layout_width="UNKNOWN_DATA_0x1801" android:layout_height="UNKNOWN_DATA_0x1801" android:src="@drawable/ic_chevron_right" android:scaleType="fitXY" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                </RelativeLayout>
+                <Button android:id="@id/tcash_payment_others_button" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f090077" android:text="@string/button_others" style="@style/n_submenu" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>

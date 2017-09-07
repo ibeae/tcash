@@ -1,0 +1,43 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: TCASHwallet_1.1.0.apk
+compressionType: false
+doNotCompress:
+- arsc
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '17'
+  targetSdkVersion: '21'
+sharedLibrary: false
+unknownFiles:
+  bitmaps/amobee_bkgrnd.png: '8'
+  bitmaps/amobee_close.png: '8'
+  bitmaps/amobee_close2.png: '8'
+  bitmaps/amobee_close3.png: '8'
+  bitmaps/amobee_leftarrow.png: '8'
+  bitmaps/amobee_leftarrow2.png: '8'
+  bitmaps/amobee_leftarrow3.png: '8'
+  bitmaps/amobee_refresh.png: '8'
+  bitmaps/amobee_refresh2.png: '8'
+  bitmaps/amobee_refresh3.png: '8'
+  bitmaps/amobee_rightarrow.png: '8'
+  bitmaps/amobee_rightarrow2.png: '8'
+  bitmaps/amobee_rightarrow3.png: '8'
+  bitmaps/amobee_unrightarrow.png: '8'
+  bitmaps/amobee_unrightarrow2.png: '8'
+  bitmaps/amobee_unrightarrow3.png: '8'
+  bitmaps/amobee_x.png: '8'
+  bitmaps/amobee_x2.png: '8'
+  bitmaps/amobee_x3.png: '8'
+  js/amobee_richmedia.js: '8'
+  js/amobee_richmedia_bridge.js: '8'
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.2.3
+versionInfo:
+  versionCode: '25'
+  versionName: 1.1.0

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="abs__max_action_buttons">2</integer>
+    <integer name="abs__max_action_buttons">3</integer>
+    <integer name="abs__max_action_buttons">4</integer>
+    <integer name="abs__max_action_buttons">5</integer>
+    <integer name="abs__max_action_buttons">5</integer>
+    <integer name="google_play_services_version">5089000</integer>
+</resources>

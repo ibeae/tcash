@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/background" android:layout_width="match_parent" android:layout_height="match_parent"
+    <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:background="#464952" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x6401">
+        <Button android:id="@id/coupon_btn_tab_mycoupon" android:background="@color/lightgray" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="UNKNOWN_DATA_0x2501" android:text="" android:layout_weight="1.0" />
+        <Button android:id="@id/coupon_btn_tab_discover" android:background="@color/lightgray" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="UNKNOWN_DATA_0x2501" android:text="" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/coupon_lay_contents" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <com.amobee.adsdk.AmobeeAdPlaceholder android:id="@id/placeholder" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+</LinearLayout>

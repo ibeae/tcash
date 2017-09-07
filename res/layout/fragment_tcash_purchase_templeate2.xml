@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:background="@color/n_lightgray" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/tcash_fragment_layout">
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent" style="@style/tcash_scroll">
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+            <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/n_margin_frame" android:paddingTop="@dimen/n_margin_frame_top_bottom" android:paddingRight="@dimen/n_margin_frame" android:paddingBottom="@dimen/n_margin_frame_top_bottom" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <EditText android:textColor="@color/n_black" android:id="@id/tcash_purchase_id_number_edit" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f090071" android:layout_marginBottom="@dimen/n_margin_frame" android:hint="@string/id_number" android:maxLines="1" android:inputType="number|numberSigned|numberDecimal|numberPassword|phone" style="@style/n_input_edittext" />
+                <RelativeLayout android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f090071">
+                    <Button android:textColor="@color/n_black" android:id="@id/tcash_purchase_denomination_button" android:layout_width="match_parent" android:layout_height="match_parent" android:hint="@string/denomination" android:maxLines="1" style="@style/n_input_edittext_middle" />
+                    <Button android:id="@id/tcash_purchase_denomination_picker_button" android:background="@drawable/ic_list_more" android:layout_width="UNKNOWN_DATA_0x1801" android:layout_height="UNKNOWN_DATA_0x1801" android:layout_marginTop="13dp" android:layout_marginRight="@dimen/n_margin_frame" android:layout_alignParentRight="true" />
+                </RelativeLayout>
+            </LinearLayout>
+            <include layout="@layout/tcash_common_bottom_pin_confirm" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

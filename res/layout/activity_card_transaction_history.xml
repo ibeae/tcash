@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:background="@color/n_lightgray" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@id/card_img" android:layout_width="UNKNOWN_DATA_0xc801" android:layout_height="UNKNOWN_DATA_0x7d01" android:layout_marginTop="30dp" />
+    <TextView android:textColor="@color/black" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/card_number_textview" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:singleLine="true" />
+    <RelativeLayout android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="20dp">
+        <View android:id="@id/vertical_line" android:background="@color/n_lightgray" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x201" android:layout_height="match_parent" android:layout_marginLeft="45dp" />
+        <ListView android:id="@id/card_transaction_history_listview" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:listSelector="@color/transparent" />
+    </RelativeLayout>
+</LinearLayout>

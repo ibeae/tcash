@@ -1,0 +1,3401 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="App.Theme">
+        <item>true</item>
+        <item>?unknown_ref: 0</item>
+    </style>
+    <style name="App.Theme">
+        <item>true</item>
+        <item>?unknown_ref: 0</item>
+    </style>
+    <style name="App.Theme">
+        <item>true</item>
+        <item>?unknown_ref: 0</item>
+    </style>
+    <style name="App.Theme">
+        <item>true</item>
+        <item>?unknown_ref: 0</item>
+    </style>
+    <style name="amount_text">
+        <item>@dimen/pay_amount_font_size</item>
+        <item>1</item>
+        <item>@color/white</item>
+    </style>
+    <style name="amount_text">
+        <item>@dimen/pay_amount_font_size</item>
+        <item>1</item>
+        <item>@color/white</item>
+    </style>
+    <style name="amount_text">
+        <item>@dimen/pay_amount_font_size</item>
+        <item>1</item>
+        <item>@color/white</item>
+    </style>
+    <style name="amount_text">
+        <item>@dimen/pay_amount_font_size</item>
+        <item>1</item>
+        <item>@color/white</item>
+    </style>
+    <style name="black14">
+        <item>14sp</item>
+        <item>@color/black</item>
+    </style>
+    <style name="black14">
+        <item>14sp</item>
+        <item>@color/black</item>
+    </style>
+    <style name="black14">
+        <item>14sp</item>
+        <item>@color/black</item>
+    </style>
+    <style name="black14">
+        <item>14sp</item>
+        <item>@color/black</item>
+    </style>
+    <style name="black14b">
+        <item>14sp</item>
+        <item>1</item>
+        <item>@color/black</item>
+    </style>
+    <style name="black14b">
+        <item>14sp</item>
+        <item>1</item>
+        <item>@color/black</item>
+    </style>
+    <style name="black14b">
+        <item>14sp</item>
+        <item>1</item>
+        <item>@color/black</item>
+    </style>
+    <style name="black14b">
+        <item>14sp</item>
+        <item>1</item>
+        <item>@color/black</item>
+    </style>
+    <style name="black15b">
+        <item>15sp</item>
+        <item>1</item>
+        <item>@color/black</item>
+    </style>
+    <style name="black15b">
+        <item>15sp</item>
+        <item>1</item>
+        <item>@color/black</item>
+    </style>
+    <style name="black15b">
+        <item>15sp</item>
+        <item>1</item>
+        <item>@color/black</item>
+    </style>
+    <style name="black15b">
+        <item>15sp</item>
+        <item>1</item>
+        <item>@color/black</item>
+    </style>
+    <style name="black16">
+        <item>16sp</item>
+        <item>@color/black</item>
+    </style>
+    <style name="black16">
+        <item>16sp</item>
+        <item>@color/black</item>
+    </style>
+    <style name="black16">
+        <item>16sp</item>
+        <item>@color/black</item>
+    </style>
+    <style name="black16">
+        <item>16sp</item>
+        <item>@color/black</item>
+    </style>
+    <style name="black16b">
+        <item>16sp</item>
+        <item>1</item>
+        <item>@color/black</item>
+    </style>
+    <style name="black16b">
+        <item>16sp</item>
+        <item>1</item>
+        <item>@color/black</item>
+    </style>
+    <style name="black16b">
+        <item>16sp</item>
+        <item>1</item>
+        <item>@color/black</item>
+    </style>
+    <style name="black16b">
+        <item>16sp</item>
+        <item>1</item>
+        <item>@color/black</item>
+    </style>
+    <style name="black17">
+        <item>@dimen/medium_font_size</item>
+        <item>@color/black</item>
+    </style>
+    <style name="black17">
+        <item>@dimen/medium_font_size</item>
+        <item>@color/black</item>
+    </style>
+    <style name="black17">
+        <item>@dimen/medium_font_size</item>
+        <item>@color/black</item>
+    </style>
+    <style name="black17">
+        <item>@dimen/medium_font_size</item>
+        <item>@color/black</item>
+    </style>
+    <style name="black17b">
+        <item>@dimen/medium_font_size</item>
+        <item>1</item>
+        <item>@color/black</item>
+    </style>
+    <style name="black17b">
+        <item>@dimen/medium_font_size</item>
+        <item>1</item>
+        <item>@color/black</item>
+    </style>
+    <style name="black17b">
+        <item>@dimen/medium_font_size</item>
+        <item>1</item>
+        <item>@color/black</item>
+    </style>
+    <style name="black17b">
+        <item>@dimen/medium_font_size</item>
+        <item>1</item>
+        <item>@color/n_black</item>
+    </style>
+    <style name="black18">
+        <item>@dimen/font18</item>
+        <item>@color/black</item>
+    </style>
+    <style name="black18">
+        <item>@dimen/font18</item>
+        <item>@color/black</item>
+    </style>
+    <style name="black18">
+        <item>@dimen/font18</item>
+        <item>@color/black</item>
+    </style>
+    <style name="black18">
+        <item>@dimen/font18</item>
+        <item>@color/black</item>
+    </style>
+    <style name="black19">
+        <item>19sp</item>
+        <item>@color/black</item>
+    </style>
+    <style name="black19">
+        <item>19sp</item>
+        <item>@color/black</item>
+    </style>
+    <style name="black19">
+        <item>19sp</item>
+        <item>@color/black</item>
+    </style>
+    <style name="black19">
+        <item>19sp</item>
+        <item>@color/black</item>
+    </style>
+    <style name="black20">
+        <item>20sp</item>
+        <item>@color/black</item>
+    </style>
+    <style name="black20">
+        <item>20sp</item>
+        <item>@color/black</item>
+    </style>
+    <style name="black20">
+        <item>20sp</item>
+        <item>@color/black</item>
+    </style>
+    <style name="black20">
+        <item>20sp</item>
+        <item>@color/black</item>
+    </style>
+    <style name="black20b">
+        <item>20sp</item>
+        <item>1</item>
+        <item>@color/black</item>
+    </style>
+    <style name="black20b">
+        <item>20sp</item>
+        <item>1</item>
+        <item>@color/black</item>
+    </style>
+    <style name="black20b">
+        <item>20sp</item>
+        <item>1</item>
+        <item>@color/black</item>
+    </style>
+    <style name="black20b">
+        <item>20sp</item>
+        <item>1</item>
+        <item>@color/black</item>
+    </style>
+    <style name="black22b">
+        <item>22sp</item>
+        <item>1</item>
+        <item>@color/black</item>
+    </style>
+    <style name="black22b">
+        <item>22sp</item>
+        <item>1</item>
+        <item>@color/black</item>
+    </style>
+    <style name="black22b">
+        <item>22sp</item>
+        <item>1</item>
+        <item>@color/black</item>
+    </style>
+    <style name="black22b">
+        <item>22sp</item>
+        <item>1</item>
+        <item>@color/black</item>
+    </style>
+    <style name="black23">
+        <item>23sp</item>
+        <item>@color/black</item>
+    </style>
+    <style name="black23">
+        <item>23sp</item>
+        <item>@color/black</item>
+    </style>
+    <style name="black23">
+        <item>23sp</item>
+        <item>@color/black</item>
+    </style>
+    <style name="black23">
+        <item>23sp</item>
+        <item>@color/black</item>
+    </style>
+    <style name="black24">
+        <item>24sp</item>
+        <item>@color/black</item>
+    </style>
+    <style name="black24">
+        <item>24sp</item>
+        <item>@color/black</item>
+    </style>
+    <style name="black24">
+        <item>24sp</item>
+        <item>@color/black</item>
+    </style>
+    <style name="black24">
+        <item>24sp</item>
+        <item>@color/black</item>
+    </style>
+    <style name="black24b">
+        <item>24sp</item>
+        <item>1</item>
+        <item>@color/black</item>
+    </style>
+    <style name="black24b">
+        <item>24sp</item>
+        <item>1</item>
+        <item>@color/black</item>
+    </style>
+    <style name="black24b">
+        <item>24sp</item>
+        <item>1</item>
+        <item>@color/black</item>
+    </style>
+    <style name="black24b">
+        <item>24sp</item>
+        <item>1</item>
+        <item>@color/black</item>
+    </style>
+    <style name="black25">
+        <item>25sp</item>
+        <item>@color/black</item>
+    </style>
+    <style name="black25">
+        <item>25sp</item>
+        <item>@color/black</item>
+    </style>
+    <style name="black25">
+        <item>25sp</item>
+        <item>@color/black</item>
+    </style>
+    <style name="black25">
+        <item>25sp</item>
+        <item>@color/black</item>
+    </style>
+    <style name="black30b">
+        <item>30sp</item>
+        <item>1</item>
+        <item>@color/black</item>
+    </style>
+    <style name="black30b">
+        <item>30sp</item>
+        <item>1</item>
+        <item>@color/black</item>
+    </style>
+    <style name="black30b">
+        <item>30sp</item>
+        <item>1</item>
+        <item>@color/black</item>
+    </style>
+    <style name="black30b">
+        <item>30sp</item>
+        <item>1</item>
+        <item>@color/black</item>
+    </style>
+    <style name="black50">
+        <item>50sp</item>
+        <item>@color/black</item>
+    </style>
+    <style name="black50">
+        <item>50sp</item>
+        <item>@color/black</item>
+    </style>
+    <style name="black50">
+        <item>50sp</item>
+        <item>@color/black</item>
+    </style>
+    <style name="black50">
+        <item>50sp</item>
+        <item>@color/black</item>
+    </style>
+    <style name="bottom_back_color">
+        <item>@color/lightorange</item>
+    </style>
+    <style name="bottom_back_color">
+        <item>@color/lightorange</item>
+    </style>
+    <style name="bottom_back_color">
+        <item>@color/lightorange</item>
+    </style>
+    <style name="bottom_back_color">
+        <item>@color/lightorange</item>
+    </style>
+    <style name="btn_picker">
+        <item>@drawable/btn_picker_selector</item>
+    </style>
+    <style name="btn_picker">
+        <item>@drawable/btn_picker_selector</item>
+    </style>
+    <style name="btn_picker">
+        <item>@drawable/btn_picker_selector</item>
+    </style>
+    <style name="btn_picker">
+        <item>@drawable/btn_picker_selector</item>
+    </style>
+    <style name="card_checkbox_textview">
+        <item>13</item>
+        <item>20dp</item>
+    </style>
+    <style name="card_checkbox_textview">
+        <item>13</item>
+        <item>20dp</item>
+    </style>
+    <style name="card_checkbox_textview">
+        <item>13</item>
+        <item>20dp</item>
+    </style>
+    <style name="card_checkbox_textview">
+        <item>13</item>
+        <item>20dp</item>
+    </style>
+    <style name="card_default_card_button">
+        <item>@drawable/btn_defaultcard_selector</item>
+    </style>
+    <style name="card_default_card_button">
+        <item>@drawable/btn_defaultcard_selector</item>
+    </style>
+    <style name="card_default_card_button">
+        <item>@drawable/btn_defaultcard_selector</item>
+    </style>
+    <style name="card_default_card_button">
+        <item>@drawable/btn_defaultcard_selector</item>
+    </style>
+    <style name="card_home_default_card_button">
+        <item>@drawable/img_defaultcard_dis</item>
+    </style>
+    <style name="card_home_default_card_button">
+        <item>@drawable/img_defaultcard_dis</item>
+    </style>
+    <style name="card_home_default_card_button">
+        <item>@drawable/img_defaultcard_dis</item>
+    </style>
+    <style name="card_home_default_card_button">
+        <item>@drawable/img_defaultcard_dis</item>
+    </style>
+    <style name="card_listitem_empty_card_textview">
+        <item>9dp</item>
+        <item>@color/lightgray</item>
+    </style>
+    <style name="card_listitem_empty_card_textview">
+        <item>9dp</item>
+        <item>@color/lightgray</item>
+    </style>
+    <style name="card_listitem_empty_card_textview">
+        <item>9dp</item>
+        <item>@color/lightgray</item>
+    </style>
+    <style name="card_listitem_empty_card_textview">
+        <item>9dp</item>
+        <item>@color/lightgray</item>
+    </style>
+    <style name="card_text">
+        <item>@dimen/card_text_font</item>
+        <item>1</item>
+        <item>@color/black</item>
+    </style>
+    <style name="card_text">
+        <item>@dimen/card_text_font</item>
+        <item>1</item>
+        <item>@color/black</item>
+    </style>
+    <style name="card_text">
+        <item>@dimen/card_text_font</item>
+        <item>1</item>
+        <item>@color/black</item>
+    </style>
+    <style name="card_text">
+        <item>@dimen/card_text_font</item>
+        <item>1</item>
+        <item>@color/black</item>
+    </style>
+    <style name="card_top_balance">
+        <item>23dp</item>
+        <item>1</item>
+        <item>@color/red</item>
+    </style>
+    <style name="card_top_balance">
+        <item>23dp</item>
+        <item>1</item>
+        <item>@color/red</item>
+    </style>
+    <style name="card_top_balance">
+        <item>23dp</item>
+        <item>1</item>
+        <item>@color/red</item>
+    </style>
+    <style name="card_top_balance">
+        <item>23dp</item>
+        <item>1</item>
+        <item>@color/red</item>
+    </style>
+    <style name="card_top_balance_coin">
+        <item>14dp</item>
+        <item>1</item>
+        <item>@color/red</item>
+    </style>
+    <style name="card_top_balance_coin">
+        <item>14dp</item>
+        <item>1</item>
+        <item>@color/red</item>
+    </style>
+    <style name="card_top_balance_coin">
+        <item>14dp</item>
+        <item>1</item>
+        <item>@color/red</item>
+    </style>
+    <style name="card_top_balance_coin">
+        <item>14dp</item>
+        <item>1</item>
+        <item>@color/red</item>
+    </style>
+    <style name="card_topup_button">
+        <item>@drawable/btn_topup_selector</item>
+    </style>
+    <style name="card_topup_button">
+        <item>@drawable/btn_topup_selector</item>
+    </style>
+    <style name="card_topup_button">
+        <item>@drawable/btn_topup_selector</item>
+    </style>
+    <style name="card_topup_button">
+        <item>@drawable/btn_topup_selector</item>
+    </style>
+    <style name="checkbox_button">
+        <item>11</item>
+        <item>@drawable/btn_check_selector</item>
+    </style>
+    <style name="checkbox_button">
+        <item>11</item>
+        <item>@drawable/btn_check_selector</item>
+    </style>
+    <style name="checkbox_button">
+        <item>11</item>
+        <item>@drawable/btn_check_selector</item>
+    </style>
+    <style name="checkbox_button">
+        <item>11</item>
+        <item>@drawable/btn_check_selector</item>
+    </style>
+    <style name="checkbox_layout">
+        <item>13</item>
+        <item>20dp</item>
+    </style>
+    <style name="checkbox_layout">
+        <item>13</item>
+        <item>20dp</item>
+    </style>
+    <style name="checkbox_layout">
+        <item>13</item>
+        <item>20dp</item>
+    </style>
+    <style name="checkbox_layout">
+        <item>13</item>
+        <item>20dp</item>
+    </style>
+    <style name="checkbox_textview">
+        <item>13</item>
+        <item>20dp</item>
+    </style>
+    <style name="checkbox_textview">
+        <item>13</item>
+        <item>20dp</item>
+    </style>
+    <style name="checkbox_textview">
+        <item>13</item>
+        <item>20dp</item>
+    </style>
+    <style name="checkbox_textview">
+        <item>13</item>
+        <item>20dp</item>
+    </style>
+    <style name="common_black_textview">
+        <item>13</item>
+    </style>
+    <style name="common_black_textview">
+        <item>13</item>
+    </style>
+    <style name="common_black_textview">
+        <item>13</item>
+    </style>
+    <style name="common_black_textview">
+        <item>13</item>
+    </style>
+    <style name="common_darkgray_textview">
+        <item>13</item>
+    </style>
+    <style name="common_darkgray_textview">
+        <item>13</item>
+    </style>
+    <style name="common_darkgray_textview">
+        <item>13</item>
+    </style>
+    <style name="common_darkgray_textview">
+        <item>15</item>
+    </style>
+    <style name="common_flat_orange_button">
+        <item>12dp</item>
+        <item>@color/white</item>
+        <item>11</item>
+        <item>@drawable/btn_flat_orange_selector</item>
+        <item>0dp</item>
+    </style>
+    <style name="common_flat_orange_button">
+        <item>12dp</item>
+        <item>@color/white</item>
+        <item>11</item>
+        <item>@drawable/btn_flat_orange_selector</item>
+        <item>0dp</item>
+    </style>
+    <style name="common_flat_orange_button">
+        <item>12dp</item>
+        <item>@color/white</item>
+        <item>11</item>
+        <item>@drawable/btn_flat_orange_selector</item>
+        <item>0dp</item>
+    </style>
+    <style name="common_flat_orange_button">
+        <item>12dp</item>
+        <item>@color/white</item>
+        <item>11</item>
+        <item>@drawable/btn_flat_orange_selector</item>
+        <item>0dp</item>
+    </style>
+    <style name="common_gray_text">
+        <item>@dimen/txt_button_font_size</item>
+        <item>@color/gray</item>
+    </style>
+    <style name="common_gray_text">
+        <item>@dimen/txt_button_font_size</item>
+        <item>@color/gray</item>
+    </style>
+    <style name="common_gray_text">
+        <item>@dimen/txt_button_font_size</item>
+        <item>@color/gray</item>
+    </style>
+    <style name="common_gray_text">
+        <item>@dimen/txt_button_font_size</item>
+        <item>@color/gray</item>
+    </style>
+    <style name="common_gray_textview">
+        <item>13</item>
+    </style>
+    <style name="common_gray_textview">
+        <item>13</item>
+    </style>
+    <style name="common_gray_textview">
+        <item>13</item>
+    </style>
+    <style name="common_gray_textview">
+        <item>13</item>
+    </style>
+    <style name="common_orange_button">
+        <item>@dimen/common_red_button_font_size</item>
+        <item>1</item>
+        <item>@color/white</item>
+        <item>11</item>
+        <item>@drawable/btn_common_orange_selector</item>
+    </style>
+    <style name="common_orange_button">
+        <item>@dimen/common_red_button_font_size</item>
+        <item>1</item>
+        <item>@color/white</item>
+        <item>11</item>
+        <item>@drawable/btn_common_orange_selector</item>
+    </style>
+    <style name="common_orange_button">
+        <item>@dimen/common_red_button_font_size</item>
+        <item>1</item>
+        <item>@color/white</item>
+        <item>11</item>
+        <item>@drawable/btn_common_orange_selector</item>
+    </style>
+    <style name="common_orange_button">
+        <item>@dimen/n_common_red_button_font_size</item>
+        <item>0</item>
+        <item>@color/white</item>
+        <item>11</item>
+        <item>@drawable/btn_common_orange_selector</item>
+    </style>
+    <style name="common_orange_text">
+        <item>@dimen/txt_button_font_size</item>
+        <item>@color/orange</item>
+    </style>
+    <style name="common_orange_text">
+        <item>@dimen/txt_button_font_size</item>
+        <item>@color/orange</item>
+    </style>
+    <style name="common_orange_text">
+        <item>@dimen/txt_button_font_size</item>
+        <item>@color/orange</item>
+    </style>
+    <style name="common_orange_text">
+        <item>@dimen/txt_button_font_size</item>
+        <item>@color/orange</item>
+    </style>
+    <style name="common_red_button">
+        <item>@dimen/common_red_button_font_size</item>
+        <item>1</item>
+        <item>@color/white</item>
+        <item>11</item>
+        <item>@drawable/btn_common_red_selector</item>
+    </style>
+    <style name="common_red_button">
+        <item>@dimen/common_red_button_font_size</item>
+        <item>1</item>
+        <item>@color/white</item>
+        <item>11</item>
+        <item>@drawable/btn_common_red_selector</item>
+    </style>
+    <style name="common_red_button">
+        <item>@dimen/common_red_button_font_size</item>
+        <item>1</item>
+        <item>@color/white</item>
+        <item>11</item>
+        <item>@drawable/btn_common_red_selector</item>
+    </style>
+    <style name="common_red_button">
+        <item>@dimen/n_common_red_button_font_size</item>
+        <item>0</item>
+        <item>@color/white</item>
+        <item>11</item>
+        <item>@drawable/btn_common_orange_selector</item>
+    </style>
+    <style name="common_red_text">
+        <item>@dimen/txt_button_font_size</item>
+        <item>@color/red</item>
+    </style>
+    <style name="common_red_text">
+        <item>@dimen/txt_button_font_size</item>
+        <item>@color/red</item>
+    </style>
+    <style name="common_red_text">
+        <item>@dimen/txt_button_font_size</item>
+        <item>@color/red</item>
+    </style>
+    <style name="common_red_text">
+        <item>@dimen/txt_button_font_size</item>
+        <item>@color/red</item>
+    </style>
+    <style name="common_scroll">
+        <item>0</item>
+        <item>0</item>
+        <item>2</item>
+    </style>
+    <style name="common_scroll">
+        <item>0</item>
+        <item>0</item>
+        <item>2</item>
+    </style>
+    <style name="common_scroll">
+        <item>0</item>
+        <item>0</item>
+        <item>2</item>
+    </style>
+    <style name="common_scroll">
+        <item>0</item>
+        <item>0</item>
+        <item>2</item>
+    </style>
+    <style name="coupon_nfc">
+        <item>@drawable/img_nfctag</item>
+    </style>
+    <style name="coupon_nfc">
+        <item>@drawable/img_nfctag</item>
+    </style>
+    <style name="coupon_nfc">
+        <item>@drawable/img_nfctag</item>
+    </style>
+    <style name="coupon_nfc">
+        <item>@drawable/ic_tag_nfc</item>
+    </style>
+    <style name="coupon_nfc_topin">
+        <item>11</item>
+        <item>?unknown_ref: 0</item>
+    </style>
+    <style name="coupon_nfc_topin">
+        <item>11</item>
+        <item>?unknown_ref: 0</item>
+    </style>
+    <style name="coupon_nfc_topin">
+        <item>11</item>
+        <item>?unknown_ref: 0</item>
+    </style>
+    <style name="coupon_nfc_topin">
+        <item>11</item>
+        <item>?unknown_ref: 0</item>
+    </style>
+    <style name="coupon_tab">
+        <item>@color/color_coupon_tab_selector</item>
+        <item>@drawable/tab_coupontab_selector</item>
+    </style>
+    <style name="coupon_tab">
+        <item>@color/color_coupon_tab_selector</item>
+        <item>@drawable/tab_coupontab_selector</item>
+    </style>
+    <style name="coupon_tab">
+        <item>@color/color_coupon_tab_selector</item>
+        <item>@drawable/tab_coupontab_selector</item>
+    </style>
+    <style name="coupon_tab">
+        <item>@color/color_coupon_tab_selector</item>
+        <item>@drawable/tab_coupontab_selector</item>
+    </style>
+    <style name="couponlist">
+        <item>@color/lightorange</item>
+    </style>
+    <style name="couponlist">
+        <item>@color/lightorange</item>
+    </style>
+    <style name="couponlist">
+        <item>@color/lightorange</item>
+    </style>
+    <style name="couponlist">
+        <item>@color/lightorange</item>
+    </style>
+    <style name="darkgray12">
+        <item>12dp</item>
+        <item>@color/n_darkgray</item>
+    </style>
+    <style name="darkgray12">
+        <item>12dp</item>
+        <item>@color/n_darkgray</item>
+    </style>
+    <style name="darkgray12">
+        <item>12dp</item>
+        <item>@color/n_darkgray</item>
+    </style>
+    <style name="darkgray12">
+        <item>12dp</item>
+        <item>@color/n_darkgray</item>
+    </style>
+    <style name="darkgray13">
+        <item>13dp</item>
+        <item>@color/n_darkgray</item>
+    </style>
+    <style name="darkgray13">
+        <item>13dp</item>
+        <item>@color/n_darkgray</item>
+    </style>
+    <style name="darkgray13">
+        <item>13dp</item>
+        <item>@color/n_darkgray</item>
+    </style>
+    <style name="darkgray13">
+        <item>13dp</item>
+        <item>@color/n_darkgray</item>
+    </style>
+    <style name="darkgray14">
+        <item>15dp</item>
+        <item>@color/n_darkgray</item>
+    </style>
+    <style name="darkgray14">
+        <item>15dp</item>
+        <item>@color/n_darkgray</item>
+    </style>
+    <style name="darkgray14">
+        <item>15dp</item>
+        <item>@color/n_darkgray</item>
+    </style>
+    <style name="darkgray14">
+        <item>14dp</item>
+        <item>@color/n_darkgray</item>
+    </style>
+    <style name="darkgray15">
+        <item>15dp</item>
+        <item>@color/n_darkgray</item>
+    </style>
+    <style name="darkgray15">
+        <item>15dp</item>
+        <item>@color/n_darkgray</item>
+    </style>
+    <style name="darkgray15">
+        <item>15dp</item>
+        <item>@color/n_darkgray</item>
+    </style>
+    <style name="darkgray15">
+        <item>15dp</item>
+        <item>@color/n_darkgray</item>
+    </style>
+    <style name="darkgray15b">
+        <item>15dp</item>
+        <item>1</item>
+        <item>@color/n_darkgray</item>
+    </style>
+    <style name="darkgray15b">
+        <item>15dp</item>
+        <item>1</item>
+        <item>@color/n_darkgray</item>
+    </style>
+    <style name="darkgray15b">
+        <item>15dp</item>
+        <item>1</item>
+        <item>@color/n_darkgray</item>
+    </style>
+    <style name="darkgray15b">
+        <item>15dp</item>
+        <item>1</item>
+        <item>@color/n_darkgray</item>
+    </style>
+    <style name="darkgray16">
+        <item>16dp</item>
+        <item>@color/n_darkgray</item>
+    </style>
+    <style name="darkgray16">
+        <item>16dp</item>
+        <item>@color/n_darkgray</item>
+    </style>
+    <style name="darkgray16">
+        <item>16dp</item>
+        <item>@color/n_darkgray</item>
+    </style>
+    <style name="darkgray16">
+        <item>16dp</item>
+        <item>@color/n_darkgray</item>
+    </style>
+    <style name="darkgray16b">
+        <item>16dp</item>
+        <item>1</item>
+        <item>@color/n_darkgray</item>
+    </style>
+    <style name="darkgray16b">
+        <item>16dp</item>
+        <item>1</item>
+        <item>@color/n_darkgray</item>
+    </style>
+    <style name="darkgray16b">
+        <item>16dp</item>
+        <item>1</item>
+        <item>@color/n_darkgray</item>
+    </style>
+    <style name="darkgray16b">
+        <item>16dp</item>
+        <item>1</item>
+        <item>@color/n_darkgray</item>
+    </style>
+    <style name="darkgray17">
+        <item>17dp</item>
+        <item>@color/n_darkgray</item>
+    </style>
+    <style name="darkgray17">
+        <item>17dp</item>
+        <item>@color/n_darkgray</item>
+    </style>
+    <style name="darkgray17">
+        <item>17dp</item>
+        <item>@color/n_darkgray</item>
+    </style>
+    <style name="darkgray17">
+        <item>17dp</item>
+        <item>@color/n_darkgray</item>
+    </style>
+    <style name="darkgray18">
+        <item>18dp</item>
+        <item>@color/n_darkgray</item>
+    </style>
+    <style name="darkgray18">
+        <item>18dp</item>
+        <item>@color/n_darkgray</item>
+    </style>
+    <style name="darkgray18">
+        <item>18dp</item>
+        <item>@color/n_darkgray</item>
+    </style>
+    <style name="darkgray18">
+        <item>18dp</item>
+        <item>@color/n_darkgray</item>
+    </style>
+    <style name="darkgray18b">
+        <item>18dp</item>
+        <item>1</item>
+        <item>@color/n_darkgray</item>
+    </style>
+    <style name="darkgray18b">
+        <item>18dp</item>
+        <item>1</item>
+        <item>@color/n_darkgray</item>
+    </style>
+    <style name="darkgray18b">
+        <item>18dp</item>
+        <item>1</item>
+        <item>@color/n_darkgray</item>
+    </style>
+    <style name="darkgray18b">
+        <item>18dp</item>
+        <item>1</item>
+        <item>@color/n_darkgray</item>
+    </style>
+    <style name="darkgray20b">
+        <item>20dp</item>
+        <item>1</item>
+        <item>@color/n_darkgray</item>
+    </style>
+    <style name="darkgray20b">
+        <item>20dp</item>
+        <item>1</item>
+        <item>@color/n_darkgray</item>
+    </style>
+    <style name="darkgray20b">
+        <item>20dp</item>
+        <item>1</item>
+        <item>@color/n_darkgray</item>
+    </style>
+    <style name="darkgray20b">
+        <item>20dp</item>
+        <item>1</item>
+        <item>@color/n_darkgray</item>
+    </style>
+    <style name="darkgray24b">
+        <item>24dp</item>
+        <item>1</item>
+        <item>@color/n_darkgray</item>
+    </style>
+    <style name="darkgray24b">
+        <item>24dp</item>
+        <item>1</item>
+        <item>@color/n_darkgray</item>
+    </style>
+    <style name="darkgray24b">
+        <item>24dp</item>
+        <item>1</item>
+        <item>@color/n_darkgray</item>
+    </style>
+    <style name="darkgray24b">
+        <item>24dp</item>
+        <item>1</item>
+        <item>@color/n_darkgray</item>
+    </style>
+    <style name="darkgray27b">
+        <item>27dp</item>
+        <item>1</item>
+        <item>@color/n_darkgray</item>
+    </style>
+    <style name="darkgray27b">
+        <item>27dp</item>
+        <item>1</item>
+        <item>@color/n_darkgray</item>
+    </style>
+    <style name="darkgray27b">
+        <item>27dp</item>
+        <item>1</item>
+        <item>@color/n_darkgray</item>
+    </style>
+    <style name="darkgray27b">
+        <item>27dp</item>
+        <item>1</item>
+        <item>@color/n_darkgray</item>
+    </style>
+    <style name="dialog_animation">
+        <item>@anim/slide_in_bottom</item>
+        <item>@anim/slide_out_bottom</item>
+    </style>
+    <style name="dialog_animation">
+        <item>@anim/slide_in_bottom</item>
+        <item>@anim/slide_out_bottom</item>
+    </style>
+    <style name="dialog_animation">
+        <item>@anim/slide_in_bottom</item>
+        <item>@anim/slide_out_bottom</item>
+    </style>
+    <style name="dialog_animation">
+        <item>@anim/slide_in_bottom</item>
+        <item>@anim/slide_out_bottom</item>
+    </style>
+    <style name="dialog_animation_fade">
+        <item>@anim/fade_in_dialog</item>
+        <item>@anim/fade_out_dialog</item>
+    </style>
+    <style name="dialog_animation_fade">
+        <item>@anim/fade_in_dialog</item>
+        <item>@anim/fade_out_dialog</item>
+    </style>
+    <style name="dialog_animation_fade">
+        <item>@anim/fade_in_dialog</item>
+        <item>@anim/fade_out_dialog</item>
+    </style>
+    <style name="dialog_animation_fade">
+        <item>@anim/fade_in_dialog</item>
+        <item>@anim/fade_out_dialog</item>
+    </style>
+    <style name="dialog_button">
+        <item>18dp</item>
+        <item>@color/white</item>
+        <item>11</item>
+        <item>@drawable/btn_dialogue_selector</item>
+    </style>
+    <style name="dialog_button">
+        <item>18dp</item>
+        <item>@color/white</item>
+        <item>11</item>
+        <item>@drawable/btn_dialogue_selector</item>
+    </style>
+    <style name="dialog_button">
+        <item>18dp</item>
+        <item>@color/white</item>
+        <item>11</item>
+        <item>@drawable/btn_dialogue_selector</item>
+    </style>
+    <style name="dialog_button">
+        <item>18dp</item>
+        <item>@color/white</item>
+        <item>11</item>
+        <item>@drawable/btn_dialogue_selector</item>
+    </style>
+    <style name="dialog_message">
+        <item>18dp</item>
+        <item>@color/n_darkgray</item>
+    </style>
+    <style name="dialog_message">
+        <item>18dp</item>
+        <item>@color/n_darkgray</item>
+    </style>
+    <style name="dialog_message">
+        <item>18dp</item>
+        <item>@color/n_darkgray</item>
+    </style>
+    <style name="dialog_message">
+        <item>18dp</item>
+        <item>@color/n_darkgray</item>
+    </style>
+    <style name="dialog_title">
+        <item>18dp</item>
+        <item>@color/n_darkgray</item>
+    </style>
+    <style name="dialog_title">
+        <item>18dp</item>
+        <item>@color/n_darkgray</item>
+    </style>
+    <style name="dialog_title">
+        <item>18dp</item>
+        <item>@color/n_darkgray</item>
+    </style>
+    <style name="dialog_title">
+        <item>18dp</item>
+        <item>@color/n_darkgray</item>
+    </style>
+    <style name="fragment_scroll">
+        <item>0</item>
+        <item>0</item>
+        <item>2</item>
+    </style>
+    <style name="fragment_scroll">
+        <item>0</item>
+        <item>0</item>
+        <item>2</item>
+    </style>
+    <style name="fragment_scroll">
+        <item>0</item>
+        <item>0</item>
+        <item>2</item>
+    </style>
+    <style name="fragment_scroll">
+        <item>0</item>
+        <item>0</item>
+        <item>2</item>
+    </style>
+    <style name="gray12">
+        <item>12dp</item>
+        <item>@color/gray</item>
+    </style>
+    <style name="gray12">
+        <item>12dp</item>
+        <item>@color/gray</item>
+    </style>
+    <style name="gray12">
+        <item>12dp</item>
+        <item>@color/gray</item>
+    </style>
+    <style name="gray12">
+        <item>12dp</item>
+        <item>@color/gray</item>
+    </style>
+    <style name="gray13">
+        <item>13dp</item>
+        <item>@color/gray</item>
+    </style>
+    <style name="gray13">
+        <item>13dp</item>
+        <item>@color/gray</item>
+    </style>
+    <style name="gray13">
+        <item>13dp</item>
+        <item>@color/gray</item>
+    </style>
+    <style name="gray13">
+        <item>13dp</item>
+        <item>@color/gray</item>
+    </style>
+    <style name="gray14">
+        <item>12dp</item>
+        <item>@color/gray</item>
+    </style>
+    <style name="gray14">
+        <item>12dp</item>
+        <item>@color/gray</item>
+    </style>
+    <style name="gray14">
+        <item>12dp</item>
+        <item>@color/gray</item>
+    </style>
+    <style name="gray14">
+        <item>12dp</item>
+        <item>@color/gray</item>
+    </style>
+    <style name="gray15">
+        <item>15dp</item>
+        <item>@color/gray</item>
+    </style>
+    <style name="gray15">
+        <item>15dp</item>
+        <item>@color/gray</item>
+    </style>
+    <style name="gray15">
+        <item>15dp</item>
+        <item>@color/gray</item>
+    </style>
+    <style name="gray15">
+        <item>15dp</item>
+        <item>@color/gray</item>
+    </style>
+    <style name="gray16">
+        <item>16dp</item>
+        <item>@color/gray</item>
+    </style>
+    <style name="gray16">
+        <item>16dp</item>
+        <item>@color/gray</item>
+    </style>
+    <style name="gray16">
+        <item>16dp</item>
+        <item>@color/gray</item>
+    </style>
+    <style name="gray16">
+        <item>16dp</item>
+        <item>@color/gray</item>
+    </style>
+    <style name="gray16b">
+        <item>16dp</item>
+        <item>1</item>
+        <item>@color/gray</item>
+    </style>
+    <style name="gray16b">
+        <item>16dp</item>
+        <item>1</item>
+        <item>@color/gray</item>
+    </style>
+    <style name="gray16b">
+        <item>16dp</item>
+        <item>1</item>
+        <item>@color/gray</item>
+    </style>
+    <style name="gray16b">
+        <item>16dp</item>
+        <item>1</item>
+        <item>@color/gray</item>
+    </style>
+    <style name="gray18">
+        <item>18dp</item>
+        <item>@color/gray</item>
+    </style>
+    <style name="gray18">
+        <item>18dp</item>
+        <item>@color/gray</item>
+    </style>
+    <style name="gray18">
+        <item>18dp</item>
+        <item>@color/gray</item>
+    </style>
+    <style name="gray18">
+        <item>18dp</item>
+        <item>@color/gray</item>
+    </style>
+    <style name="gray18b">
+        <item>18dp</item>
+        <item>1</item>
+        <item>@color/gray</item>
+    </style>
+    <style name="gray18b">
+        <item>18dp</item>
+        <item>1</item>
+        <item>@color/gray</item>
+    </style>
+    <style name="gray18b">
+        <item>18dp</item>
+        <item>1</item>
+        <item>@color/gray</item>
+    </style>
+    <style name="gray18b">
+        <item>18dp</item>
+        <item>1</item>
+        <item>@color/gray</item>
+    </style>
+    <style name="gray24">
+        <item>24dp</item>
+        <item>@color/gray</item>
+    </style>
+    <style name="gray24">
+        <item>24dp</item>
+        <item>@color/gray</item>
+    </style>
+    <style name="gray24">
+        <item>24dp</item>
+        <item>@color/gray</item>
+    </style>
+    <style name="gray24">
+        <item>24dp</item>
+        <item>@color/gray</item>
+    </style>
+    <style name="history_list_bold">
+        <item>@dimen/button_font_small</item>
+        <item>1</item>
+        <item>@color/black</item>
+    </style>
+    <style name="history_list_bold">
+        <item>@dimen/button_font_small</item>
+        <item>1</item>
+        <item>@color/black</item>
+    </style>
+    <style name="history_list_bold">
+        <item>@dimen/button_font_small</item>
+        <item>1</item>
+        <item>@color/black</item>
+    </style>
+    <style name="history_list_bold">
+        <item>@dimen/button_font_small</item>
+        <item>1</item>
+        <item>@color/black</item>
+    </style>
+    <style name="info_message">
+        <item>16dp</item>
+        <item>@color/gray</item>
+    </style>
+    <style name="info_message">
+        <item>16dp</item>
+        <item>@color/gray</item>
+    </style>
+    <style name="info_message">
+        <item>16dp</item>
+        <item>@color/gray</item>
+    </style>
+    <style name="info_message">
+        <item>16dp</item>
+        <item>@color/gray</item>
+    </style>
+    <style name="input_edittext">
+        <item>11</item>
+        <item>@drawable/edittext_selector</item>
+        <item>40dp</item>
+        <item>1</item>
+        <item>true</item>
+        <item>?unknown_ref: 0</item>
+    </style>
+    <style name="input_edittext">
+        <item>3</item>
+        <item>@drawable/edittext_selector</item>
+        <item>40dp</item>
+        <item>1</item>
+        <item>true</item>
+        <item>?unknown_ref: 0</item>
+    </style>
+    <style name="input_edittext">
+        <item>11</item>
+        <item>@drawable/edittext_selector</item>
+        <item>40dp</item>
+        <item>1</item>
+        <item>true</item>
+        <item>?unknown_ref: 0</item>
+    </style>
+    <style name="input_edittext">
+        <item>11</item>
+        <item>@drawable/edittext_selector</item>
+        <item>40dp</item>
+        <item>1</item>
+        <item>true</item>
+        <item>?unknown_ref: 0</item>
+    </style>
+    <style name="input_multiline_edittext">
+        <item>2</item>
+    </style>
+    <style name="input_multiline_edittext">
+        <item>2</item>
+    </style>
+    <style name="input_multiline_edittext">
+        <item>2</item>
+    </style>
+    <style name="input_multiline_edittext">
+        <item>2</item>
+    </style>
+    <style name="input_pin">
+        <item>11</item>
+        <item>@drawable/img_inputcell</item>
+        <item>0dp</item>
+        <item>true</item>
+        <item>true</item>
+        <item>1</item>
+    </style>
+    <style name="input_pin">
+        <item>11</item>
+        <item>@drawable/img_inputcell</item>
+        <item>0dp</item>
+        <item>true</item>
+        <item>true</item>
+        <item>1</item>
+    </style>
+    <style name="input_pin">
+        <item>11</item>
+        <item>@drawable/img_inputcell</item>
+        <item>0dp</item>
+        <item>true</item>
+        <item>true</item>
+        <item>1</item>
+    </style>
+    <style name="input_pin">
+        <item>11</item>
+        <item>@drawable/img_inputcell</item>
+        <item>0dp</item>
+        <item>true</item>
+        <item>true</item>
+        <item>1</item>
+    </style>
+    <style name="main_button">
+        <item>@dimen/main_button_font_size</item>
+        <item>@color/white</item>
+    </style>
+    <style name="main_button">
+        <item>@dimen/main_button_font_size</item>
+        <item>@color/white</item>
+    </style>
+    <style name="main_button">
+        <item>@dimen/main_button_font_size</item>
+        <item>@color/white</item>
+    </style>
+    <style name="main_button">
+        <item>@dimen/main_button_font_size</item>
+        <item>@color/white</item>
+    </style>
+    <style name="orange10">
+        <item>10dp</item>
+        <item>@color/orange</item>
+    </style>
+    <style name="orange10">
+        <item>10dp</item>
+        <item>@color/orange</item>
+    </style>
+    <style name="orange10">
+        <item>10dp</item>
+        <item>@color/orange</item>
+    </style>
+    <style name="orange10">
+        <item>10dp</item>
+        <item>@color/orange</item>
+    </style>
+    <style name="orange12">
+        <item>12dp</item>
+        <item>@color/orange</item>
+    </style>
+    <style name="orange12">
+        <item>12dp</item>
+        <item>@color/orange</item>
+    </style>
+    <style name="orange12">
+        <item>12dp</item>
+        <item>@color/orange</item>
+    </style>
+    <style name="orange12">
+        <item>12dp</item>
+        <item>@color/orange</item>
+    </style>
+    <style name="orange14">
+        <item>14dp</item>
+        <item>@color/orange</item>
+    </style>
+    <style name="orange14">
+        <item>14dp</item>
+        <item>@color/orange</item>
+    </style>
+    <style name="orange14">
+        <item>14dp</item>
+        <item>@color/orange</item>
+    </style>
+    <style name="orange14">
+        <item>14dp</item>
+        <item>@color/orange</item>
+    </style>
+    <style name="orange16">
+        <item>16dp</item>
+        <item>1</item>
+        <item>@color/orange</item>
+    </style>
+    <style name="orange16">
+        <item>16dp</item>
+        <item>1</item>
+        <item>@color/orange</item>
+    </style>
+    <style name="orange16">
+        <item>16dp</item>
+        <item>1</item>
+        <item>@color/orange</item>
+    </style>
+    <style name="orange16">
+        <item>16dp</item>
+        <item>1</item>
+        <item>@color/orange</item>
+    </style>
+    <style name="orange18">
+        <item>18dp</item>
+        <item>@color/orange</item>
+    </style>
+    <style name="orange18">
+        <item>18dp</item>
+        <item>@color/orange</item>
+    </style>
+    <style name="orange18">
+        <item>18dp</item>
+        <item>@color/orange</item>
+    </style>
+    <style name="orange18">
+        <item>18dp</item>
+        <item>@color/orange</item>
+    </style>
+    <style name="orange18b">
+        <item>18dp</item>
+        <item>1</item>
+        <item>@color/orange</item>
+    </style>
+    <style name="orange18b">
+        <item>18dp</item>
+        <item>1</item>
+        <item>@color/orange</item>
+    </style>
+    <style name="orange18b">
+        <item>18dp</item>
+        <item>1</item>
+        <item>@color/orange</item>
+    </style>
+    <style name="orange18b">
+        <item>18dp</item>
+        <item>1</item>
+        <item>@color/orange</item>
+    </style>
+    <style name="orange20b">
+        <item>20dp</item>
+        <item>1</item>
+        <item>@color/orange</item>
+    </style>
+    <style name="orange20b">
+        <item>20dp</item>
+        <item>1</item>
+        <item>@color/orange</item>
+    </style>
+    <style name="orange20b">
+        <item>20dp</item>
+        <item>1</item>
+        <item>@color/orange</item>
+    </style>
+    <style name="orange20b">
+        <item>20dp</item>
+        <item>1</item>
+        <item>@color/orange</item>
+    </style>
+    <style name="pay_date">
+        <item>@dimen/pay_date_font</item>
+        <item>@color/black</item>
+    </style>
+    <style name="pay_date">
+        <item>@dimen/pay_date_font</item>
+        <item>@color/black</item>
+    </style>
+    <style name="pay_date">
+        <item>@dimen/pay_date_font</item>
+        <item>@color/black</item>
+    </style>
+    <style name="pay_date">
+        <item>@dimen/pay_date_font</item>
+        <item>@color/black</item>
+    </style>
+    <style name="picker_imageview">
+        <item>?unknown_ref: 0</item>
+        <item>@drawable/btn_picker_selector</item>
+    </style>
+    <style name="picker_imageview">
+        <item>?unknown_ref: 0</item>
+        <item>@drawable/btn_picker_selector</item>
+    </style>
+    <style name="picker_imageview">
+        <item>?unknown_ref: 0</item>
+        <item>@drawable/btn_picker_selector</item>
+    </style>
+    <style name="picker_imageview">
+        <item>?unknown_ref: 0</item>
+        <item>@drawable/btn_picker_selector</item>
+    </style>
+    <style name="popActivityStyle">
+        <item>true</item>
+    </style>
+    <style name="popActivityStyle">
+        <item>true</item>
+    </style>
+    <style name="popActivityStyle">
+        <item>true</item>
+    </style>
+    <style name="popActivityStyle">
+        <item>true</item>
+    </style>
+    <style name="red12">
+        <item>12dp</item>
+        <item>@color/red</item>
+    </style>
+    <style name="red12">
+        <item>12dp</item>
+        <item>@color/red</item>
+    </style>
+    <style name="red12">
+        <item>12dp</item>
+        <item>@color/red</item>
+    </style>
+    <style name="red12">
+        <item>12dp</item>
+        <item>@color/red</item>
+    </style>
+    <style name="red14">
+        <item>12dp</item>
+        <item>@color/red</item>
+    </style>
+    <style name="red14">
+        <item>12dp</item>
+        <item>@color/red</item>
+    </style>
+    <style name="red14">
+        <item>12dp</item>
+        <item>@color/red</item>
+    </style>
+    <style name="red14">
+        <item>12dp</item>
+        <item>@color/red</item>
+    </style>
+    <style name="red15">
+        <item>15dp</item>
+        <item>1</item>
+        <item>@color/red</item>
+    </style>
+    <style name="red15">
+        <item>15dp</item>
+        <item>1</item>
+        <item>@color/red</item>
+    </style>
+    <style name="red15">
+        <item>15dp</item>
+        <item>1</item>
+        <item>@color/red</item>
+    </style>
+    <style name="red15">
+        <item>15dp</item>
+        <item>1</item>
+        <item>@color/red</item>
+    </style>
+    <style name="red15b">
+        <item>15dp</item>
+        <item>1</item>
+        <item>@color/red</item>
+    </style>
+    <style name="red15b">
+        <item>15dp</item>
+        <item>1</item>
+        <item>@color/red</item>
+    </style>
+    <style name="red15b">
+        <item>15dp</item>
+        <item>1</item>
+        <item>@color/red</item>
+    </style>
+    <style name="red15b">
+        <item>15dp</item>
+        <item>1</item>
+        <item>@color/red</item>
+    </style>
+    <style name="red16">
+        <item>16dp</item>
+        <item>@color/red</item>
+    </style>
+    <style name="red16">
+        <item>16dp</item>
+        <item>@color/red</item>
+    </style>
+    <style name="red16">
+        <item>16dp</item>
+        <item>@color/red</item>
+    </style>
+    <style name="red16">
+        <item>16dp</item>
+        <item>@color/red</item>
+    </style>
+    <style name="red16b">
+        <item>16dp</item>
+        <item>1</item>
+        <item>@color/red</item>
+    </style>
+    <style name="red16b">
+        <item>16dp</item>
+        <item>1</item>
+        <item>@color/red</item>
+    </style>
+    <style name="red16b">
+        <item>16dp</item>
+        <item>1</item>
+        <item>@color/red</item>
+    </style>
+    <style name="red16b">
+        <item>16dp</item>
+        <item>1</item>
+        <item>@color/red</item>
+    </style>
+    <style name="red18">
+        <item>18dp</item>
+        <item>@color/red</item>
+    </style>
+    <style name="red18">
+        <item>18dp</item>
+        <item>@color/red</item>
+    </style>
+    <style name="red18">
+        <item>18dp</item>
+        <item>@color/red</item>
+    </style>
+    <style name="red18">
+        <item>18dp</item>
+        <item>@color/red</item>
+    </style>
+    <style name="red18b">
+        <item>18dp</item>
+        <item>1</item>
+        <item>@color/red</item>
+    </style>
+    <style name="red18b">
+        <item>18dp</item>
+        <item>1</item>
+        <item>@color/red</item>
+    </style>
+    <style name="red18b">
+        <item>18dp</item>
+        <item>1</item>
+        <item>@color/red</item>
+    </style>
+    <style name="red18b">
+        <item>18dp</item>
+        <item>1</item>
+        <item>@color/red</item>
+    </style>
+    <style name="red20b">
+        <item>20dp</item>
+        <item>1</item>
+        <item>@color/red</item>
+    </style>
+    <style name="red20b">
+        <item>20dp</item>
+        <item>1</item>
+        <item>@color/red</item>
+    </style>
+    <style name="red20b">
+        <item>20dp</item>
+        <item>1</item>
+        <item>@color/red</item>
+    </style>
+    <style name="red20b">
+        <item>20dp</item>
+        <item>1</item>
+        <item>@color/red</item>
+    </style>
+    <style name="red30b">
+        <item>30dp</item>
+        <item>1</item>
+        <item>@color/red</item>
+    </style>
+    <style name="red30b">
+        <item>30dp</item>
+        <item>1</item>
+        <item>@color/red</item>
+    </style>
+    <style name="red30b">
+        <item>30dp</item>
+        <item>1</item>
+        <item>@color/red</item>
+    </style>
+    <style name="red30b">
+        <item>30dp</item>
+        <item>1</item>
+        <item>@color/red</item>
+    </style>
+    <style name="setting_menu">
+        <item>@dimen/setting_menu_font26</item>
+        <item>1</item>
+        <item>@color/black</item>
+    </style>
+    <style name="setting_menu">
+        <item>@dimen/setting_menu_font26</item>
+        <item>1</item>
+        <item>@color/black</item>
+    </style>
+    <style name="setting_menu">
+        <item>@dimen/setting_menu_font26</item>
+        <item>1</item>
+        <item>@color/black</item>
+    </style>
+    <style name="setting_menu">
+        <item>@dimen/setting_menu_font26</item>
+        <item>1</item>
+        <item>@color/black</item>
+    </style>
+    <style name="small_desc">
+        <item>16dp</item>
+        <item>@color/n_darkgray</item>
+    </style>
+    <style name="small_desc">
+        <item>16dp</item>
+        <item>@color/n_darkgray</item>
+    </style>
+    <style name="small_desc">
+        <item>16dp</item>
+        <item>@color/n_darkgray</item>
+    </style>
+    <style name="small_desc">
+        <item>16dp</item>
+        <item>@color/black</item>
+    </style>
+    <style name="tcash_bottom_layout">
+        <item>1</item>
+        <item>@color/n_lightgray</item>
+        <item>18dp</item>
+    </style>
+    <style name="tcash_bottom_layout">
+        <item>1</item>
+        <item>@color/n_lightgray</item>
+        <item>18dp</item>
+    </style>
+    <style name="tcash_bottom_layout">
+        <item>1</item>
+        <item>@color/n_lightgray</item>
+        <item>18dp</item>
+    </style>
+    <style name="tcash_bottom_layout">
+        <item>1</item>
+        <item>@color/n_lightgray</item>
+        <item>18dp</item>
+    </style>
+    <style name="tcash_forget_pin_button">
+        <item>?unknown_ref: 0</item>
+    </style>
+    <style name="tcash_forget_pin_button">
+        <item>?unknown_ref: 0</item>
+    </style>
+    <style name="tcash_forget_pin_button">
+        <item>?unknown_ref: 0</item>
+    </style>
+    <style name="tcash_forget_pin_button">
+        <item>?unknown_ref: 0</item>
+    </style>
+    <style name="tcash_fragment_layout">
+        <item>?unknown_ref: 0</item>
+        <item>8dp</item>
+    </style>
+    <style name="tcash_fragment_layout">
+        <item>?unknown_ref: 0</item>
+        <item>8dp</item>
+    </style>
+    <style name="tcash_fragment_layout">
+        <item>?unknown_ref: 0</item>
+        <item>8dp</item>
+    </style>
+    <style name="tcash_fragment_layout">
+        <item>?unknown_ref: 0</item>
+        <item>8dp</item>
+    </style>
+    <style name="tcash_fragment_title">
+        <item>14dp</item>
+        <item>@color/red</item>
+        <item>11</item>
+    </style>
+    <style name="tcash_fragment_title">
+        <item>14dp</item>
+        <item>@color/red</item>
+        <item>11</item>
+    </style>
+    <style name="tcash_fragment_title">
+        <item>14dp</item>
+        <item>@color/red</item>
+        <item>11</item>
+    </style>
+    <style name="tcash_fragment_title">
+        <item>14dp</item>
+        <item>@color/n_red</item>
+        <item>11</item>
+    </style>
+    <style name="tcash_fragment_title_bold">
+        <item>14dp</item>
+        <item>1</item>
+        <item>@color/red</item>
+        <item>11</item>
+    </style>
+    <style name="tcash_fragment_title_bold">
+        <item>14dp</item>
+        <item>1</item>
+        <item>@color/red</item>
+        <item>11</item>
+    </style>
+    <style name="tcash_fragment_title_bold">
+        <item>14dp</item>
+        <item>1</item>
+        <item>@color/red</item>
+        <item>11</item>
+    </style>
+    <style name="tcash_fragment_title_bold">
+        <item>14dp</item>
+        <item>1</item>
+        <item>@color/n_red</item>
+        <item>11</item>
+    </style>
+    <style name="tcash_main_button">
+        <item>16dp</item>
+        <item>1</item>
+        <item>@drawable/btn_menu_selector</item>
+    </style>
+    <style name="tcash_main_button">
+        <item>16dp</item>
+        <item>1</item>
+        <item>@drawable/btn_menu_selector</item>
+    </style>
+    <style name="tcash_main_button">
+        <item>16dp</item>
+        <item>1</item>
+        <item>@drawable/btn_menu_selector</item>
+    </style>
+    <style name="tcash_main_button">
+        <item>16dp</item>
+        <item>1</item>
+        <item>@drawable/btn_menu_selector</item>
+    </style>
+    <style name="tcash_main_button_txt">
+        <item>16dp</item>
+        <item>1</item>
+        <item>@color/white</item>
+        <item>11</item>
+    </style>
+    <style name="tcash_main_button_txt">
+        <item>16dp</item>
+        <item>1</item>
+        <item>@color/white</item>
+        <item>11</item>
+    </style>
+    <style name="tcash_main_button_txt">
+        <item>16dp</item>
+        <item>1</item>
+        <item>@color/white</item>
+        <item>11</item>
+    </style>
+    <style name="tcash_main_button_txt">
+        <item>16dp</item>
+        <item>1</item>
+        <item>@color/white</item>
+        <item>11</item>
+    </style>
+    <style name="tcash_menu_dialog">
+        <item>?unknown_ref: 106000d</item>
+        <item>true</item>
+        <item>true</item>
+        <item>?unknown_ref: 106000d</item>
+        <item>true</item>
+        <item>?unknown_ref: 0</item>
+    </style>
+    <style name="tcash_menu_dialog">
+        <item>?unknown_ref: 106000d</item>
+        <item>true</item>
+        <item>true</item>
+        <item>?unknown_ref: 106000d</item>
+        <item>true</item>
+        <item>?unknown_ref: 0</item>
+    </style>
+    <style name="tcash_menu_dialog">
+        <item>?unknown_ref: 106000d</item>
+        <item>true</item>
+        <item>true</item>
+        <item>?unknown_ref: 106000d</item>
+        <item>true</item>
+        <item>?unknown_ref: 0</item>
+    </style>
+    <style name="tcash_menu_dialog">
+        <item>?unknown_ref: 106000d</item>
+        <item>true</item>
+        <item>true</item>
+        <item>?unknown_ref: 106000d</item>
+        <item>true</item>
+        <item>?unknown_ref: 0</item>
+    </style>
+    <style name="tcash_menu_scroll">
+        <item>25dp</item>
+        <item>25dp</item>
+        <item>0</item>
+        <item>0</item>
+        <item>2</item>
+    </style>
+    <style name="tcash_menu_scroll">
+        <item>25dp</item>
+        <item>25dp</item>
+        <item>0</item>
+        <item>0</item>
+        <item>2</item>
+    </style>
+    <style name="tcash_menu_scroll">
+        <item>25dp</item>
+        <item>25dp</item>
+        <item>0</item>
+        <item>0</item>
+        <item>2</item>
+    </style>
+    <style name="tcash_menu_scroll">
+        <item>25dp</item>
+        <item>25dp</item>
+        <item>0</item>
+        <item>0</item>
+        <item>2</item>
+    </style>
+    <style name="tcash_scroll">
+        <item>40dp</item>
+        <item>40dp</item>
+        <item>0</item>
+        <item>0</item>
+        <item>2</item>
+    </style>
+    <style name="tcash_scroll">
+        <item>40dp</item>
+        <item>40dp</item>
+        <item>0</item>
+        <item>0</item>
+        <item>2</item>
+    </style>
+    <style name="tcash_scroll">
+        <item>40dp</item>
+        <item>40dp</item>
+        <item>0</item>
+        <item>0</item>
+        <item>2</item>
+    </style>
+    <style name="tcash_scroll">
+        <item>0</item>
+        <item>0</item>
+        <item>2</item>
+    </style>
+    <style name="tcash_sub_menu_head">
+        <item>16dp</item>
+        <item>1</item>
+        <item>@color/white</item>
+        <item>@drawable/img_sub_head</item>
+    </style>
+    <style name="tcash_sub_menu_head">
+        <item>16dp</item>
+        <item>1</item>
+        <item>@color/white</item>
+        <item>@drawable/img_sub_head</item>
+    </style>
+    <style name="tcash_sub_menu_head">
+        <item>16dp</item>
+        <item>1</item>
+        <item>@color/white</item>
+        <item>@drawable/img_sub_head</item>
+    </style>
+    <style name="tcash_sub_menu_head">
+        <item>16dp</item>
+        <item>1</item>
+        <item>@color/white</item>
+        <item>@drawable/img_sub_head</item>
+    </style>
+    <style name="tcash_sub_menu_head_noicon">
+        <item>11</item>
+    </style>
+    <style name="tcash_sub_menu_head_noicon">
+        <item>11</item>
+    </style>
+    <style name="tcash_sub_menu_head_noicon">
+        <item>11</item>
+    </style>
+    <style name="tcash_sub_menu_head_noicon">
+        <item>11</item>
+    </style>
+    <style name="tcash_time_edittext">
+        <item>23dp</item>
+        <item>1</item>
+        <item>@color/red</item>
+        <item>11</item>
+        <item>@drawable/bg_minute</item>
+        <item>0dp</item>
+        <item>true</item>
+        <item>true</item>
+    </style>
+    <style name="tcash_time_edittext">
+        <item>23dp</item>
+        <item>1</item>
+        <item>@color/red</item>
+        <item>11</item>
+        <item>@drawable/img_inputcell</item>
+        <item>0dp</item>
+        <item>true</item>
+        <item>true</item>
+    </style>
+    <style name="tcash_time_edittext">
+        <item>23dp</item>
+        <item>1</item>
+        <item>@color/red</item>
+        <item>11</item>
+        <item>@drawable/bg_minute</item>
+        <item>0dp</item>
+        <item>true</item>
+        <item>true</item>
+    </style>
+    <style name="tcash_time_edittext">
+        <item>23dp</item>
+        <item>1</item>
+        <item>@color/red</item>
+        <item>11</item>
+        <item>@drawable/bg_minute</item>
+        <item>0dp</item>
+        <item>true</item>
+        <item>true</item>
+    </style>
+    <style name="tcash_token_edittext">
+        <item>20dp</item>
+        <item>1</item>
+        <item>@color/n_darkgray</item>
+        <item>11</item>
+        <item>@drawable/img_inputcell</item>
+        <item>0dp</item>
+        <item>true</item>
+        <item>true</item>
+    </style>
+    <style name="tcash_token_edittext">
+        <item>20dp</item>
+        <item>1</item>
+        <item>@color/n_darkgray</item>
+        <item>11</item>
+        <item>@drawable/shape_edittext_token</item>
+        <item>0dp</item>
+        <item>true</item>
+        <item>true</item>
+    </style>
+    <style name="tcash_token_edittext">
+        <item>20dp</item>
+        <item>1</item>
+        <item>@color/n_darkgray</item>
+        <item>11</item>
+        <item>@drawable/shape_edittext_token</item>
+        <item>0dp</item>
+        <item>true</item>
+        <item>true</item>
+    </style>
+    <style name="tcash_token_edittext">
+        <item>36dp</item>
+        <item>1</item>
+        <item>@color/n_red</item>
+        <item>11</item>
+        <item>@drawable/shape_edittext_token</item>
+        <item>0dp</item>
+        <item>true</item>
+        <item>true</item>
+    </style>
+    <style name="tcash_top_balance">
+        <item>25dp</item>
+        <item>1</item>
+        <item>@color/white</item>
+    </style>
+    <style name="tcash_top_balance">
+        <item>25dp</item>
+        <item>1</item>
+        <item>@color/white</item>
+    </style>
+    <style name="tcash_top_balance">
+        <item>25dp</item>
+        <item>1</item>
+        <item>@color/white</item>
+    </style>
+    <style name="tcash_top_balance">
+        <item>25dp</item>
+        <item>1</item>
+        <item>@color/white</item>
+    </style>
+    <style name="tcash_top_balance_coin">
+        <item>16dp</item>
+        <item>1</item>
+        <item>@color/n_darkgray</item>
+    </style>
+    <style name="tcash_top_balance_coin">
+        <item>16dp</item>
+        <item>1</item>
+        <item>@color/n_darkgray</item>
+    </style>
+    <style name="tcash_top_balance_coin">
+        <item>16dp</item>
+        <item>1</item>
+        <item>@color/n_darkgray</item>
+    </style>
+    <style name="tcash_top_balance_coin">
+        <item>16dp</item>
+        <item>1</item>
+        <item>@color/n_darkgray</item>
+    </style>
+    <style name="tcash_top_layout">
+        <item>?unknown_ref: 0</item>
+        <item>25dp</item>
+        <item>18dp</item>
+    </style>
+    <style name="tcash_top_layout">
+        <item>?unknown_ref: 0</item>
+        <item>25dp</item>
+        <item>18dp</item>
+    </style>
+    <style name="tcash_top_layout">
+        <item>?unknown_ref: 0</item>
+        <item>25dp</item>
+        <item>18dp</item>
+    </style>
+    <style name="tcash_top_layout">
+        <item>?unknown_ref: 0</item>
+        <item>25dp</item>
+        <item>18dp</item>
+    </style>
+    <style name="tcash_top_logo">
+        <item>@drawable/img_tcash_card</item>
+    </style>
+    <style name="tcash_top_logo">
+        <item>@drawable/img_tcash_card</item>
+    </style>
+    <style name="tcash_top_logo">
+        <item>@drawable/img_tcash_card</item>
+    </style>
+    <style name="tcash_top_logo">
+        <item>@drawable/img_tcash_card</item>
+    </style>
+    <style name="tcash_top_service_description">
+        <item>13dp</item>
+        <item>@color/n_darkgray</item>
+    </style>
+    <style name="tcash_top_service_description">
+        <item>13dp</item>
+        <item>@color/n_darkgray</item>
+    </style>
+    <style name="tcash_top_service_description">
+        <item>13dp</item>
+        <item>@color/n_darkgray</item>
+    </style>
+    <style name="tcash_top_service_description">
+        <item>13dp</item>
+        <item>@color/white</item>
+    </style>
+    <style name="tcash_top_service_type">
+        <item>14dp</item>
+        <item>1</item>
+        <item>@color/red</item>
+    </style>
+    <style name="tcash_top_service_type">
+        <item>14dp</item>
+        <item>1</item>
+        <item>@color/red</item>
+    </style>
+    <style name="tcash_top_service_type">
+        <item>14dp</item>
+        <item>1</item>
+        <item>@color/red</item>
+    </style>
+    <style name="tcash_top_service_type">
+        <item>14dp</item>
+        <item>1</item>
+        <item>@color/white</item>
+    </style>
+    <style name="titlebar_text">
+        <item>@dimen/title_font_size</item>
+        <item>0</item>
+        <item>@color/red</item>
+        <item>11</item>
+    </style>
+    <style name="titlebar_text">
+        <item>@dimen/title_font_size</item>
+        <item>0</item>
+        <item>@color/red</item>
+        <item>11</item>
+    </style>
+    <style name="titlebar_text">
+        <item>@dimen/title_font_size</item>
+        <item>0</item>
+        <item>@color/red</item>
+        <item>11</item>
+    </style>
+    <style name="titlebar_text">
+        <item>@dimen/title_font_size</item>
+        <item>0</item>
+        <item>@color/red</item>
+        <item>11</item>
+    </style>
+    <style name="titlebar_twallet">
+        <item>@dimen/title_font_size</item>
+        <item>0</item>
+        <item>@color/white</item>
+        <item>11</item>
+    </style>
+    <style name="titlebar_twallet">
+        <item>@dimen/title_font_size</item>
+        <item>0</item>
+        <item>@color/white</item>
+        <item>11</item>
+    </style>
+    <style name="titlebar_twallet">
+        <item>@dimen/title_font_size</item>
+        <item>0</item>
+        <item>@color/white</item>
+        <item>11</item>
+    </style>
+    <style name="titlebar_twallet">
+        <item>@dimen/n_title_font_size</item>
+        <item>0</item>
+        <item>@color/white</item>
+        <item>11</item>
+    </style>
+    <style name="white15">
+        <item>15sp</item>
+        <item>@color/white</item>
+    </style>
+    <style name="white15">
+        <item>15sp</item>
+        <item>@color/white</item>
+    </style>
+    <style name="white15">
+        <item>15sp</item>
+        <item>@color/white</item>
+    </style>
+    <style name="white15">
+        <item>15sp</item>
+        <item>@color/white</item>
+    </style>
+    <style name="white15b">
+        <item>15sp</item>
+        <item>1</item>
+        <item>@color/white</item>
+    </style>
+    <style name="white15b">
+        <item>15sp</item>
+        <item>1</item>
+        <item>@color/white</item>
+    </style>
+    <style name="white15b">
+        <item>15sp</item>
+        <item>1</item>
+        <item>@color/white</item>
+    </style>
+    <style name="white15b">
+        <item>15sp</item>
+        <item>1</item>
+        <item>@color/white</item>
+    </style>
+    <style name="white16">
+        <item>16dp</item>
+        <item>@color/white</item>
+    </style>
+    <style name="white16">
+        <item>16dp</item>
+        <item>@color/white</item>
+    </style>
+    <style name="white16">
+        <item>16dp</item>
+        <item>@color/white</item>
+    </style>
+    <style name="white16">
+        <item>16dp</item>
+        <item>@color/white</item>
+    </style>
+    <style name="white19b">
+        <item>@dimen/button_font_small</item>
+        <item>1</item>
+        <item>@color/white</item>
+    </style>
+    <style name="white19b">
+        <item>@dimen/button_font_small</item>
+        <item>1</item>
+        <item>@color/white</item>
+    </style>
+    <style name="white19b">
+        <item>@dimen/button_font_small</item>
+        <item>1</item>
+        <item>@color/white</item>
+    </style>
+    <style name="white19b">
+        <item>@dimen/button_font_small</item>
+        <item>1</item>
+        <item>@color/white</item>
+    </style>
+    <style name="white20">
+        <item>20sp</item>
+        <item>@color/white</item>
+    </style>
+    <style name="white20">
+        <item>20sp</item>
+        <item>@color/white</item>
+    </style>
+    <style name="white20">
+        <item>20sp</item>
+        <item>@color/white</item>
+    </style>
+    <style name="white20">
+        <item>20sp</item>
+        <item>@color/white</item>
+    </style>
+    <style name="white25">
+        <item>25sp</item>
+        <item>@color/white</item>
+    </style>
+    <style name="white25">
+        <item>25sp</item>
+        <item>@color/white</item>
+    </style>
+    <style name="white25">
+        <item>25sp</item>
+        <item>@color/white</item>
+    </style>
+    <style name="white25">
+        <item>25sp</item>
+        <item>@color/white</item>
+    </style>
+    <style name="AppBaseTheme">
+    </style>
+    <style name="AppBaseTheme">
+    </style>
+    <style name="AppBaseTheme">
+    </style>
+    <style name="Sherlock.__Theme">
+        <item>?unknown_ref: 0</item>
+    </style>
+    <style name="Sherlock.__Theme">
+        <item>true</item>
+        <item>false</item>
+    </style>
+    <style name="Sherlock.__Theme">
+    </style>
+    <style name="Sherlock.__Theme.Light">
+        <item>?unknown_ref: 0</item>
+    </style>
+    <style name="Sherlock.__Theme.Light">
+        <item>true</item>
+        <item>false</item>
+    </style>
+    <style name="Sherlock.__Theme.Light">
+    </style>
+    <style name="Sherlock.__Theme.DarkActionBar">
+    </style>
+    <style name="Sherlock.__Theme.DarkActionBar">
+        <item>@style/Theme.Sherlock</item>
+        <item>?unknown_attr_ref: 10102eb</item>
+        <item>?unknown_attr_ref: 101030e</item>
+        <item>?unknown_attr_ref: 101006d</item>
+        <item>48dp</item>
+    </style>
+    <style name="TextAppearance.Sherlock.Light.Widget.PopupMenu.Large">
+    </style>
+    <style name="TextAppearance.Sherlock.Light.Widget.PopupMenu.Large">
+    </style>
+    <style name="TextAppearance.Sherlock.Light.Widget.PopupMenu.Small">
+    </style>
+    <style name="TextAppearance.Sherlock.Light.Widget.PopupMenu.Small">
+    </style>
+    <style name="TextAppearance.Sherlock.Widget.ActionBar.Menu">
+        <item>12sp</item>
+        <item>1</item>
+        <item>?attr/actionMenuTextColor</item>
+        <item>@bool/abs__config_actionMenuItemAllCaps</item>
+    </style>
+    <style name="TextAppearance.Sherlock.Widget.ActionBar.Menu">
+    </style>
+    <style name="TextAppearance.Sherlock.Widget.ActionBar.Subtitle">
+        <item>@dimen/abs__action_bar_subtitle_text_size</item>
+        <item>?unknown_attr_ref: 1010038</item>
+    </style>
+    <style name="TextAppearance.Sherlock.Widget.ActionBar.Subtitle">
+    </style>
+    <style name="TextAppearance.Sherlock.Widget.ActionBar.Subtitle.Inverse">
+        <item>@dimen/abs__action_bar_subtitle_text_size</item>
+        <item>?unknown_attr_ref: 1010039</item>
+    </style>
+    <style name="TextAppearance.Sherlock.Widget.ActionBar.Subtitle.Inverse">
+    </style>
+    <style name="TextAppearance.Sherlock.Widget.ActionBar.Title">
+        <item>@dimen/abs__action_bar_title_text_size</item>
+        <item>?unknown_attr_ref: 1010036</item>
+    </style>
+    <style name="TextAppearance.Sherlock.Widget.ActionBar.Title">
+    </style>
+    <style name="TextAppearance.Sherlock.Widget.ActionBar.Title.Inverse">
+        <item>@dimen/abs__action_bar_title_text_size</item>
+        <item>?unknown_attr_ref: 1010039</item>
+    </style>
+    <style name="TextAppearance.Sherlock.Widget.ActionBar.Title.Inverse">
+    </style>
+    <style name="TextAppearance.Sherlock.Widget.ActionMode.Subtitle">
+        <item>@dimen/abs__action_bar_subtitle_text_size</item>
+        <item>?unknown_attr_ref: 1010038</item>
+    </style>
+    <style name="TextAppearance.Sherlock.Widget.ActionMode.Subtitle">
+    </style>
+    <style name="TextAppearance.Sherlock.Widget.ActionMode.Subtitle.Inverse">
+        <item>@dimen/abs__action_bar_subtitle_text_size</item>
+        <item>?unknown_attr_ref: 1010039</item>
+    </style>
+    <style name="TextAppearance.Sherlock.Widget.ActionMode.Subtitle.Inverse">
+    </style>
+    <style name="TextAppearance.Sherlock.Widget.ActionMode.Title">
+        <item>@dimen/abs__action_bar_title_text_size</item>
+        <item>?unknown_attr_ref: 1010036</item>
+    </style>
+    <style name="TextAppearance.Sherlock.Widget.ActionMode.Title">
+    </style>
+    <style name="TextAppearance.Sherlock.Widget.ActionMode.Title.Inverse">
+        <item>@dimen/abs__action_bar_title_text_size</item>
+        <item>?unknown_attr_ref: 1010039</item>
+    </style>
+    <style name="TextAppearance.Sherlock.Widget.ActionMode.Title.Inverse">
+    </style>
+    <style name="TextAppearance.Sherlock.Widget.PopupMenu">
+        <item>?attr/textColorPrimary</item>
+    </style>
+    <style name="TextAppearance.Sherlock.Widget.PopupMenu">
+    </style>
+    <style name="TextAppearance.Sherlock.Widget.PopupMenu.Large">
+        <item>18sp</item>
+    </style>
+    <style name="TextAppearance.Sherlock.Widget.PopupMenu.Large">
+    </style>
+    <style name="TextAppearance.Sherlock.Widget.PopupMenu.Small">
+        <item>14sp</item>
+    </style>
+    <style name="TextAppearance.Sherlock.Widget.PopupMenu.Small">
+    </style>
+    <style name="Theme.Sherlock.Light.NoActionBar">
+        <item>true</item>
+        <item>false</item>
+    </style>
+    <style name="Theme.Sherlock.Light.NoActionBar">
+        <item>true</item>
+        <item>false</item>
+    </style>
+    <style name="Theme.Sherlock.NoActionBar">
+        <item>true</item>
+        <item>false</item>
+    </style>
+    <style name="Theme.Sherlock.NoActionBar">
+        <item>true</item>
+        <item>false</item>
+    </style>
+    <style name="Widget.Sherlock.ActionBar">
+        <item>@drawable/abs__ab_transparent_dark_holo</item>
+        <item>@drawable/abs__ab_bottom_transparent_dark_holo</item>
+        <item>?attr/dividerVertical</item>
+        <item>@style/TextAppearance.Sherlock.Widget.ActionBar.Subtitle</item>
+        <item>@style/TextAppearance.Sherlock.Widget.ActionBar.Title</item>
+        <item>@drawable/abs__ab_stacked_transparent_dark_holo</item>
+        <item>@style/Widget.Sherlock.ProgressBar.Horizontal</item>
+        <item>@style/Widget.Sherlock.ProgressBar</item>
+        <item>32dp</item>
+        <item>8dp</item>
+    </style>
+    <style name="Widget.Sherlock.ActionBar">
+    </style>
+    <style name="Widget.Sherlock.ActionBar.Solid">
+        <item>@drawable/abs__ab_solid_dark_holo</item>
+        <item>@drawable/abs__ab_bottom_solid_dark_holo</item>
+        <item>?attr/dividerVertical</item>
+        <item>@style/TextAppearance.Sherlock.Widget.ActionBar.Subtitle</item>
+        <item>@style/TextAppearance.Sherlock.Widget.ActionBar.Title</item>
+        <item>@drawable/abs__ab_stacked_solid_dark_holo</item>
+        <item>@style/Widget.Sherlock.ProgressBar.Horizontal</item>
+        <item>@style/Widget.Sherlock.ProgressBar</item>
+        <item>32dp</item>
+        <item>8dp</item>
+    </style>
+    <style name="Widget.Sherlock.ActionBar.Solid">
+    </style>
+    <style name="Widget.Sherlock.ActionBar.TabBar">
+        <item>?attr/actionBarDivider</item>
+        <item>2</item>
+        <item>12dp</item>
+    </style>
+    <style name="Widget.Sherlock.ActionBar.TabBar">
+    </style>
+    <style name="Widget.Sherlock.ActionBar.TabText">
+        <item>?unknown_ref: 0</item>
+        <item>12sp</item>
+        <item>1</item>
+        <item>?attr/textColorPrimary</item>
+        <item>4</item>
+        <item>2</item>
+        <item>true</item>
+    </style>
+    <style name="Widget.Sherlock.ActionBar.TabText">
+    </style>
+    <style name="Widget.Sherlock.ActionBar.TabView">
+        <item>1</item>
+        <item>@drawable/abs__tab_indicator_ab_holo</item>
+        <item>16dp</item>
+        <item>16dp</item>
+    </style>
+    <style name="Widget.Sherlock.ActionBar.TabView">
+    </style>
+    <style name="Widget.Sherlock.ActionButton">
+        <item>11</item>
+        <item>?attr/actionBarItemBackground</item>
+        <item>12dp</item>
+        <item>12dp</item>
+        <item>5</item>
+        <item>@dimen/abs__action_button_min_width</item>
+        <item>?attr/actionBarSize</item>
+    </style>
+    <style name="Widget.Sherlock.ActionButton">
+    </style>
+    <style name="Widget.Sherlock.ActionButton.CloseMode">
+        <item>@drawable/abs__btn_cab_done_holo_dark</item>
+    </style>
+    <style name="Widget.Sherlock.ActionButton.CloseMode">
+    </style>
+    <style name="Widget.Sherlock.ActionButton.Overflow">
+        <item>?attr/actionBarItemBackground</item>
+        <item>@drawable/abs__ic_menu_moreoverflow_holo_dark</item>
+        <item>@string/abs__action_menu_overflow_description</item>
+    </style>
+    <style name="Widget.Sherlock.ActionButton.Overflow">
+    </style>
+    <style name="Widget.Sherlock.ActionMode">
+        <item>@style/TextAppearance.Sherlock.Widget.ActionMode.Subtitle</item>
+        <item>@style/TextAppearance.Sherlock.Widget.ActionMode.Title</item>
+    </style>
+    <style name="Widget.Sherlock.ActionMode">
+    </style>
+    <style name="Widget.Sherlock.Light.ActionBar">
+        <item>@drawable/abs__ab_transparent_light_holo</item>
+        <item>@drawable/abs__ab_bottom_transparent_light_holo</item>
+        <item>@style/TextAppearance.Sherlock.Widget.ActionBar.Subtitle</item>
+        <item>@style/TextAppearance.Sherlock.Widget.ActionBar.Title</item>
+        <item>@drawable/abs__ab_stacked_transparent_light_holo</item>
+        <item>@style/Widget.Sherlock.Light.ProgressBar.Horizontal</item>
+        <item>@style/Widget.Sherlock.Light.ProgressBar</item>
+        <item>@drawable/abs__ic_ab_back_holo_light</item>
+    </style>
+    <style name="Widget.Sherlock.Light.ActionBar">
+    </style>
+    <style name="Widget.Sherlock.Light.ActionBar.Solid">
+        <item>@drawable/abs__ab_solid_light_holo</item>
+        <item>@drawable/abs__ab_bottom_solid_light_holo</item>
+        <item>?attr/dividerVertical</item>
+        <item>@style/TextAppearance.Sherlock.Widget.ActionBar.Subtitle</item>
+        <item>@style/TextAppearance.Sherlock.Widget.ActionBar.Title</item>
+        <item>@drawable/abs__ab_stacked_solid_light_holo</item>
+        <item>@style/Widget.Sherlock.Light.ProgressBar.Horizontal</item>
+        <item>@style/Widget.Sherlock.Light.ProgressBar</item>
+        <item>32dp</item>
+        <item>8dp</item>
+    </style>
+    <style name="Widget.Sherlock.Light.ActionBar.Solid">
+    </style>
+    <style name="Widget.Sherlock.Light.ActionBar.Solid.Inverse">
+        <item>@drawable/abs__ab_solid_dark_holo</item>
+        <item>@drawable/abs__ab_bottom_solid_inverse_holo</item>
+        <item>@drawable/abs__list_divider_holo_dark</item>
+        <item>@style/TextAppearance.Sherlock.Widget.ActionBar.Subtitle.Inverse</item>
+        <item>@style/TextAppearance.Sherlock.Widget.ActionBar.Title.Inverse</item>
+        <item>@drawable/abs__ab_stacked_solid_dark_holo</item>
+        <item>@style/Widget.Sherlock.ProgressBar.Horizontal</item>
+        <item>@style/Widget.Sherlock.ProgressBar</item>
+        <item>32dp</item>
+        <item>8dp</item>
+    </style>
+    <style name="Widget.Sherlock.Light.ActionBar.Solid.Inverse">
+    </style>
+    <style name="Widget.Sherlock.Light.ActionBar.TabBar">
+    </style>
+    <style name="Widget.Sherlock.Light.ActionBar.TabBar">
+    </style>
+    <style name="Widget.Sherlock.Light.ActionBar.TabBar.Inverse">
+    </style>
+    <style name="Widget.Sherlock.Light.ActionBar.TabBar.Inverse">
+    </style>
+    <style name="Widget.Sherlock.Light.ActionBar.TabText">
+    </style>
+    <style name="Widget.Sherlock.Light.ActionBar.TabText">
+    </style>
+    <style name="Widget.Sherlock.Light.ActionBar.TabText.Inverse">
+        <item>?attr/textColorPrimaryInverse</item>
+    </style>
+    <style name="Widget.Sherlock.Light.ActionBar.TabText.Inverse">
+    </style>
+    <style name="Widget.Sherlock.Light.ActionBar.TabView">
+    </style>
+    <style name="Widget.Sherlock.Light.ActionBar.TabView">
+    </style>
+    <style name="Widget.Sherlock.Light.ActionBar.TabView.Inverse">
+    </style>
+    <style name="Widget.Sherlock.Light.ActionBar.TabView.Inverse">
+    </style>
+    <style name="Widget.Sherlock.Light.ActionButton">
+    </style>
+    <style name="Widget.Sherlock.Light.ActionButton">
+    </style>
+    <style name="Widget.Sherlock.Light.ActionButton.CloseMode">
+        <item>@drawable/abs__btn_cab_done_holo_light</item>
+    </style>
+    <style name="Widget.Sherlock.Light.ActionButton.CloseMode">
+    </style>
+    <style name="Widget.Sherlock.Light.ActionButton.Overflow">
+        <item>@drawable/abs__ic_menu_moreoverflow_holo_light</item>
+    </style>
+    <style name="Widget.Sherlock.Light.ActionButton.Overflow">
+    </style>
+    <style name="Widget.Sherlock.Light.ActionMode">
+        <item>@style/TextAppearance.Sherlock.Widget.ActionMode.Subtitle</item>
+        <item>@style/TextAppearance.Sherlock.Widget.ActionMode.Title</item>
+    </style>
+    <style name="Widget.Sherlock.Light.ActionMode">
+    </style>
+    <style name="Widget.Sherlock.Light.ActionMode.Inverse">
+        <item>@style/TextAppearance.Sherlock.Widget.ActionMode.Subtitle.Inverse</item>
+        <item>@style/TextAppearance.Sherlock.Widget.ActionMode.Title.Inverse</item>
+    </style>
+    <style name="Widget.Sherlock.Light.ActionMode.Inverse">
+    </style>
+    <style name="Widget.Sherlock.Light.ListView.DropDown">
+        <item>@drawable/abs__list_selector_holo_light</item>
+        <item>@drawable/abs__list_divider_holo_light</item>
+    </style>
+    <style name="Widget.Sherlock.Light.ListView.DropDown">
+    </style>
+    <style name="Widget.Sherlock.Light.PopupMenu">
+    </style>
+    <style name="Widget.Sherlock.Light.PopupMenu">
+    </style>
+    <style name="Widget.Sherlock.Light.PopupWindow.ActionMode">
+        <item>?unknown_ref: 106000b</item>
+    </style>
+    <style name="Widget.Sherlock.Light.PopupWindow.ActionMode">
+    </style>
+    <style name="Widget.Sherlock.Light.ProgressBar">
+    </style>
+    <style name="Widget.Sherlock.Light.ProgressBar">
+    </style>
+    <style name="Widget.Sherlock.Light.ProgressBar.Horizontal">
+        <item>@drawable/abs__progress_horizontal_holo_light</item>
+    </style>
+    <style name="Widget.Sherlock.Light.ProgressBar.Horizontal">
+    </style>
+    <style name="Widget.Sherlock.Light.SearchAutoCompleteTextView">
+        <item>@drawable/abs__list_selector_holo_light</item>
+        <item>@drawable/abs__menu_dropdown_panel_holo_light</item>
+    </style>
+    <style name="Widget.Sherlock.Light.SearchAutoCompleteTextView">
+    </style>
+    <style name="Widget.Sherlock.Light.Spinner.DropDown.ActionBar">
+        <item>@drawable/abs__spinner_ab_holo_light</item>
+        <item>@drawable/abs__list_selector_holo_light</item>
+        <item>@drawable/abs__menu_dropdown_panel_holo_light</item>
+    </style>
+    <style name="Widget.Sherlock.Light.Spinner.DropDown.ActionBar">
+    </style>
+    <style name="Widget.Sherlock.ListView.DropDown">
+    </style>
+    <style name="Widget.Sherlock.ListView.DropDown">
+    </style>
+    <style name="Widget.Sherlock.PopupMenu">
+    </style>
+    <style name="Widget.Sherlock.PopupMenu">
+    </style>
+    <style name="Widget.Sherlock.PopupWindow.ActionMode">
+    </style>
+    <style name="Widget.Sherlock.PopupWindow.ActionMode">
+    </style>
+    <style name="Widget.Sherlock.ProgressBar">
+        <item>@drawable/abs__progress_medium_holo</item>
+        <item>33</item>
+    </style>
+    <style name="Widget.Sherlock.ProgressBar">
+    </style>
+    <style name="Widget.Sherlock.ProgressBar.Horizontal">
+        <item>16dp</item>
+        <item>@drawable/abs__progress_horizontal_holo_dark</item>
+        <item>16dp</item>
+    </style>
+    <style name="Widget.Sherlock.ProgressBar.Horizontal">
+    </style>
+    <style name="Widget.Sherlock.SearchAutoCompleteTextView">
+        <item>@drawable/abs__list_selector_holo_dark</item>
+        <item>@drawable/abs__menu_dropdown_panel_holo_dark</item>
+    </style>
+    <style name="Widget.Sherlock.SearchAutoCompleteTextView">
+    </style>
+    <style name="Widget.Sherlock.Spinner.DropDown.ActionBar">
+        <item>@drawable/abs__spinner_ab_holo_dark</item>
+    </style>
+    <style name="Widget.Sherlock.Spinner.DropDown.ActionBar">
+    </style>
+    <style name="coupon_orange_button">
+        <item>@dimen/n_common_red_button_font_size</item>
+        <item>0</item>
+        <item>@color/white</item>
+        <item>11</item>
+        <item>@drawable/btn_coupon_orange_selector</item>
+    </style>
+    <style name="n_black12">
+        <item>12dp</item>
+        <item>@color/n_black</item>
+        <item>@color/n_darkgray</item>
+    </style>
+    <style name="n_black14">
+        <item>14dp</item>
+        <item>@color/n_black</item>
+    </style>
+    <style name="n_black16">
+        <item>16dp</item>
+        <item>@color/n_black</item>
+        <item>@color/n_darkgray</item>
+    </style>
+    <style name="n_black16b">
+        <item>16dp</item>
+        <item>1</item>
+        <item>@color/n_black</item>
+        <item>@color/n_darkgray</item>
+    </style>
+    <style name="n_black18b">
+        <item>18dp</item>
+        <item>1</item>
+        <item>@color/n_black</item>
+    </style>
+    <style name="n_black20">
+        <item>20dp</item>
+        <item>@color/n_black</item>
+    </style>
+    <style name="n_checkbox_button">
+        <item>11</item>
+        <item>@drawable/btn_check_selector</item>
+    </style>
+    <style name="n_common_default_black_button">
+        <item>@dimen/n_common_red_button_font_size</item>
+        <item>0</item>
+        <item>@color/n_black</item>
+        <item>11</item>
+        <item>@drawable/btn_common_default_selector</item>
+    </style>
+    <style name="n_common_default_button">
+        <item>@dimen/n_common_red_button_font_size</item>
+        <item>0</item>
+        <item>@color/n_darkgray</item>
+        <item>11</item>
+        <item>@drawable/btn_common_default_selector</item>
+    </style>
+    <style name="n_common_green_button">
+        <item>@dimen/n_common_red_button_font_size</item>
+        <item>0</item>
+        <item>@color/white</item>
+        <item>11</item>
+        <item>@drawable/btn_common_green_selector</item>
+    </style>
+    <style name="n_common_orange_bottom_button">
+        <item>@dimen/n_common_red_button_font_size</item>
+        <item>@color/white</item>
+        <item>11</item>
+        <item>@drawable/btn_common_orange_bottom_selector</item>
+    </style>
+    <style name="n_common_orange_button">
+        <item>@dimen/n_common_red_button_font_size</item>
+        <item>0</item>
+        <item>@color/white</item>
+        <item>11</item>
+        <item>@drawable/btn_common_orange_selector</item>
+    </style>
+    <style name="n_common_orange_shadow_bottom_button">
+        <item>@dimen/n_common_red_button_font_size</item>
+        <item>@color/white</item>
+        <item>11</item>
+        <item>@drawable/btn_common_orange_shadow_bottom_selector</item>
+    </style>
+    <style name="n_common_orange_shadow_button">
+        <item>@dimen/n_common_red_button_font_size</item>
+        <item>@color/white</item>
+        <item>11</item>
+        <item>@drawable/btn_common_orange_shadow_selector</item>
+    </style>
+    <style name="n_coupon_tab">
+        <item>16dp</item>
+        <item>1</item>
+        <item>@color/color_coupon_tab_selector</item>
+        <item>11</item>
+        <item>@drawable/tab_coupontab_selector</item>
+    </style>
+    <style name="n_darkgray14">
+        <item>14dp</item>
+        <item>@color/n_darkgray</item>
+    </style>
+    <style name="n_darkgray16">
+        <item>16dp</item>
+        <item>@color/n_darkgray</item>
+    </style>
+    <style name="n_darkgray20">
+        <item>20dp</item>
+        <item>@color/n_darkgray</item>
+    </style>
+    <style name="n_dialog_message">
+        <item>16dp</item>
+        <item>@color/n_darkgray</item>
+    </style>
+    <style name="n_dialog_title">
+        <item>18dp</item>
+        <item>1</item>
+        <item>@color/n_black</item>
+    </style>
+    <style name="n_fragment_menu_slide_down">
+        <item>@drawable/ic_appbar_close_grey</item>
+    </style>
+    <style name="n_header_text">
+        <item>@dimen/n_title_font_size</item>
+        <item>0</item>
+        <item>@color/white</item>
+        <item>11</item>
+    </style>
+    <style name="n_input_edittext">
+        <item>11</item>
+        <item>@drawable/edittext_selector_n</item>
+        <item>48dp</item>
+        <item>1</item>
+        <item>true</item>
+        <item>?unknown_ref: 0</item>
+    </style>
+    <style name="n_input_edittext_bottom">
+        <item>11</item>
+        <item>@drawable/edittext_selector_bottom</item>
+        <item>48dp</item>
+        <item>1</item>
+        <item>true</item>
+        <item>?unknown_ref: 0</item>
+    </style>
+    <style name="n_input_edittext_middle">
+        <item>11</item>
+        <item>@drawable/edittext_selector_middle</item>
+        <item>48dp</item>
+        <item>1</item>
+        <item>true</item>
+        <item>?unknown_ref: 0</item>
+    </style>
+    <style name="n_input_edittext_top">
+        <item>11</item>
+        <item>@drawable/edittext_selector_top</item>
+        <item>48dp</item>
+        <item>1</item>
+        <item>true</item>
+        <item>?unknown_ref: 0</item>
+    </style>
+    <style name="n_radio_button">
+        <item>11</item>
+        <item>@drawable/btn_radio_selector</item>
+    </style>
+    <style name="n_red12">
+        <item>12dp</item>
+        <item>@color/n_red</item>
+    </style>
+    <style name="n_red12b">
+        <item>12dp</item>
+        <item>1</item>
+        <item>@color/n_red</item>
+    </style>
+    <style name="n_red14">
+        <item>14dp</item>
+        <item>@color/n_red</item>
+    </style>
+    <style name="n_red16">
+        <item>16dp</item>
+        <item>@color/n_red</item>
+    </style>
+    <style name="n_scroll">
+        <item>@drawable/shape_scrollbar_thumb</item>
+        <item>@drawable/shape_scrollbar_thumb</item>
+        <item>@drawable/shape_scrollbar_track</item>
+        <item>@drawable/shape_scrollbar_track</item>
+        <item>0</item>
+        <item>500000</item>
+    </style>
+    <style name="n_submenu">
+        <item>16dp</item>
+        <item>0</item>
+        <item>@drawable/btn_submenu_color_selector</item>
+        <item>11</item>
+        <item>@drawable/btn_n_submenu_selector</item>
+    </style>
+    <style name="n_tcash_main_button_txt">
+        <item>16dp</item>
+        <item>0</item>
+        <item>@color/n_black</item>
+        <item>11</item>
+    </style>
+    <style name="n_tcash_menu_scroll">
+        <item>16dp</item>
+        <item>16dp</item>
+        <item>0</item>
+        <item>0</item>
+        <item>2</item>
+    </style>
+    <style name="n_tcash_sub_menu_head">
+        <item>18dp</item>
+        <item>0</item>
+        <item>@color/n_red</item>
+        <item>11</item>
+        <item>@color/n_gray</item>
+    </style>
+    <style name="n_tcash_sub_menu_head_txt">
+        <item>18dp</item>
+        <item>1</item>
+        <item>@color/n_red</item>
+        <item>11</item>
+    </style>
+    <style name="n_tcash_top_balance">
+        <item>24dp</item>
+        <item>1</item>
+        <item>@color/white</item>
+    </style>
+    <style name="n_titlebar_text">
+        <item>@dimen/n_title_font_size</item>
+        <item>0</item>
+        <item>@color/white</item>
+        <item>11</item>
+    </style>
+    <style name="n_tnc_text">
+        <item>@dimen/n_tnc_font_size</item>
+        <item>0</item>
+        <item>11</item>
+    </style>
+    <style name="n_white18">
+        <item>18dp</item>
+        <item>0</item>
+        <item>@color/white</item>
+    </style>
+    <style name="n_white25">
+        <item>25dp</item>
+        <item>0</item>
+        <item>@color/white</item>
+    </style>
+    <style name="n_white36">
+        <item>36dp</item>
+        <item>0</item>
+        <item>@color/white</item>
+    </style>
+    <style name="white12">
+        <item>12dp</item>
+        <item>0</item>
+        <item>@color/white</item>
+    </style>
+    <style name="white14">
+        <item>14dp</item>
+        <item>0</item>
+        <item>@color/white</item>
+    </style>
+    <style name="AppTheme">
+    </style>
+    <style name="Sherlock.__TextAppearance.Small">
+        <item>14sp</item>
+        <item>?unknown_attr_ref: 1010038</item>
+    </style>
+    <style name="Sherlock.__Widget.ActionBar">
+        <item>0dp</item>
+        <item>0dp</item>
+        <item>0dp</item>
+        <item>0dp</item>
+        <item>?attr/actionBarSize</item>
+        <item>b</item>
+        <item>@layout/abs__action_bar_home</item>
+    </style>
+    <style name="Sherlock.__Widget.ActionMode">
+        <item>?attr/actionModeBackground</item>
+        <item>?attr/actionModeSplitBackground</item>
+        <item>?attr/actionBarSize</item>
+    </style>
+    <style name="Sherlock.__Widget.ActivityChooserView">
+        <item>11</item>
+        <item>@drawable/abs__ab_share_pack_holo_dark</item>
+        <item>?attr/dividerVertical</item>
+        <item>?attr/actionBarSize</item>
+        <item>2</item>
+        <item>6dp</item>
+    </style>
+    <style name="Sherlock.__Widget.Holo.DropDownItem">
+        <item>@style/TextAppearance.Sherlock.Widget.DropDownItem</item>
+        <item>10</item>
+        <item>8dp</item>
+        <item>8dp</item>
+    </style>
+    <style name="Sherlock.__Widget.Holo.ListView">
+        <item>@drawable/abs__list_selector_holo_dark</item>
+        <item>@drawable/abs__list_divider_holo_dark</item>
+    </style>
+    <style name="Sherlock.__Widget.Holo.Spinner">
+        <item>13</item>
+        <item>true</item>
+        <item>@drawable/abs__list_selector_holo_dark</item>
+        <item>@drawable/abs__menu_dropdown_panel_holo_dark</item>
+        <item>-2</item>
+        <item>0dp</item>
+        <item>0dp</item>
+        <item>1</item>
+    </style>
+    <style name="Sherlock.__Widget.SearchAutoCompleteTextView">
+        <item>?unknown_attr_ref: 1010044</item>
+        <item>?attr/textColorPrimary</item>
+        <item>10</item>
+        <item>true</item>
+        <item>true</item>
+        <item>true</item>
+        <item>@layout/abs__simple_dropdown_hint</item>
+        <item>2</item>
+        <item>-2</item>
+    </style>
+    <style name="TextAppearance.Sherlock">
+    </style>
+    <style name="TextAppearance.Sherlock.Light.SearchResult">
+    </style>
+    <style name="TextAppearance.Sherlock.Light.SearchResult.Subtitle">
+        <item>14sp</item>
+        <item>?unknown_attr_ref: 1010038</item>
+    </style>
+    <style name="TextAppearance.Sherlock.Light.SearchResult.Title">
+        <item>18sp</item>
+    </style>
+    <style name="TextAppearance.Sherlock.Light.Small">
+    </style>
+    <style name="TextAppearance.Sherlock.SearchResult">
+        <item>0</item>
+        <item>?unknown_attr_ref: 1010036</item>
+        <item>?unknown_attr_ref: 101009a</item>
+    </style>
+    <style name="TextAppearance.Sherlock.SearchResult.Subtitle">
+        <item>14sp</item>
+        <item>?unknown_attr_ref: 1010038</item>
+    </style>
+    <style name="TextAppearance.Sherlock.SearchResult.Title">
+        <item>18sp</item>
+    </style>
+    <style name="TextAppearance.Sherlock.Small">
+    </style>
+    <style name="TextAppearance.Sherlock.Widget.DropDownHint">
+        <item>14sp</item>
+        <item>?attr/textColorPrimary</item>
+    </style>
+    <style name="TextAppearance.Sherlock.Widget.DropDownItem">
+        <item>16sp</item>
+        <item>0</item>
+        <item>?attr/textColorPrimaryDisableOnly</item>
+    </style>
+    <style name="TextAppearance.Sherlock.Widget.TextView.SpinnerItem">
+        <item>16sp</item>
+        <item>0</item>
+        <item>?attr/textColorPrimary</item>
+    </style>
+    <style name="Theme.IAPTheme">
+        <item>?unknown_ref: 106000d</item>
+        <item>true</item>
+        <item>true</item>
+        <item>true</item>
+        <item>?unknown_ref: 0</item>
+        <item>false</item>
+    </style>
+    <style name="Theme.Sherlock">
+        <item>@style/Widget.Sherlock.ActionBar.TabView</item>
+        <item>@style/Widget.Sherlock.ActionBar.TabBar</item>
+        <item>@style/Widget.Sherlock.ActionBar.TabText</item>
+        <item>@style/Widget.Sherlock.ActionButton.Overflow</item>
+        <item>@style/Widget.Sherlock.ActionBar</item>
+        <item>?attr/actionBarStyle</item>
+        <item>?unknown_ref: 0</item>
+        <item>@dimen/abs__action_bar_default_height</item>
+        <item>?attr/dividerVertical</item>
+        <item>?attr/selectableItemBackground</item>
+        <item>@style/TextAppearance.Sherlock.Widget.ActionBar.Menu</item>
+        <item>?attr/textColorPrimary</item>
+        <item>@style/Widget.Sherlock.ActionMode</item>
+        <item>@style/Widget.Sherlock.ActionButton.CloseMode</item>
+        <item>@drawable/abs__cab_background_top_holo_dark</item>
+        <item>@drawable/abs__cab_background_bottom_holo_dark</item>
+        <item>@drawable/abs__ic_cab_done_holo_dark</item>
+        <item>@drawable/abs__ic_menu_share_holo_dark</item>
+        <item>@style/Widget.Sherlock.PopupWindow.ActionMode</item>
+        <item>@style/Widget.Sherlock.Button.Small</item>
+        <item>@drawable/abs__item_background_holo_dark</item>
+        <item>?unknown_ref: 0</item>
+        <item>@style/TextAppearance.Sherlock.Widget.PopupMenu.Large</item>
+        <item>@style/TextAppearance.Sherlock.Widget.PopupMenu.Small</item>
+        <item>@style/TextAppearance.Sherlock.Small</item>
+        <item>@color/abs__primary_text_holo_dark</item>
+        <item>@color/abs__primary_text_disable_only_holo_dark</item>
+        <item>@color/abs__primary_text_holo_light</item>
+        <item>@style/Widget.Sherlock.TextView.SpinnerItem</item>
+        <item>@style/Widget.Sherlock.DropDownItem.Spinner</item>
+        <item>@style/Widget.Sherlock.SearchAutoCompleteTextView</item>
+        <item>@drawable/abs__search_dropdown_dark</item>
+        <item>@drawable/abs__ic_clear</item>
+        <item>@drawable/abs__ic_go</item>
+        <item>@drawable/abs__ic_search</item>
+        <item>@drawable/abs__ic_voice_search</item>
+        <item>@drawable/abs__ic_commit_search_api_holo_dark</item>
+        <item>?attr/selectableItemBackground</item>
+        <item>@drawable/abs__textfield_searchview_holo_dark</item>
+        <item>@drawable/abs__textfield_searchview_right_holo_dark</item>
+        <item>58dp</item>
+        <item>@style/TextAppearance.Sherlock.SearchResult.Title</item>
+        <item>@style/TextAppearance.Sherlock.SearchResult.Subtitle</item>
+        <item>@drawable/abs__list_divider_holo_dark</item>
+        <item>@style/Widget.Sherlock.Spinner.DropDown.ActionBar</item>
+        <item>@style/Widget.Sherlock.ActionButton</item>
+        <item>@drawable/abs__ic_ab_back_holo_dark</item>
+        <item>@style/Widget.Sherlock.ListView.DropDown</item>
+        <item>@style/Widget.Sherlock.PopupMenu</item>
+        <item>48dp</item>
+        <item>false</item>
+        <item>true</item>
+        <item>false</item>
+        <item>@style/Widget.Sherlock.ListPopupWindow</item>
+        <item>@style/Widget.Sherlock.ActivityChooserView</item>
+        <item>@drawable/abs__activated_background_holo_dark</item>
+        <item>@style/TextAppearance.Sherlock.Widget.DropDownHint</item>
+    </style>
+    <style name="Theme.Sherlock.Light">
+        <item>@style/Widget.Sherlock.Light.ActionBar.TabView</item>
+        <item>@style/Widget.Sherlock.Light.ActionBar.TabBar</item>
+        <item>@style/Widget.Sherlock.Light.ActionBar.TabText</item>
+        <item>@style/Widget.Sherlock.Light.ActionButton.Overflow</item>
+        <item>@style/Widget.Sherlock.Light.ActionBar.Solid</item>
+        <item>?attr/actionBarStyle</item>
+        <item>?unknown_ref: 0</item>
+        <item>@dimen/abs__action_bar_default_height</item>
+        <item>?attr/dividerVertical</item>
+        <item>?attr/selectableItemBackground</item>
+        <item>@style/TextAppearance.Sherlock.Widget.ActionBar.Menu</item>
+        <item>?attr/textColorPrimary</item>
+        <item>@style/Widget.Sherlock.Light.ActionMode</item>
+        <item>@style/Widget.Sherlock.Light.ActionButton.CloseMode</item>
+        <item>@drawable/abs__cab_background_top_holo_light</item>
+        <item>@drawable/abs__cab_background_bottom_holo_light</item>
+        <item>@drawable/abs__ic_cab_done_holo_light</item>
+        <item>@drawable/abs__ic_menu_share_holo_light</item>
+        <item>@style/Widget.Sherlock.Light.PopupWindow.ActionMode</item>
+        <item>@style/Widget.Sherlock.Light.Button.Small</item>
+        <item>@drawable/abs__item_background_holo_light</item>
+        <item>?unknown_ref: 0</item>
+        <item>@style/TextAppearance.Sherlock.Light.Widget.PopupMenu.Large</item>
+        <item>@style/TextAppearance.Sherlock.Light.Widget.PopupMenu.Small</item>
+        <item>@style/TextAppearance.Sherlock.Light.Small</item>
+        <item>@color/abs__primary_text_holo_light</item>
+        <item>@color/abs__primary_text_disable_only_holo_light</item>
+        <item>@color/abs__primary_text_holo_dark</item>
+        <item>@style/Widget.Sherlock.TextView.SpinnerItem</item>
+        <item>@style/Widget.Sherlock.Light.DropDownItem.Spinner</item>
+        <item>@style/Widget.Sherlock.Light.SearchAutoCompleteTextView</item>
+        <item>@drawable/abs__search_dropdown_light</item>
+        <item>@drawable/abs__ic_clear_holo_light</item>
+        <item>@drawable/abs__ic_go_search_api_holo_light</item>
+        <item>@drawable/abs__ic_search_api_holo_light</item>
+        <item>@drawable/abs__ic_voice_search_api_holo_light</item>
+        <item>@drawable/abs__ic_commit_search_api_holo_light</item>
+        <item>?attr/selectableItemBackground</item>
+        <item>@drawable/abs__textfield_searchview_holo_light</item>
+        <item>@drawable/abs__textfield_searchview_right_holo_light</item>
+        <item>58dp</item>
+        <item>@style/TextAppearance.Sherlock.Light.SearchResult.Title</item>
+        <item>@style/TextAppearance.Sherlock.Light.SearchResult.Subtitle</item>
+        <item>@drawable/abs__list_divider_holo_light</item>
+        <item>@style/Widget.Sherlock.Light.Spinner.DropDown.ActionBar</item>
+        <item>@style/Widget.Sherlock.Light.ActionButton</item>
+        <item>@drawable/abs__ic_ab_back_holo_light</item>
+        <item>@style/Widget.Sherlock.Light.ListView.DropDown</item>
+        <item>@style/Widget.Sherlock.Light.PopupMenu</item>
+        <item>48dp</item>
+        <item>false</item>
+        <item>true</item>
+        <item>false</item>
+        <item>@style/Widget.Sherlock.Light.ListPopupWindow</item>
+        <item>@style/Widget.Sherlock.Light.ActivityChooserView</item>
+        <item>@drawable/abs__activated_background_holo_light</item>
+        <item>@style/TextAppearance.Sherlock.Widget.DropDownHint</item>
+    </style>
+    <style name="Theme.Sherlock.Light.DarkActionBar">
+        <item>@style/Widget.Sherlock.Light.ActionBar.TabView.Inverse</item>
+        <item>@style/Widget.Sherlock.Light.ActionBar.TabBar.Inverse</item>
+        <item>@style/Widget.Sherlock.Light.ActionBar.TabText.Inverse</item>
+        <item>@style/Widget.Sherlock.ActionButton.Overflow</item>
+        <item>@style/Widget.Sherlock.Light.ActionBar.Solid.Inverse</item>
+        <item>@style/Theme.Sherlock</item>
+        <item>@drawable/abs__list_divider_holo_dark</item>
+        <item>@drawable/abs__item_background_holo_dark</item>
+        <item>?attr/textColorPrimaryInverse</item>
+        <item>@style/Widget.Sherlock.Light.ActionMode.Inverse</item>
+        <item>@style/Widget.Sherlock.ActionButton.CloseMode</item>
+        <item>@drawable/abs__cab_background_top_holo_dark</item>
+        <item>@drawable/abs__cab_background_bottom_holo_dark</item>
+        <item>@drawable/abs__ic_cab_done_holo_dark</item>
+        <item>@drawable/abs__ic_menu_share_holo_dark</item>
+        <item>@style/Widget.Sherlock.PopupWindow.ActionMode</item>
+        <item>@drawable/abs__ab_solid_shadow_holo</item>
+        <item>@style/Widget.Sherlock.SearchAutoCompleteTextView</item>
+        <item>@drawable/abs__search_dropdown_dark</item>
+        <item>@drawable/abs__ic_clear</item>
+        <item>@drawable/abs__ic_go</item>
+        <item>@drawable/abs__ic_search</item>
+        <item>@drawable/abs__ic_voice_search</item>
+        <item>@drawable/abs__ic_commit_search_api_holo_dark</item>
+        <item>@drawable/abs__textfield_searchview_holo_dark</item>
+        <item>@drawable/abs__textfield_searchview_right_holo_dark</item>
+        <item>@style/Widget.Sherlock.Spinner.DropDown.ActionBar</item>
+        <item>@style/Widget.Sherlock.ActionButton</item>
+        <item>@drawable/abs__ic_ab_back_holo_dark</item>
+        <item>@style/TextAppearance.Sherlock.Widget.DropDownHint</item>
+    </style>
+    <style name="WalletFragmentDefaultButtonTextAppearance">
+        <item>18sp</item>
+        <item>0</item>
+        <item>@color/wallet_primary_text_holo_light</item>
+        <item>@color/wallet_highlighted_text_holo_light</item>
+        <item>@color/wallet_hint_foreground_holo_light</item>
+        <item>@color/wallet_link_text_light</item>
+    </style>
+    <style name="WalletFragmentDefaultDetailsHeaderTextAppearance">
+        <item>1</item>
+    </style>
+    <style name="WalletFragmentDefaultDetailsTextAppearance">
+        <item>14sp</item>
+        <item>0</item>
+        <item>@color/wallet_secondary_text_holo_dark</item>
+        <item>@color/wallet_highlighted_text_holo_dark</item>
+        <item>@color/wallet_hint_foreground_holo_dark</item>
+        <item>@color/wallet_holo_blue_light</item>
+    </style>
+    <style name="WalletFragmentDefaultStyle">
+        <item>48dp</item>
+        <item>-1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>@style/WalletFragmentDefaultDetailsTextAppearance</item>
+        <item>@style/WalletFragmentDefaultDetailsHeaderTextAppearance</item>
+        <item>@color/wallet_bright_foreground_holo_light</item>
+        <item>@style/WalletFragmentDefaultButtonTextAppearance</item>
+        <item>?unknown_ref: 1080004</item>
+        <item>@color/wallet_bright_foreground_holo_dark</item>
+        <item>1</item>
+    </style>
+    <style name="Widget">
+    </style>
+    <style name="Widget.Sherlock.ActivityChooserView">
+    </style>
+    <style name="Widget.Sherlock.Button.Small">
+        <item>?attr/textAppearanceSmall</item>
+        <item>@color/abs__primary_text_holo_dark</item>
+        <item>48dp</item>
+        <item>48dp</item>
+    </style>
+    <style name="Widget.Sherlock.DropDownItem.Spinner">
+    </style>
+    <style name="Widget.Sherlock.Light.ActivityChooserView">
+        <item>@drawable/abs__ab_share_pack_holo_light</item>
+    </style>
+    <style name="Widget.Sherlock.Light.Button.Small">
+        <item>?attr/textAppearanceSmall</item>
+        <item>@color/abs__primary_text_holo_light</item>
+        <item>48dp</item>
+        <item>48dp</item>
+    </style>
+    <style name="Widget.Sherlock.Light.DropDownItem.Spinner">
+    </style>
+    <style name="Widget.Sherlock.Light.ListPopupWindow">
+        <item>@drawable/abs__list_selector_holo_light</item>
+        <item>@drawable/abs__menu_dropdown_panel_holo_light</item>
+        <item>-2</item>
+        <item>0dp</item>
+        <item>0dp</item>
+    </style>
+    <style name="Widget.Sherlock.ListPopupWindow">
+        <item>@drawable/abs__list_selector_holo_dark</item>
+        <item>@drawable/abs__menu_dropdown_panel_holo_dark</item>
+        <item>-2</item>
+        <item>0dp</item>
+        <item>0dp</item>
+    </style>
+    <style name="Widget.Sherlock.TextView.SpinnerItem">
+        <item>@style/TextAppearance.Sherlock.Widget.TextView.SpinnerItem</item>
+        <item>8dp</item>
+        <item>8dp</item>
+    </style>
+    <style name="com_facebook_loginview_default_style">
+        <item>@dimen/com_facebook_loginview_text_size</item>
+        <item>1</item>
+        <item>@color/com_facebook_loginview_text_color</item>
+        <item>11</item>
+        <item>@drawable/com_facebook_button_blue</item>
+        <item>@dimen/com_facebook_loginview_padding_left</item>
+        <item>-2</item>
+        <item>-2</item>
+    </style>
+    <style name="com_facebook_loginview_silver_style">
+        <item>18sp</item>
+        <item>1</item>
+        <item>#4b5164</item>
+        <item>11</item>
+        <item>@drawable/com_facebook_loginbutton_silver</item>
+        <item>44dp</item>
+        <item>205dp</item>
+    </style>
+    <style name="tooltip_bubble_text">
+        <item>12sp</item>
+        <item>?unknown_ref: 106000b</item>
+        <item>3</item>
+        <item>#40000000</item>
+        <item>-1.0</item>
+        <item>0.25</item>
+    </style>
+</resources>

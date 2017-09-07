@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:id="@id/coupon_listitem_layout" android:background="@color/white" android:paddingLeft="@dimen/n_margin_frame" android:paddingRight="@dimen/n_margin_frame" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0xa101">
+    <RelativeLayout android:layout_width="UNKNOWN_DATA_0xc401" android:layout_height="UNKNOWN_DATA_0x8201" android:layout_marginTop="@dimen/n_margin_frame">
+        <ImageView android:id="@id/coupon_listitem_imageview" android:background="0x0" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitXY" />
+        <ImageView android:id="@id/coupon_listitem_tag_imageview" android:background="0x0" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitXY" />
+    </RelativeLayout>
+    <RelativeLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="16dp" android:layout_marginTop="14dp">
+        <TextView android:ellipsize="end" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/coupon_listitem_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="" android:maxLines="2" style="@style/n_black20" />
+        <TextView android:ellipsize="end" android:id="@id/coupon_listitem_desc" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="" android:singleLine="true" android:layout_below="@id/coupon_listitem_title" style="@style/black18" />
+        <TextView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/coupon_listitem_date" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="15dp" android:text="" android:singleLine="true" android:layout_alignParentBottom="true" style="@style/darkgray16" />
+    </RelativeLayout>
+</LinearLayout>

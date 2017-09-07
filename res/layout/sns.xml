@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/background" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:orientation="horizontal" android:background="@color/orange" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3201">
+        <ImageView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/titlebar_menu_imageview" android:padding="10dp" android:layout_width="UNKNOWN_DATA_0x3201" android:layout_height="match_parent" android:src="@drawable/top_menu" android:layout_alignParentLeft="true" />
+        <ImageButton android:id="@id/btn_logout" android:background="0x106000d" android:padding="5dp" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x2d01" android:src="@drawable/btn_sns_logout" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <TextView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/titlebar_title_textview" android:layout_width="match_parent" android:layout_height="match_parent" android:text="Twitter friends list" android:layout_toLeftOf="@id/btn_logout" android:layout_toRightOf="@id/titlebar_menu_imageview" style="@style/titlebar_twallet" />
+        <TextView android:background="@color/actionbar_underline" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x101" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <ListView android:id="@id/friendsList" android:layout_width="match_parent" android:layout_height="wrap_content" android:cacheColorHint="0x106000d" android:divider="0x106000b" android:dividerHeight="1dp" />
+</LinearLayout>

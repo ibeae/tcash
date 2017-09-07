@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/help_container" android:background="#55000000" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="29dp" android:layout_marginTop="44dp" android:src="@drawable/ic_onboarding_my_profile_in" android:scaleType="fitXY" />
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="184dp" android:layout_marginTop="49dp" android:src="@drawable/ic_onboarding_inbox_in" />
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="128dp" android:layout_marginTop="111dp" android:src="@drawable/ic_onboarding_tcash_account_status_in" />
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="82dp" android:layout_marginBottom="131dp" android:src="@drawable/ic_onboarding_slide_right_in" android:layout_alignParentBottom="true" />
+</RelativeLayout>

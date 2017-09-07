@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/n_lightgray" android:layout_width="match_parent" android:layout_height="match_parent"
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f09007b">
+        <TextView android:textColor="@color/n_darkgray" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5dp" android:text="@string/payment_noti_fixedline_msg" style="@style/tcash_fragment_title" />
+        <TextView android:textColor="@color/n_black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/payment_noti_fixedline_title" style="@style/tcash_fragment_title_bold" />
+    </LinearLayout>
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent" style="@style/tcash_scroll">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+            <LinearLayout android:orientation="vertical" android:background="@color/white" android:padding="5dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+                <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f090072">
+                    <TextView android:paddingRight="8dp" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:text="@string/telephone_phone_number" android:layout_weight="1.0" style="@style/common_darkgray_textview" />
+                    <TextView android:id="@id/tcash_customerid_textview" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/common_black_textview" />
+                </LinearLayout>
+                <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f090072">
+                    <TextView android:paddingRight="8dp" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:text="@string/name" android:layout_weight="1.0" style="@style/common_darkgray_textview" />
+                    <TextView android:id="@id/tcash_name_textview" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/common_black_textview" />
+                </LinearLayout>
+                <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f090072">
+                    <TextView android:paddingRight="8dp" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:text="@string/amount" android:layout_weight="1.0" style="@style/common_darkgray_textview" />
+                    <TextView android:id="@id/tcash_amount_textview" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/common_black_textview" />
+                </LinearLayout>
+                <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f090072">
+                    <TextView android:paddingRight="8dp" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:text="@string/fee" android:layout_weight="1.0" style="@style/common_darkgray_textview" />
+                    <TextView android:id="@id/tcash_fee_textview" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/common_black_textview" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f090071" android:layout_marginTop="@dimen/n_margin_frame" style="@style/checkbox_layout">
+                <Button android:id="@id/tcash_set_favorite_button" android:layout_width="UNKNOWN_DATA_0x1901" android:layout_height="UNKNOWN_DATA_0x1b01" style="@style/checkbox_button" />
+                <TextView android:textSize="15dp" android:textColor="@color/darkgray" android:paddingLeft="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/set_as_favorite" style="@style/checkbox_textview" />
+            </LinearLayout>
+            <EditText android:id="@id/tcash_title_favorite_edittext" android:visibility="gone" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f090071" android:layout_margin="@dimen/n_margin_frame" android:hint="@string/hint_favorite_title" android:inputType="text|textCapCharacters|textCapWords|textCapSentences|textAutoCorrect|textAutoComplete|textMultiLine|textImeMultiLine|textNoSuggestions|textUri|textEmailAddress|textEmailSubject|textShortMessage|textLongMessage|textPersonName|textPostalAddress|textPassword|textVisiblePassword|textWebEditText|textFilter|textPhonetic|textWebEmailAddress|textWebPassword|phone" style="@style/n_input_edittext" />
+            <Button android:id="@id/tcash_payment_confirm_button" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f090071" android:layout_marginLeft="@dimen/n_margin_frame" android:layout_marginRight="@dimen/n_margin_frame" android:text="@string/btn_confirm" style="@style/common_orange_button" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

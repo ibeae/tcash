@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="25" android:versionName="1.1.0" package="com.telkom.mwallet" platformBuildVersionCode="24" platformBuildVersionName="7.0">
+    <uses-sdk android:minSdkVersion="17" android:targetSdkVersion="21" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.NFC" />
+    <uses-permission android:name="android.permission.NFC_TRANSACTION" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.FINE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="org.simalliance.openmobileapi.SMARTCARD" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <permission android:name="com.telkom.mwallet.permission.C2D_MESSAGE" android:protectionLevel="signature|signatureOrSystem" />
+    <permission android:name="com.telkom.mwallet.permission.MAPS_RECEIVE" android:protectionLevel="signature|signatureOrSystem" />
+    <permission android:name="android.appsflyer.sampleapp.permission.C2D_MESSAGE" android:protectionLevel="signature|signatureOrSystem" />
+    <uses-feature android:name="android.hardware.camera" android:required="false" />
+    <uses-feature android:name="android.hardware.camera.autofocus" android:required="false" />
+    <application android:theme="@style/Theme.Sherlock" android:label="@string/app_name_tel" android:icon="@drawable/ic_logo" android:name="com.telkom.mwallet.TelkomApplication" android:allowBackup="true" android:largeHeap="true">
+        <uses-library android:name="org.simalliance.openmobileapi" android:required="false" />
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
+        <meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="AIzaSyAoLGd8zow36HlknAZ8FsbDS6OlLl9uPSs" />
+        <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_appid" />
+        <meta-data android:name="walletprofile" android:resource="@raw/wallet_mock_profile" />
+        <activity android:theme="@style/Theme.Sherlock.NoActionBar" android:name="com.telkom.mwallet.StartActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.telkom.mwallet.slidingframe.SlidingFrameActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.telkom.mwallet.PushProcessActivity">
+            <intent-filter>
+                <action android:name="com.telkom.mwallet.action.PUSH.PROCESS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@*android:style/Theme.Dialog" android:name="com.telkom.mwallet.dialog.PopupActivity"
+            :>
+            <intent-filter>
+                <action android:name="com.telkom.mwallet.action.POPUP" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.telkom.mwallet.TestActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.telkom.mwallet.login.LoginActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustResize|adjustNothing" />
+        <activity android:name="com.telkom.mwallet.login.RevalidationActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.telkom.mwallet.login.VerifyMSISDNActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.telkom.mwallet.login.SecurityQsActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.telkom.mwallet.login.SetTcashPinActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.telkom.mwallet.login.EnterTcashPinActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.telkom.mwallet.login.TnCActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.telkom.mwallet.login.SignUpActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.telkom.mwallet.home.HomeActivity" android:launchMode="singleTop" android:screenOrientation="portrait" />
+        <activity android:name="com.telkom.mwallet.tcash.TCashActivity" android:screenOrientation="portrait" android:hardwareAccelerated="true" />
+        <activity android:name="com.telkom.mwallet.tcash.TCashAirtimeActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustResize|adjustNothing" android:hardwareAccelerated="true" />
+        <activity android:name="com.telkom.mwallet.tcash.purchase.TCashPurchaseActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustResize|adjustNothing" android:hardwareAccelerated="true" />
+        <activity android:name="com.telkom.mwallet.tcash.purchase.TCashTicketActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustResize|adjustNothing" android:hardwareAccelerated="true" />
+        <activity android:name="com.telkom.mwallet.tcash.purchase.TCashTransportTravelActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustResize|adjustNothing" android:hardwareAccelerated="true" />
+        <activity android:name="com.telkom.mwallet.tcash.purchase.TCashMerchantActivty" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustResize|adjustNothing" android:hardwareAccelerated="true" />
+        <activity android:name="com.telkom.mwallet.tcash.cash.TCashInATMBersamaActivity" android:screenOrientation="portrait" android:hardwareAccelerated="true" />
+        <activity android:name="com.telkom.mwallet.tcash.cash.TCashInGrapariActivity" android:screenOrientation="portrait" android:hardwareAccelerated="true" />
+        <activity android:name="com.telkom.mwallet.tcash.cash.TCashInRetailStoreActivity" android:screenOrientation="portrait" android:hardwareAccelerated="true" />
+        <activity android:name="com.telkom.mwallet.tcash.cash.TCashInSMSBankingActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustResize|adjustNothing" android:hardwareAccelerated="true" />
+        <activity android:name="com.telkom.mwallet.tcash.cash.TCashOutGrapariActivity" android:screenOrientation="portrait" android:hardwareAccelerated="true" />
+        <activity android:name="com.telkom.mwallet.tcash.cash.TCashOutRetailStoreActivity" android:screenOrientation="portrait" android:hardwareAccelerated="true" />
+        <activity android:name="com.telkom.mwallet.tcash.TCashTransferActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustResize|adjustNothing" android:hardwareAccelerated="true" />
+        <activity android:name="com.telkom.mwallet.tcash.TCashTransactionHistoryActivity" android:screenOrientation="portrait" android:hardwareAccelerated="true" />
+        <activity android:name="com.telkom.mwallet.tcash.payment.TCashPaymentTemplateActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustResize|adjustNothing" android:hardwareAccelerated="true" />
+        <activity android:name="com.telkom.mwallet.tcash.payment.TCashKartuHaloActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustResize|adjustNothing" android:hardwareAccelerated="true" />
+        <activity android:name="com.telkom.mwallet.tcash.payment.TCashPLNActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustResize|adjustNothing" android:hardwareAccelerated="true" />
+        <activity android:name="com.telkom.mwallet.tcash.payment.TCashFixedLineActivity" android:screenOrientation="portrait" android:hardwareAccelerated="true" />
+        <activity android:name="com.telkom.mwallet.tcash.payment.TCashPDAMActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustResize|adjustNothing" android:hardwareAccelerated="true" />
+        <activity android:name="com.telkom.mwallet.tcash.payment.TCashOthersActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustResize|adjustNothing" android:hardwareAccelerated="true" />
+        <activity android:name="com.telkom.mwallet.setting.tcash.TCashForgetPINActivity" android:screenOrientation="portrait" android:hardwareAccelerated="true" />
+        <activity android:name="com.telkom.mwallet.tcash.TCashSecurityQsActivity" android:screenOrientation="portrait" android:hardwareAccelerated="true" />
+        <activity android:name="com.telkom.mwallet.tcash.TCashMapActivity" android:screenOrientation="portrait" android:hardwareAccelerated="true" />
+        <activity android:name="com.telkom.mwallet.cards.CardHomeActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.telkom.mwallet.cards.CardListActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.telkom.mwallet.cards.CardTopupActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.telkom.mwallet.cards.CardTransactionHistoryActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.telkom.mwallet.cards.CardAddListActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.telkom.mwallet.cards.CardAddDetailActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden|stateAlwaysHidden" android:hardwareAccelerated="true" />
+        <activity android:name="com.telkom.mwallet.home.ScanQRCodeActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.telkom.mwallet.coupon.CouponListActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.telkom.mwallet.coupon.CouponDetailActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.telkom.mwallet.coupon.CouponRedeemPINActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.telkom.mwallet.coupon.CouponRedeemNFCActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.telkom.mwallet.coupon.CouponRedeemQRActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.telkom.mwallet.coupon.CouponBarcodeActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.telkom.mwallet.coupon.CouponTnCActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.telkom.mwallet.setting.PromotionActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.telkom.mwallet.setting.SettingMainActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.telkom.mwallet.setting.ChangePinCodeActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.telkom.mwallet.setting.TWalletNewsActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.telkom.mwallet.setting.TWalletNewsDetailActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.telkom.mwallet.setting.ProfileActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.telkom.mwallet.setting.AboutTWalletActivity" android:screenOrientation="portrait" />
+        <receiver android:name="com.telkom.mwallet.setting.facebook.HelloFacebookBroadcastReceiver">
+            <intent-filter>
+                <action android:name="com.facebook.platform.AppCallResultBroadcast" />
+            </intent-filter>
+        </receiver>
+        <activity android:name="com.facebook.LoginActivity" />
+        <provider android:name="com.facebook.NativeAppCallContentProvider" android:exported="true" android:authorities="com.facebook.app.NativeAppCallContentProvider223295314845881" />
+        <activity android:name="com.telkom.mwallet.setting.twitter.TwitterList" android:screenOrientation="portrait" />
+        <activity android:name="com.telkom.mwallet.setting.twitter.TwitterPost" android:screenOrientation="portrait" />
+        <activity android:name="com.telkom.mwallet.setting.twitter.TwitterStatus" android:screenOrientation="portrait" />
+        <activity android:name="com.telkom.mwallet.setting.tcash.ChangeTCashPINActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.telkom.mwallet.setting.tcash.TCashFavoriteListActivity" android:screenOrientation="portrait" android:hardwareAccelerated="true" />
+        <activity android:name="com.telkom.mwallet.tcash.tap.TCashTapActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden|stateAlwaysHidden" android:hardwareAccelerated="true" />
+        <activity android:name="com.telkom.mwallet.tcash.tap.ActivationActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustResize|adjustNothing" android:hardwareAccelerated="true" />
+        <activity android:name="com.telkom.mwallet.cards.CardEventActivity" android:launchMode="singleTask" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.nfc.action.TRANSACTION_DETECTED" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:scheme="nfc" android:host="secure" android:port="0" android:path="/A000000003101001" />
+            </intent-filter>
+        </activity>
+        <receiver android:name="com.appsflyer.MultipleInstallBroadcastReceiver" android:exported="true">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.telkom.mwallet.login.SMSReceiver" />
+        <receiver android:name="com.google.android.gcm.GCMBroadcastReceiver" android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+                <category android:name="com.telkom.mwallet" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.telkom.mwallet.CardActivationCheckReceiver" android:process=":remote">
+            <intent-filter>
+                <action android:name="ACTION.RESTART.CardActivationCheckService" />
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <service android:name="com.telkom.mwallet.GCMIntentService" />
+        <service android:name="com.telkom.mwallet.service.MobilisApduService" android:permission="android.permission.BIND_NFC_SERVICE" android:exported="true">
+            <intent-filter>
+                <action android:name="android.nfc.cardemulation.action.HOST_APDU_SERVICE" />
+            </intent-filter>
+            <meta-data android:name="android.nfc.cardemulation.host_apdu_service" android:resource="@xml/apduservice" />
+        </service>
+    </application>
+</manifest>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:paddingLeft="@dimen/activity_horizontal_padding" android:paddingRight="@dimen/activity_horizontal_padding" android:paddingBottom="@dimen/activity_vertical_padding" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/card_event_detected" />
+    </LinearLayout>
+</ScrollView>

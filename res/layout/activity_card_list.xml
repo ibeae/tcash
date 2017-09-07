@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:scrollbars="UNKNOWN_DATA_0x0" android:fadingEdge="UNKNOWN_DATA_0x0" android:layout_width="match_parent" android:layout_height="match_parent" android:overScrollMode="never">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+            <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:background="@color/n_lightgray" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <android.support.v4.view.ViewPager android:id="@id/card_list_viewpager" android:paddingLeft="@dimen/card_viewpager_padding" android:paddingRight="@dimen/card_viewpager_padding" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x11801" />
+                <HorizontalScrollView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20dp">
+                    <com.telkom.mwallet.view.CircleIndicatorView android:id="@id/card_list_indicator" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                </HorizontalScrollView>
+            </LinearLayout>
+            <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@id/card_list_empty_linear" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+                <ImageView android:background="@drawable/ic_nocard" android:layout_width="UNKNOWN_DATA_0x3701" android:layout_height="UNKNOWN_DATA_0x2301" android:layout_marginTop="50dp" />
+                <TextView android:textColor="@color/darkgray" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30dp" android:text="@string/msg_no_card" />
+            </LinearLayout>
+            <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@id/card_list_action_menu_linear" android:paddingLeft="16dp" android:paddingRight="16dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="20dp">
+                <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+                        <TextView android:textSize="20dp" android:textColor="@color/black" android:id="@id/card_list_balance_txt" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                        <TextView android:textSize="14dp" android:textColor="@color/orangered" android:id="@id/card_list_balance_title_txt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="@string/txt_card_balance" />
+                    </LinearLayout>
+                    <ImageButton android:id="@id/card_balance_refresh" android:background="@drawable/ic_refresh" android:layout_width="UNKNOWN_DATA_0x1801" android:layout_height="UNKNOWN_DATA_0x1801" android:layout_alignParentRight="true" />
+                </RelativeLayout>
+                <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="30dp" android:layout_marginBottom="10dp">
+                    <View android:background="@drawable/shape_btn_submenu" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="UNKNOWN_DATA_0x101" android:layout_weight="1.0" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:text="@string/actions" />
+                    <View android:background="@drawable/shape_btn_submenu" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="UNKNOWN_DATA_0x101" android:layout_weight="1.0" />
+                </LinearLayout>
+                <RelativeLayout android:clickable="true" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f090077">
+                    <Button android:id="@id/card_list_transaction_history_button" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/button_transaction_history" style="@style/n_submenu" />
+                    <ImageView android:layout_width="UNKNOWN_DATA_0x1801" android:layout_height="UNKNOWN_DATA_0x1801" android:src="@drawable/ic_chevron_right" android:scaleType="fitXY" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                </RelativeLayout>
+                <RelativeLayout android:clickable="true" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f090077">
+                    <Button android:id="@id/card_list_redeem" android:layout_width="match_parent" android:layout_height="match_parent" android:text="Redeem" style="@style/n_submenu" />
+                    <ImageView android:layout_width="UNKNOWN_DATA_0x1801" android:layout_height="UNKNOWN_DATA_0x1801" android:src="@drawable/ic_chevron_right" android:scaleType="fitXY" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                </RelativeLayout>
+                <RelativeLayout android:clickable="true" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f090077" android:layout_marginBottom="20dp">
+                    <Button android:id="@id/card_list_delete" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/title_delete" style="@style/n_submenu" />
+                    <ImageView android:layout_width="UNKNOWN_DATA_0x1801" android:layout_height="UNKNOWN_DATA_0x1801" android:src="@drawable/ic_chevron_right" android:scaleType="fitXY" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

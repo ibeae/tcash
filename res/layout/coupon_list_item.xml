@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <FrameLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:paddingLeft="18dp" android:paddingTop="13dp" android:paddingRight="18dp" android:paddingBottom="13dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:paddingLeft="18dp" android:paddingTop="13dp" android:paddingRight="18dp" android:paddingBottom="13dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+            <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:minHeight="79dp" android:layout_weight="1.0">
+                <TextView android:textSize="19dp" android:textStyle="bold" android:textColor="@color/darkslate" android:id="@id/coupon_txt_list_item_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="" />
+                <TextView android:textSize="18dp" android:textColor="@color/lightslate2" android:id="@id/coupon_txt_list_item_desc" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="" />
+            </LinearLayout>
+            <Button android:id="@id/coupon_btn_list_item_rss" android:background="@color/orange" android:focusable="false" android:layout_width="UNKNOWN_DATA_0x2301" android:layout_height="UNKNOWN_DATA_0x2301" android:text="" />
+        </LinearLayout>
+        <ImageView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/coupon_img_list_item_redeemed" android:background="@color/orange" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="1dp" />
+    </FrameLayout>
+    <ImageView android:background="@color/gray" android:layout_width="match_parent" android:layout_height="wrap_content" android:scaleType="fitXY" android:adjustViewBounds="true" />
+</LinearLayout>

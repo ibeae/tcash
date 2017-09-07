@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="security_qs">
+        <item>Nama ibu kandung</item>
+        <item>Nama Kecil</item>
+        <item>Nama binatang peliharaan</item>
+        <item>Nama Guru</item>
+        <item>Lagu favorit</item>
+    </array>
+    <array name="security_qs_id">
+        <item>4444</item>
+        <item>5555</item>
+        <item>1111</item>
+        <item>2222</item>
+        <item>3333</item>
+    </array>
+</resources>

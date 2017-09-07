@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <raw name="mwallet">res/raw/mwallet.bks</raw>
+    <raw name="mwalletbks">res/raw/mwalletbks.cer</raw>
+    <raw name="onhover_ogg">res/raw/onhover_ogg.ogg</raw>
+    <raw name="scan_beep">res/raw/scan_beep.ogg</raw>
+    <raw name="sound_new2">res/raw/sound_new2.wav</raw>
+    <raw name="wallet_mock_profile">res/raw/wallet_mock_profile</raw>
+</resources>

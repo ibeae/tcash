@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@id/top_layout" android:background="@color/n_lightgray" android:layout_width="match_parent" android:layout_height="match_parent"
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:background="@drawable/img_header_cover" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f090070">
+        <ImageView android:layout_width="UNKNOWN_DATA_0x2001" android:layout_height="UNKNOWN_DATA_0x2001" android:src="@drawable/ic_header_settings" />
+    </LinearLayout>
+    <RelativeLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:background="@color/n_lightgray" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/bottom_back_color">
+        <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <RelativeLayout android:id="@id/setting_main_general_button" android:background="@color/white" android:paddingLeft="10dp" android:clickable="true" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f090073">
+                <TextView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/setting_general_button" android:layout_centerInParent="true" style="@style/n_tcash_main_button_txt" />
+                <ImageView android:layout_width="UNKNOWN_DATA_0x1401" android:layout_height="UNKNOWN_DATA_0x1401" android:layout_marginRight="16dp" android:src="@drawable/ic_chevron_right" android:scaleType="fitXY" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <View android:background="@color/n_lightgray" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x101" />
+            <RelativeLayout android:id="@id/setting_main_tcash_button" android:background="@color/white" android:paddingLeft="10dp" android:clickable="true" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f090073">
+                <TextView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str_tcash" android:layout_centerInParent="true" style="@style/n_tcash_main_button_txt" />
+                <ImageView android:layout_width="UNKNOWN_DATA_0x1401" android:layout_height="UNKNOWN_DATA_0x1401" android:layout_marginRight="16dp" android:src="@drawable/ic_chevron_right" android:scaleType="fitXY" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <View android:background="@color/n_lightgray" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x101" />
+            <RelativeLayout android:id="@id/setting_main_tcashtap_button" android:background="@color/white" android:paddingLeft="10dp" android:clickable="true" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f090073">
+                <TextView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tcash_tap" android:layout_centerInParent="true" style="@style/n_tcash_main_button_txt" />
+                <ImageView android:layout_width="UNKNOWN_DATA_0x1401" android:layout_height="UNKNOWN_DATA_0x1401" android:layout_marginRight="16dp" android:src="@drawable/ic_chevron_right" android:scaleType="fitXY" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <View android:background="@color/n_lightgray" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x101" />
+            <RelativeLayout android:id="@id/setting_main_mycards_button" android:background="@color/white" android:paddingLeft="10dp" android:clickable="true" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f090073">
+                <TextView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/title_cardlist" android:layout_centerInParent="true" style="@style/n_tcash_main_button_txt" />
+                <ImageView android:layout_width="UNKNOWN_DATA_0x1401" android:layout_height="UNKNOWN_DATA_0x1401" android:layout_marginRight="16dp" android:src="@drawable/ic_chevron_right" android:scaleType="fitXY" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

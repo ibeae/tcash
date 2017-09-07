@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/com.telkom.mwallet" telkom:orientation="vertical" telkom:layout_width="match_parent" telkom:layout_height="match_parent"
+    <LinearLayout telkom:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" telkom:orientation="vertical" telkom:background="@color/white" telkom:padding="@dimen/n_margin_frame" telkom:layout_width="match_parent" telkom:layout_height="wrap_content" telkom:layout_marginTop="@dimen/n_margin_frame">
+        <ImageView telkom:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" telkom:layout_width="UNKNOWN_DATA_0xf01" telkom:layout_height="UNKNOWN_DATA_0x1501" telkom:src="@drawable/ic_pin_lock" telkom:scaleType="fitXY" />
+        <TextView telkom:layout_width="wrap_content" telkom:layout_height="wrap_content" telkom:layout_marginTop="13dp" telkom:text="@string/enter_tcash_pin" style="@style/black17b" />
+        <com.telkom.mwallet.view.Random2of6PinEditView telkom:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" telkom:id="@id/pin_edit_view" telkom:layout_width="wrap_content" telkom:layout_height="wrap_content" telkom:layout_marginTop="@dimen/n_margin_frame" telkom:pinWidth="@dimen/pin_width" telkom:pinHeight="@dimen/pin_height" />
+    </LinearLayout>
+    <TextView telkom:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" telkom:id="@id/tcash_forget_pin_button" telkom:layout_width="wrap_content" telkom:layout_height="wrap_content" telkom:layout_marginTop="14dp" telkom:layout_marginBottom="7dp" telkom:text="@string/tcash_forget_pin" style="@style/red16" />
+    <Button telkom:id="@id/tcash_confirm_button" telkom:layout_width="match_parent" telkom:layout_height="UNKNOWN_DATA_0x7f09006a" telkom:layout_margin="@dimen/n_margin_frame" telkom:text="@string/btn_confirm" style="@style/common_red_button" />
+</LinearLayout>

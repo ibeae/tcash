@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <xml name="apduservice">res/xml/apduservice.xml</xml>
+    <xml name="apduservice">res/xml-v19/apduservice.xml</xml>
+    <xml name="nfc_tech_filter">res/xml/nfc_tech_filter.xml</xml>
+</resources>

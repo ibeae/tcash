@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:background="0x0" android:layout_width="match_parent" android:layout_height="match_parent"
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@id/coupon_redeem_menu_button_layout" android:background="@color/white" android:paddingBottom="19dp" android:layout_width="UNKNOWN_DATA_0x16601" android:layout_height="UNKNOWN_DATA_0x16801">
+        <RelativeLayout android:gravity="UNKNOWN_DATA_0x0" android:clickable="true" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f09006d" style="@style/n_tcash_sub_menu_head">
+            <TextView android:id="@id/sub_menu_title_textview" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/n_margin_frame" android:text="@string/title_coupon_reddem_subhead" android:layout_centerInParent="true" style="@style/n_tcash_sub_menu_head_txt" />
+            <Button android:id="@id/coupon_redeem_menu_slide_button" android:layout_width="UNKNOWN_DATA_0x1801" android:layout_height="UNKNOWN_DATA_0x1801" android:layout_marginLeft="@dimen/n_margin_frame" android:layout_marginRight="@dimen/n_margin_frame" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/n_fragment_menu_slide_down" />
+        </RelativeLayout>
+        <ScrollView android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/tcash_bottom_layout_scrollview" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/n_tcash_menu_scroll">
+            <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:background="0x0" android:layout_width="match_parent" android:layout_height="match_parent">
+                <Button android:id="@id/coupon_redeem_menu_pin_button" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f090077" android:text="@string/title_coupon_pin_button" style="@style/n_submenu" />
+                <Button android:id="@id/coupon_redeem_menu_qr_button" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f090077" android:text="@string/title_coupon_qr_button" style="@style/n_submenu" />
+                <Button android:id="@id/coupon_redeem_menu_nfc_button" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f090077" android:text="@string/title_coupon_nfc_button" style="@style/n_submenu" />
+                <Button android:id="@id/coupon_redeem_menu_ussd_button" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f090077" android:text="@string/title_coupon_ussd_button" style="@style/n_submenu" />
+                <Button android:id="@id/coupon_redeem_menu_scanner_button" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f090077" android:text="@string/title_coupon_scanner_button" style="@style/n_submenu" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:paddingLeft="8dp" android:paddingRight="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ImageView android:id="@id/card_add_img" android:background="@drawable/addcard_grey" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0xb401" android:layout_marginTop="@dimen/n_button_height" />
+    <TextView android:textColor="@color/darkgray" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:text="Please add a card." />
+</LinearLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/n_lightgray" android:layout_width="match_parent" android:layout_height="match_parent"
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:background="@drawable/img_header_cover" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f090070">
+        <ImageView android:layout_width="UNKNOWN_DATA_0x2001" android:layout_height="UNKNOWN_DATA_0x2001" android:src="@drawable/ic_header_coupon" />
+    </LinearLayout>
+    <RelativeLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="horizontal" android:id="@id/couponlist_tab" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="0.5">
+                <Button android:id="@id/couponlist_couponlist_button" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f090071" android:text="@string/tab_discover" style="@style/n_coupon_tab" />
+                <ImageView android:id="@id/couponlist_couponlist_picker_imageview" android:padding="5dp" android:visibility="gone" android:clickable="true" android:layout_width="UNKNOWN_DATA_0x1601" android:layout_height="UNKNOWN_DATA_0x1701" android:layout_marginRight="20dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/picker_imageview" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="0.5">
+                <Button android:id="@id/couponlist_mycoupon_button" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f090071" android:text="@string/tab_mycoupons" style="@style/n_coupon_tab" />
+                <Button android:enabled="false" android:id="@id/couponlist_mycoupon_picker_button" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0xc01" android:layout_height="UNKNOWN_DATA_0xd01" android:layout_marginRight="25dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/btn_picker" />
+            </RelativeLayout>
+        </LinearLayout>
+        <com.amobee.adsdk.AmobeeAdPlaceholder android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/placeholder" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+        <ListView android:id="@id/couponlist_listview" android:scrollbars="UNKNOWN_DATA_0x0" android:layout_width="match_parent" android:layout_height="match_parent" android:cacheColorHint="0x106000d" android:divider="@color/n_lightgray" android:dividerHeight="1dp" android:layout_above="@id/placeholder" android:layout_below="@id/couponlist_tab" android:overScrollMode="never" />
+        <ScrollView android:id="@id/couponlist_nodata_scrollview" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@id/couponlist_tab" style="@style/common_scroll">
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+                <ImageView android:id="@id/n_couponlist_nodata_imageview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="80dp" android:src="@drawable/ic_no_coupon" android:layout_centerHorizontal="true" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="@string/no_coupons" android:layout_below="@id/n_couponlist_nodata_imageview" android:layout_centerHorizontal="true" style="@style/n_darkgray20" />
+            </RelativeLayout>
+        </ScrollView>
+    </RelativeLayout>
+</LinearLayout>

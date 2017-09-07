@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:background="@color/n_lightgray" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/tcash_fragment_layout">
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent" style="@style/tcash_scroll">
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:padding="@dimen/n_margin_frame" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f090071">
+                <Button android:textColor="@color/n_black" android:id="@id/tcash_insurance_type_button" android:layout_width="match_parent" android:layout_height="match_parent" android:hint="@string/msg_type_insurance" android:maxLines="1" style="@style/n_input_edittext_top" />
+                <ImageView android:background="@drawable/ic_list_more" android:clickable="false" android:layout_width="UNKNOWN_DATA_0x1801" android:layout_height="UNKNOWN_DATA_0x1801" android:layout_marginTop="13dp" android:layout_marginRight="@dimen/n_margin_frame" android:layout_alignParentRight="true" />
+            </RelativeLayout>
+            <EditText android:id="@id/tcash_name_edittext" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f090071" android:hint="@string/name" style="@style/n_input_edittext_middle" />
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f090071">
+                <Button android:textColor="@color/n_black" android:id="@id/tcash_insurance_date_birth_button" android:layout_width="match_parent" android:layout_height="match_parent" android:hint="@string/input_date_of_birth" android:maxLines="1" style="@style/n_input_edittext_middle" />
+                <ImageView android:background="@drawable/ic_list_more" android:clickable="false" android:layout_width="UNKNOWN_DATA_0x1801" android:layout_height="UNKNOWN_DATA_0x1801" android:layout_marginTop="13dp" android:layout_marginRight="@dimen/n_margin_frame" android:layout_alignParentRight="true" />
+            </RelativeLayout>
+            <EditText android:id="@id/tcash_purchase_id_number_edit" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f090071" android:hint="@string/id_number" android:inputType="number|numberSigned|numberDecimal|numberPassword|phone" style="@style/n_input_edittext_middle" />
+            <EditText android:id="@id/tcash_insurance_address_edit" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f090071" android:hint="@string/hint_address" style="@style/n_input_edittext_middle" />
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f090071">
+                <Button android:textColor="@color/n_black" android:id="@id/tcash_insurance_city_button" android:layout_width="match_parent" android:layout_height="match_parent" android:hint="@string/hint_city" android:maxLines="1" style="@style/n_input_edittext_middle" />
+                <ImageView android:background="@drawable/ic_list_more" android:clickable="false" android:layout_width="UNKNOWN_DATA_0x1801" android:layout_height="UNKNOWN_DATA_0x1801" android:layout_marginTop="13dp" android:layout_marginRight="@dimen/n_margin_frame" android:layout_alignParentRight="true" />
+            </RelativeLayout>
+            <EditText android:id="@id/tcash_insurance_heirs_edit" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f090071" android:hint="@string/msg_heirs" style="@style/n_input_edittext_middle" />
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f090071">
+                <Button android:textColor="@color/n_black" android:id="@id/tcash_package_button" android:layout_width="match_parent" android:layout_height="match_parent" android:hint="@string/button_package" android:maxLines="1" style="@style/n_input_edittext_bottom" />
+                <ImageView android:background="@drawable/ic_list_more" android:clickable="false" android:layout_width="UNKNOWN_DATA_0x1801" android:layout_height="UNKNOWN_DATA_0x1801" android:layout_marginTop="13dp" android:layout_marginRight="@dimen/n_margin_frame" android:layout_alignParentRight="true" />
+            </RelativeLayout>
+            <Button android:id="@id/tcash_purchase_next_button" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f09006a" android:layout_marginTop="@dimen/n_margin_frame_top_bottom" android:text="@string/btn_next" style="@style/common_red_button" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

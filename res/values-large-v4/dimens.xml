@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_vertical_padding">15.0dip</dimen>
+    <dimen name="padding_large">16.0dip</dimen>
+    <dimen name="padding_medium">16.0dip</dimen>
+    <dimen name="padding_small">8.0dip</dimen>
+</resources>

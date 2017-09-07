@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:background="@color/n_lightgray" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/tcash_fragment_layout">
+    <com.telkom.mwallet.view.TCashWebview android:id="@id/tcash_purchase_webview" android:background="0x106000d" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/n_scroll" />
+</LinearLayout>

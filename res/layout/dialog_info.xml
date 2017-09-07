@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" lib:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" lib:orientation="vertical" lib:id="@id/layout_notice_root" lib:layout_width="UNKNOWN_DATA_0x11d01" lib:layout_height="wrap_content"
+    <LinearLayout lib:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" lib:orientation="vertical" lib:background="@drawable/shape_dialog_bg" lib:layout_width="UNKNOWN_DATA_0x11d01" lib:layout_height="wrap_content">
+        <TextView lib:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" lib:id="@id/dialog_title" lib:background="@drawable/shape_dialog_title_bg" lib:layout_width="match_parent" lib:layout_height="UNKNOWN_DATA_0x7f09006d" lib:text="Detail" style="@style/n_dialog_title" />
+        <LinearLayout lib:orientation="vertical" lib:padding="15dp" lib:paddingBottom="30dp" lib:layout_width="match_parent" lib:layout_height="wrap_content">
+            <TextView lib:id="@id/info_dialog_date" lib:layout_width="wrap_content" lib:layout_height="wrap_content" lib:singleLine="true" style="@style/gray12" />
+            <TextView lib:id="@id/info_dialog_type" lib:layout_width="wrap_content" lib:layout_height="wrap_content" style="@style/red18" />
+            <TextView lib:id="@id/info_dialog_info" lib:layout_width="wrap_content" lib:layout_height="wrap_content" style="@style/gray13" />
+            <TextView lib:id="@id/info_dialog_balance" lib:layout_width="wrap_content" lib:layout_height="wrap_content" lib:layout_marginTop="3dp" lib:singleLine="true" style="@style/darkgray18" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

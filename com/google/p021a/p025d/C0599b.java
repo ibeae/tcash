@@ -1,0 +1,12 @@
+package com.google.p021a.p025d;
+
+enum C0599b {
+    EMPTY_ARRAY,
+    NONEMPTY_ARRAY,
+    EMPTY_OBJECT,
+    DANGLING_NAME,
+    NONEMPTY_OBJECT,
+    EMPTY_DOCUMENT,
+    NONEMPTY_DOCUMENT,
+    CLOSED
+}

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:background="@color/transparent" android:paddingTop="10dp" android:paddingBottom="10dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ImageView android:id="@id/circle_img" android:background="@drawable/btn_picker" android:layout_width="UNKNOWN_DATA_0xc01" android:layout_height="UNKNOWN_DATA_0xc01" android:layout_marginLeft="40dp" android:layout_marginTop="4dp" />
+    <TextView android:textColor="@color/n_orange" android:id="@id/card_transaction_history_listitem_date_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="25dp" android:text="14.07.2014" android:layout_toRightOf="@id/circle_img" />
+    <TextView android:id="@id/card_transaction_history_listitem_amount_textview" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="21 Cineplex" android:singleLine="true" android:layout_below="@id/card_transaction_history_listitem_date_textview" android:layout_alignLeft="@id/card_transaction_history_listitem_date_textview" style="@style/darkgray16b" />
+</RelativeLayout>

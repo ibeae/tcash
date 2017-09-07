@@ -1,0 +1,580 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="security_qs">
+        <item>Mother maiden name</item>
+        <item>Childhood name</item>
+        <item>Pet Name</item>
+        <item>Teacher Name</item>
+        <item>Favorite Song</item>
+    </array>
+    <array name="security_qs_id">
+        <item>4444</item>
+        <item>5555</item>
+        <item>1111</item>
+        <item>2222</item>
+        <item>3333</item>
+    </array>
+    <array name="dialog_list_sort">
+        <item>Top downloaded</item>
+        <item>Nearby</item>
+    </array>
+    <array name="select_city">
+        <item>ACEH BARAT,Aceh</item>
+        <item>ACEH BARAT DAYA,Aceh</item>
+        <item>ACEH BESAR,Aceh</item>
+        <item>ACEH JAYA,Aceh</item>
+        <item>ACEH SELATAN,Aceh</item>
+        <item>ACEH SINGKIL,Aceh</item>
+        <item>ACEH TAMIANG,Aceh</item>
+        <item>ACEH TENGAH,Aceh</item>
+        <item>ACEH TENGGARA,Aceh</item>
+        <item>ACEH TIMUR,Aceh</item>
+        <item>ACEH UTARA,Aceh</item>
+        <item>AGAM,Sumatera Barat</item>
+        <item>ALOR,Nusa Tenggara Timur</item>
+        <item>ASAHAN,Sumatera Utara</item>
+        <item>ASMAT,Papua</item>
+        <item>BADUNG,Bali</item>
+        <item>BALANGAN,Kalimantan Selatan</item>
+        <item>BANDUNG,Jawa Barat</item>
+        <item>BANDUNG BARAT,Jawa Barat</item>
+        <item>BANGGAI,Sulawesi Tengah</item>
+        <item>BANGGAI KEPULAUAN,Sulawesi Tengah</item>
+        <item>BANGGAI LAUT,Sulawesi Tengah</item>
+        <item>BANGKA,Kepulauan Bangka Belitung</item>
+        <item>BANGKA BARAT,Kepulauan Bangka Belitung</item>
+        <item>BANGKA SELATAN,Kepulauan Bangka Belitung</item>
+        <item>BANGKA TENGAH,Kepulauan Bangka Belitung</item>
+        <item>BANGKALAN,Jawa Timur</item>
+        <item>BANGLI,Bali</item>
+        <item>BANJAR,Jawa Barat</item>
+        <item>BANJARNEGARA,Jawa Tengah</item>
+        <item>BANTAENG,Sulawesi Selatan</item>
+        <item>BANTUL,Yogyakarta</item>
+        <item>BANYU ASIN,Sumatera Selatan</item>
+        <item>BANYUMAS,Jawa Tengah</item>
+        <item>BANYUWANGI,Jawa Timur</item>
+        <item>BARITO KUALA,Kalimantan Selatan</item>
+        <item>BARITO SELATAN,Kalimantan Tengah</item>
+        <item>BARITO TIMUR,Kalimantan Tengah</item>
+        <item>BARITO UTARA,Kalimantan Tengah</item>
+        <item>BARRU,Sulawesi Selatan</item>
+        <item>BATANG,Jawa Tengah</item>
+        <item>BATANG HARI,Jambi</item>
+        <item>BATU BARA,Sumatera Utara</item>
+        <item>BEKASI,Jawa Barat</item>
+        <item>BELITUNG,Kepulauan Bangka Belitung</item>
+        <item>BELITUNG TIMUR,Kepulauan Bangka Belitung</item>
+        <item>BELU,Nusa Tenggara Timur</item>
+        <item>BENER MERIAH,Aceh</item>
+        <item>BENGKALIS,Riau</item>
+        <item>BENGKAYANG,Kalimantan Barat</item>
+        <item>BENGKULU SELATAN,Bengkulu</item>
+        <item>BENGKULU TENGAH,Bengkulu</item>
+        <item>BENGKULU UTARA,Bengkulu</item>
+        <item>BERAU,Kalimantan Timur</item>
+        <item>BIAK NUMFOR,Papua</item>
+        <item>BIMA,Nusa Tenggara Barat</item>
+        <item>BINTAN,Kepulauan Riau</item>
+        <item>BIREUEN,Aceh</item>
+        <item>BLITAR,Jawa Timur</item>
+        <item>BLORA,Jawa Tengah</item>
+        <item>BOALEMO,Gorontalo</item>
+        <item>BOGOR,Jawa Barat</item>
+        <item>BOJONEGORO,Jawa Timur</item>
+        <item>BOLAANG MONGONDOW,Sulawesi Utara</item>
+        <item>BOLAANG MONGONDOW SELATAN,Sulawesi Utara</item>
+        <item>BOLAANG MONGONDOW TIMUR,Sulawesi Utara</item>
+        <item>BOLAANG MONGONDOW UTARA,Sulawesi Utara</item>
+        <item>BOMBANA,Sulawesi Tenggara</item>
+        <item>BONDOWOSO,Jawa Timur</item>
+        <item>BONE,Gorontalo</item>
+        <item>BONE BOLANGO,Gorontalo</item>
+        <item>BOVEN DIGOEL,Papua</item>
+        <item>BOYOLALI,Jawa Tengah</item>
+        <item>BREBES,Jawa Tengah</item>
+        <item>BULELENG,Bali</item>
+        <item>BULUKUMBA,Sulawesi Selatan</item>
+        <item>BULUNGAN,Kalimantan Utara</item>
+        <item>BUNGO,Jambi</item>
+        <item>BUOL,Sulawesi Tengah</item>
+        <item>BURU,Maluku</item>
+        <item>BURU SELATAN,Maluku</item>
+        <item>BUTON,Sulawesi Tenggara</item>
+        <item>BUTON UTARA,Sulawesi Tenggara</item>
+        <item>CIAMIS,Jawa Barat</item>
+        <item>CIANJUR,Jawa Barat</item>
+        <item>CILACAP,Jawa Tengah</item>
+        <item>CIREBON,Jawa Barat</item>
+        <item>DAIRI,Sumatera Utara</item>
+        <item>DEIYAI,Papua</item>
+        <item>DELI SERDANG,Sumatera Utara</item>
+        <item>DEMAK,Jawa Tengah</item>
+        <item>DHARMASRAYA,Sumatera Barat</item>
+        <item>DOGIYAI,Papua</item>
+        <item>DOMPU,Nusa Tenggara Barat</item>
+        <item>DONGGALA,Sulawesi Tengah</item>
+        <item>EMPAT LAWANG,Sumatera Selatan</item>
+        <item>ENDE,Nusa Tenggara Timur</item>
+        <item>ENREKANG,Sulawesi Selatan</item>
+        <item>FAKFAK,Papua Barat</item>
+        <item>FLORES TIMUR,Nusa Tenggara Timur</item>
+        <item>GARUT,Jawa Barat</item>
+        <item>GAYO LUES,Aceh</item>
+        <item>GIANYAR,Bali</item>
+        <item>GORONTALO,Gorontalo</item>
+        <item>GORONTALO UTARA,Gorontalo</item>
+        <item>GOWA,Sulawesi Selatan</item>
+        <item>GRESIK,Jawa Timur</item>
+        <item>GROBOGAN,Jawa Tengah</item>
+        <item>GUNUNG KIDUL,Yogyakarta</item>
+        <item>GUNUNG MAS,Kalimantan Tengah</item>
+        <item>GUNUNGSITOLI,Sumatera Utara</item>
+        <item>HALMAHERA BARAT,Maluku Utara</item>
+        <item>HALMAHERA SELATAN,Maluku Utara</item>
+        <item>HALMAHERA TENGAH,Maluku Utara</item>
+        <item>HALMAHERA TIMUR,Maluku Utara</item>
+        <item>HALMAHERA UTARA,Maluku Utara</item>
+        <item>HULU SUNGAI SELATAN,Kalimantan Selatan</item>
+        <item>HULU SUNGAI TENGAH,Kalimantan Selatan</item>
+        <item>HULU SUNGAI UTARA,Kalimantan Selatan</item>
+        <item>HUMBANG HASUNDUTAN,Sumatera Utara</item>
+        <item>INDRAGIRI HILIR,Riau</item>
+        <item>INDRAGIRI HULU,Riau</item>
+        <item>INDRAMAYU,Jawa Barat</item>
+        <item>INTAN JAYA,Papua</item>
+        <item>JAKARTA BARAT,DKI Jakarta</item>
+        <item>JAKARTA PUSAT,DKI Jakarta</item>
+        <item>JAKARTA SELATAN,DKI Jakarta</item>
+        <item>JAKARTA TIMUR,DKI Jakarta</item>
+        <item>JAKARTA UTARA,DKI Jakarta</item>
+        <item>JAYAPURA,Papua</item>
+        <item>JAYAWIJAYA,Papua</item>
+        <item>JEMBER,Jawa Timur</item>
+        <item>JEMBRANA,Bali</item>
+        <item>JENEPONTO,Sulawesi Selatan</item>
+        <item>JEPARA,Jawa Tengah</item>
+        <item>JOMBANG,Jawa Timur</item>
+        <item>KAIMANA,Papua Barat</item>
+        <item>KAMPAR,Riau</item>
+        <item>KAPUAS,Kalimantan Tengah</item>
+        <item>KAPUAS HULU,Kalimantan Barat</item>
+        <item>KARANG ASEM,Bali</item>
+        <item>KARANGANYAR,Jawa Tengah</item>
+        <item>KARAWANG,Jawa Barat</item>
+        <item>KARIMUN,Kepulauan Riau</item>
+        <item>KARO,Sumatera Utara</item>
+        <item>KATINGAN,Kalimantan Tengah</item>
+        <item>KAUR,Bengkulu</item>
+        <item>KAYONG UTARA,Kalimantan Barat</item>
+        <item>KEBUMEN,Jawa Tengah</item>
+        <item>KEDIRI,Jawa Timur</item>
+        <item>KEEROM,Papua</item>
+        <item>KENDAL,Jawa Tengah</item>
+        <item>KEPAHIANG,Bengkulu</item>
+        <item>KEPULAUAN ANAMBAS,Kepulauan Riau</item>
+        <item>KEPULAUAN ARU,Maluku</item>
+        <item>KEPULAUAN MENTAWAI,Sumatera Barat</item>
+        <item>KEPULAUAN MERANTI,Riau</item>
+        <item>KEPULAUAN SANGIHE,Sulawesi Utara</item>
+        <item>KEPULAUAN SERIBU,DKI Jakarta</item>
+        <item>KEPULAUAN SULA,Maluku Utara</item>
+        <item>KEPULAUAN TALAUD,Sulawesi Utara</item>
+        <item>KEPULAUAN YAPEN,Papua</item>
+        <item>KERINCI,Jambi</item>
+        <item>KETAPANG,Kalimantan Barat</item>
+        <item>KLATEN,Jawa Tengah</item>
+        <item>KLUNGKUNG,Bali</item>
+        <item>KOLAKA,Sulawesi Tenggara</item>
+        <item>KOLAKA TIMUR,Sulawesi Tenggara</item>
+        <item>KOLAKA UTARA,Sulawesi Tenggara</item>
+        <item>KONAWE,Sulawesi Tenggara</item>
+        <item>KONAWE KEPULAUAN,Sulawesi Tenggara</item>
+        <item>KONAWE SELATAN,Sulawesi Tenggara</item>
+        <item>KONAWE UTARA,Sulawesi Tenggara</item>
+        <item>KOTA AMBON,Maluku</item>
+        <item>KOTA BALIKPAPAN,Kalimantan Timur</item>
+        <item>KOTA BANDA ACEH,Aceh</item>
+        <item>KOTA BANDAR LAMPUNG,Lampung</item>
+        <item>KOTA BANDUNG,Jawa Barat</item>
+        <item>KOTA BANJAR,Kalimantan Selatan</item>
+        <item>KOTA BANJAR BARU,Kalimantan Selatan</item>
+        <item>KOTA BANJARMASIN,Kalimantan Selatan</item>
+        <item>KOTA BARU,Kalimantan Selatan</item>
+        <item>KOTA BATAM,Kepulauan Riau</item>
+        <item>KOTA BATU,Jawa Timur</item>
+        <item>KOTA BAU-BAU,Sulawesi Tenggara</item>
+        <item>KOTA BEKASI,Jawa Barat</item>
+        <item>KOTA BENGKULU,Bengkulu</item>
+        <item>KOTA BIMA,Nusa Tenggara Barat</item>
+        <item>KOTA BINJAI,Sumatera Utara</item>
+        <item>KOTA BITUNG,Sulawesi Utara</item>
+        <item>KOTA BLITAR,Jawa Timur</item>
+        <item>KOTA BOGOR,Jawa Barat</item>
+        <item>KOTA BONTANG,Kalimantan Timur</item>
+        <item>KOTA BUKIT TINGGI,Sumatera Barat</item>
+        <item>KOTA CILEGON,Banten</item>
+        <item>KOTA CIMAHI,Jawa Barat</item>
+        <item>KOTA CIREBON,Jawa Barat</item>
+        <item>KOTA DENPASAR,Bali</item>
+        <item>KOTA DEPOK,Jawa Barat</item>
+        <item>KOTA DUMAI,Riau</item>
+        <item>KOTA GORONTALO,Gorontalo</item>
+        <item>KOTA JAMBI,Jambi</item>
+        <item>KOTA JAYAPURA,Papua</item>
+        <item>KOTA KEDIRI,Jawa Timur</item>
+        <item>KOTA KENDARI,Sulawesi Tenggara</item>
+        <item>KOTA KOTAMOBAGU,Sulawesi Utara</item>
+        <item>KOTA KUPANG,Nusa Tenggara Timur</item>
+        <item>KOTA LANGSA,Aceh</item>
+        <item>KOTA LHOKSEUMAWE,Aceh</item>
+        <item>KOTA LUBUKLINGGAU,Sumatera Selatan</item>
+        <item>KOTA MADIUN,Jawa Timur</item>
+        <item>KOTA MAGELANG,Jawa Tengah</item>
+        <item>KOTA MAKASSAR,Sulawesi Selatan</item>
+        <item>KOTA MALANG,Jawa Timur</item>
+        <item>KOTA MANADO,Sulawesi Utara</item>
+        <item>KOTA MATARAM,Nusa Tenggara Barat</item>
+        <item>KOTA MEDAN,Sumatera Utara</item>
+        <item>KOTA METRO,Lampung</item>
+        <item>KOTA MOJOKERTO,Jawa Timur</item>
+        <item>KOTA PADANG,Sumatera Barat</item>
+        <item>KOTA PADANG PANJANG,Sumatera Barat</item>
+        <item>KOTA PADANGSIDIMPUAN,Sumatera Utara</item>
+        <item>KOTA PAGAR ALAM,Sumatera Selatan</item>
+        <item>KOTA PALANGKARAYA,Kalimantan Tengah</item>
+        <item>KOTA PALEMBANG,Sumatera Selatan</item>
+        <item>KOTA PALOPO,Sulawesi Selatan</item>
+        <item>KOTA PALU,Sulawesi Tengah</item>
+        <item>KOTA PANGKALPINANG,Kepulauan Bangka Belitung</item>
+        <item>KOTA PARE-PARE,Sulawesi Selatan</item>
+        <item>KOTA PARIAMAN,Sumatera Barat</item>
+        <item>KOTA PASURUAN,Jawa Timur</item>
+        <item>KOTA PEKALONGAN,Jawa Tengah</item>
+        <item>KOTA PEKANBARU,Riau</item>
+        <item>KOTA PEMATANG SIANTAR,Sumatera Utara</item>
+        <item>KOTA PONTIANAK,Kalimantan Barat</item>
+        <item>KOTA PRABUMULIH,Sumatera Selatan</item>
+        <item>KOTA PROBOLINGGO,Jawa Timur</item>
+        <item>KOTA SABANG,Aceh</item>
+        <item>KOTA SALATIGA,Jawa Tengah</item>
+        <item>KOTA SAMARINDA,Kalimantan Timur</item>
+        <item>KOTA SAWAH LUNTO,Sumatera Barat</item>
+        <item>KOTA SEMARANG,Jawa Tengah</item>
+        <item>KOTA SERANG,Banten</item>
+        <item>KOTA SIBOLGA,Sumatera Utara</item>
+        <item>KOTA SINGKAWANG,Kalimantan Barat</item>
+        <item>KOTA SOLOK,Sumatera Barat</item>
+        <item>KOTA SORONG,Papua Barat</item>
+        <item>KOTA SUBULUSSALAM,Aceh</item>
+        <item>KOTA SUKABUMI,Jawa Barat</item>
+        <item>KOTA SURABAYA,Jawa Timur</item>
+        <item>KOTA SURAKARTA,Jawa Tengah</item>
+        <item>KOTA TANGERANG,Banten</item>
+        <item>KOTA TANGERANG SELATAN,Banten</item>
+        <item>KOTA TANJUNG BALAI,Sumatera Utara</item>
+        <item>KOTA TANJUNG PINANG,Kepulauan Riau</item>
+        <item>KOTA TARAKAN,Kalimantan Utara</item>
+        <item>KOTA TASIKMALAYA,Jawa Barat</item>
+        <item>KOTA TEBING TINGGI,Sumatera Utara</item>
+        <item>KOTA TEGAL,Jawa Tengah</item>
+        <item>KOTA TERNATE,Maluku Utara</item>
+        <item>KOTA TIDORE KEPULAUAN,Maluku Utara</item>
+        <item>KOTA TOMOHON,Sulawesi Utara</item>
+        <item>KOTA TUAL,Maluku</item>
+        <item>KOTA WARINGIN BARAT,Kalimantan Tengah</item>
+        <item>KOTA WARINGIN TIMUR,Kalimantan Tengah</item>
+        <item>KOTA YOGYAKARTA,Yogyakarta</item>
+        <item>KPL BUKIT RAYA,Kalimantan Tengah</item>
+        <item>KPL BUKIT SIGUNTANG,Sumatera Selatan</item>
+        <item>KPL CEREMAI,Jawa Barat</item>
+        <item>KPL DOBONSOLO,Papua</item>
+        <item>KPL DOROLONDA,Bali</item>
+        <item>KPL GUNUNG DEMPO,Sumatera Selatan</item>
+        <item>KPL KELIMUTU,Nusa Tenggara Timur</item>
+        <item>KPL KELUD,Jawa Timur</item>
+        <item>KPL LABOAR,Maluku</item>
+        <item>KPL LAMBELU,Sulawesi Tenggara</item>
+        <item>KPL LAWIT,Kalimatan Barat</item>
+        <item>KPL NGGAPULU,Papua</item>
+        <item>KPL SINABUNG,Sumatera Utara</item>
+        <item>KPL SUROSO,Jawa Timur</item>
+        <item>KUANTAN SINGINGI,Riau</item>
+        <item>KUBU RAYA,Kalimantan Barat</item>
+        <item>KUDUS,Jawa Tengah</item>
+        <item>KULON PROGO,Yogyakarta</item>
+        <item>KUNINGAN,Jawa Barat</item>
+        <item>KUPANG,Nusa Tenggara Timur</item>
+        <item>KUTAI BARAT,Kalimantan Timur</item>
+        <item>KUTAI KARTANEGARA,Kalimantan Timur</item>
+        <item>KUTAI TIMUR,Kalimantan Timur</item>
+        <item>LABUHAN BATU,Sumatera Utara</item>
+        <item>LABUHAN BATU SELATAN,Sumatera Utara</item>
+        <item>LABUHAN BATU UTARA,Sumatera Utara</item>
+        <item>LAHAT,Sumatera Selatan</item>
+        <item>LAMANDAU,Kalimantan Tengah</item>
+        <item>LAMONGAN,Jawa Timur</item>
+        <item>LAMPUNG BARAT,Lampung</item>
+        <item>LAMPUNG SELATAN,Lampung</item>
+        <item>LAMPUNG TENGAH,Lampung</item>
+        <item>LAMPUNG TIMUR,Lampung</item>
+        <item>LAMPUNG UTARA,Lampung</item>
+        <item>LANDAK,Kalimantan Barat</item>
+        <item>LANGKAT,Sumatera Utara</item>
+        <item>LANNY JAYA,Papua</item>
+        <item>LEBAK,Banten</item>
+        <item>LEBONG,Bengkulu</item>
+        <item>LEMBATA,Nusa Tenggara Timur</item>
+        <item>LIMA PULUH KOTA,Sumatera Barat</item>
+        <item>LINGGA,Kepulauan Riau</item>
+        <item>LOMBOK BARAT,Nusa Tenggara Barat</item>
+        <item>LOMBOK TENGAH,Nusa Tenggara Barat</item>
+        <item>LOMBOK TIMUR,Nusa Tenggara Barat</item>
+        <item>LOMBOK UTARA,Nusa Tenggara Barat</item>
+        <item>LUMAJANG,Jawa Timur</item>
+        <item>LUWU,Sulawesi Selatan</item>
+        <item>LUWU TIMUR,Sulawesi Selatan</item>
+        <item>LUWU UTARA,Sulawesi Selatan</item>
+        <item>MADIUN,Jawa Timur</item>
+        <item>MAGELANG,Jawa Tengah</item>
+        <item>MAGETAN,Jawa Timur</item>
+        <item>MAHAKAM ULU,Kalimatan Timur</item>
+        <item>MAJALENGKA,Jawa Barat</item>
+        <item>MAJENE,Sulawesi Barat</item>
+        <item>MALAKA,Malaysia</item>
+        <item>MALANG,Jawa Timur</item>
+        <item>MALINAU,Kalimantan Utara</item>
+        <item>MALUKU BARAT DAYA,Maluku</item>
+        <item>MALUKU TENGAH,Maluku</item>
+        <item>MALUKU TENGGARA,Maluku</item>
+        <item>MALUKU TENGGARA BARAT,Maluku</item>
+        <item>MAMASA,Sulawesi Barat</item>
+        <item>MAMBERAMO RAYA,Papua</item>
+        <item>MAMBERAMO TENGAH,Papua</item>
+        <item>MAMUJU,Sulawesi Barat</item>
+        <item>MAMUJU TENGAH,Sulawesi Barat</item>
+        <item>MAMUJU UTARA,Sulawesi Barat</item>
+        <item>MANDAILING NATAL,Sumatera Utara</item>
+        <item>MANGGARAI,Nusa Tenggara Timur</item>
+        <item>MANGGARAI BARAT,Nusa Tenggara Timur</item>
+        <item>MANGGARAI TIMUR,Nusa Tenggara Timur</item>
+        <item>MANOKWARI,Papua Barat</item>
+        <item>MANOKWARI SELATAN,Papua Barat</item>
+        <item>MAPPI,Papua</item>
+        <item>MAROS,Sulawesi Selatan</item>
+        <item>MAYBRAT,Papua Barat</item>
+        <item>MELAWI,Kalimantan Barat</item>
+        <item>MERANGIN,Jambi</item>
+        <item>MERAUKE,Papua</item>
+        <item>MESUJI,Lampung</item>
+        <item>MIMIKA,Papua</item>
+        <item>MINAHASA,Sulawesi Utara</item>
+        <item>MINAHASA SELATAN,Sulawesi Utara</item>
+        <item>MINAHASA TENGGARA,Sulawesi Utara</item>
+        <item>MINAHASA UTARA,Sulawesi Utara</item>
+        <item>MOJOKERTO,Jawa Timur</item>
+        <item>MOROWALI,Sulawesi Tengah</item>
+        <item>MOROWALI UTARA,Sulawesi Tengah</item>
+        <item>MUARA ENIM,Sumatera Selatan</item>
+        <item>MUARO JAMBI,Jambi</item>
+        <item>MUKOMUKO,Bengkulu</item>
+        <item>MUNA,Sulawesi Tenggara</item>
+        <item>MURUNG RAYA,Kalimantan Tengah</item>
+        <item>MUSI BANYUASIN,Sumatera Selatan</item>
+        <item>MUSI RAWAS,Sumatera Selatan</item>
+        <item>MUSI RAWAS UTARA,Sumatera Selatan</item>
+        <item>NABIRE,Papua</item>
+        <item>NAGAN RAYA,Aceh</item>
+        <item>NAGEKEO,Nusa Tenggara Timur</item>
+        <item>NATUNA,Kepulauan Riau</item>
+        <item>NGADA,Nusa Tenggara Timur</item>
+        <item>NGANJUK,Jawa Timur</item>
+        <item>NGAWI,Jawa Timur</item>
+        <item>NIAS,Sumatera Utara</item>
+        <item>NIAS BARAT,Sumatera Utara</item>
+        <item>NIAS SELATAN,Sumatera Utara</item>
+        <item>NIAS UTARA,Sumatera Utara</item>
+        <item>NUNUKAN,Kalimantan Utara</item>
+        <item>OGAN ILIR,Sumatera Selatan</item>
+        <item>OGAN KOMERING ILIR,Sumatera Selatan</item>
+        <item>OGAN KOMERING ULU,Sumatera Selatan</item>
+        <item>OGAN KOMERING ULU SELATAN,Sumatera Selatan</item>
+        <item>OGAN KOMERING ULU TIMUR,Sumatera Selatan</item>
+        <item>PACITAN,Jawa Timur</item>
+        <item>PADANG LAWAS,Sumatera Utara</item>
+        <item>PADANG LAWAS UTARA,Sumatera Utara</item>
+        <item>PADANG PARIAMAN,Sumatera Barat</item>
+        <item>PAKPAK BHARAT,Sumatera Utara</item>
+        <item>PAMEKASAN,Jawa Timur</item>
+        <item>PANDEGLANG,Banten</item>
+        <item>PANGANDARAN,Jawa Barat</item>
+        <item>PANGKAJENE DAN KEPULAUAN,Sulawesi Selatan</item>
+        <item>PANIAI,Papua</item>
+        <item>PARIGI MOUTONG,Sulawesi Tengah</item>
+        <item>PASAMAN,Sumatera Barat</item>
+        <item>PASAMAN BARAT,Sumatera Barat</item>
+        <item>PASER,Kalimantan Timur</item>
+        <item>PASURUAN,Jawa Timur</item>
+        <item>PATI,Jawa Tengah</item>
+        <item>PAYAKUMBUH,Sumatera Barat</item>
+        <item>PEGUNUNGAN BINTANG,Papua</item>
+        <item>PEKALONGAN,Jawa Tengah</item>
+        <item>PELALAWAN,Riau</item>
+        <item>PEMALANG,Jawa Tengah</item>
+        <item>PENAJAM PASER UTARA,Kalimantan Timur</item>
+        <item>PENUKAL ABAB LEMATANG ILIR,Sumatera Selatan</item>
+        <item>PESAWARAN,Lampung</item>
+        <item>PESISIR BARAT,Lampung</item>
+        <item>PESISIR SELATAN,Sumatera Barat</item>
+        <item>PIDIE,Aceh</item>
+        <item>PIDIE JAYA,Aceh</item>
+        <item>PINRANG,Sulawesi Selatan</item>
+        <item>POHUWATO,Gorontalo</item>
+        <item>POLEWALI MANDAR,Sulawesi Barat</item>
+        <item>PONOROGO,Jawa Timur</item>
+        <item>PONTIANAK,Kalimantan Barat</item>
+        <item>POSO,Sulawesi Tengah</item>
+        <item>PRINGSEWU,Lampung</item>
+        <item>PROBOLINGGO,Jawa Timur</item>
+        <item>PULANG PISAU,Kalimantan Tengah</item>
+        <item>PULAU MOROTAI,Maluku Utara</item>
+        <item>PULAU TALIABU,Maluku Utara</item>
+        <item>PUNCAK,Papua</item>
+        <item>PUNCAK JAYA,Papua</item>
+        <item>PURBALINGGA,Jawa Tengah</item>
+        <item>PURWAKARTA,Jawa Barat</item>
+        <item>PURWOREJO,Jawa Tengah</item>
+        <item>RAJA AMPAT,Papua Barat</item>
+        <item>REJANG LEBONG,Bengkulu</item>
+        <item>REMBANG,Jawa Tengah</item>
+        <item>ROKAN HILIR,Riau</item>
+        <item>ROKAN HULU,Riau</item>
+        <item>ROTE NDAO,Nusa Tenggara Timur</item>
+        <item>S I A K,Riau</item>
+        <item>SABU RAIJUA,Nusa Tenggara Timur</item>
+        <item>SAMBAS,Kalimantan Barat</item>
+        <item>SAMOSIR,Sumatera Utara</item>
+        <item>SAMPANG,Jawa Timur</item>
+        <item>SANGGAU,Kalimantan Barat</item>
+        <item>SARMI,Papua</item>
+        <item>SAROLANGUN,Jambi</item>
+        <item>SEKADAU,Kalimantan Barat</item>
+        <item>SELAYAR,Sulawesi Selatan</item>
+        <item>SELUMA,Bengkulu</item>
+        <item>SEMARANG,Jawa Tengah</item>
+        <item>SERAM BAGIAN BARAT,Maluku</item>
+        <item>SERAM BAGIAN TIMUR,Maluku</item>
+        <item>SERANG,Banten</item>
+        <item>SERDANG BEDAGAI,Sumatera Utara</item>
+        <item>SERUYAN,Kalimantan Tengah</item>
+        <item>SIAU TAGULANDANG BIARO,Sulawesi Utara</item>
+        <item>SIDENRENG RAPPANG,Sulawesi Selatan</item>
+        <item>SIDOARJO,Jawa Timur</item>
+        <item>SIGI,Sulawesi Tengah</item>
+        <item>SIJUNJUNG,Sumatera Barat</item>
+        <item>SIKKA,Nusa Tenggara Timur</item>
+        <item>SIMALUNGUN,Sumatera Utara</item>
+        <item>SIMEULUE,Aceh</item>
+        <item>SINJAI,Sulawesi Selatan</item>
+        <item>SINTANG,Kalimantan Barat</item>
+        <item>SITUBONDO,Jawa Timur</item>
+        <item>SLEMAN,Yogyakarta</item>
+        <item>SOLOK,Sumatera Barat</item>
+        <item>SOLOK SELATAN,Sumatera Barat</item>
+        <item>SOPPENG,Sulawesi Selatan</item>
+        <item>SORONG,Papua Barat</item>
+        <item>SORONG SELATAN,Papua Barat</item>
+        <item>SRAGEN,Jawa Tengah</item>
+        <item>SUBANG,Jawa Barat</item>
+        <item>SUKABUMI,Jawa Barat</item>
+        <item>SUKAMARA,Kalimantan Tengah</item>
+        <item>SUKOHARJO,Jawa Tengah</item>
+        <item>SUMBA BARAT,Nusa Tenggara Timur</item>
+        <item>SUMBA BARAT DAYA,Nusa Tenggara Timur</item>
+        <item>SUMBA TENGAH,Nusa Tenggara Timur</item>
+        <item>SUMBA TIMUR,Nusa Tenggara Timur</item>
+        <item>SUMBAWA,Nusa Tenggara Barat</item>
+        <item>SUMBAWA BARAT,Nusa Tenggara Barat</item>
+        <item>SUMEDANG,Jawa Barat</item>
+        <item>SUMENEP,Jawa Timur</item>
+        <item>SUNGAI PENUH,Jambi</item>
+        <item>SUPIORI,Papua</item>
+        <item>TABALONG,Kalimantan Selatan</item>
+        <item>TABANAN,Bali</item>
+        <item>TAKALAR,Sulawesi Selatan</item>
+        <item>TAMBRAUW,Papua Barat</item>
+        <item>TANA TIDUNG,Kalimantan Utara</item>
+        <item>TANA TORAJA,Sulawesi Selatan</item>
+        <item>TANAH BUMBU,Kalimantan Selatan</item>
+        <item>TANAH DATAR,Sumatera Barat</item>
+        <item>TANAH LAUT,Kalimantan Selatan</item>
+        <item>TANGERANG,Banten</item>
+        <item>TANGGAMUS,Lampung</item>
+        <item>TANJUNG JABUNG BARAT,Jambi</item>
+        <item>TANJUNG JABUNG TIMUR,Jambi</item>
+        <item>TAPANULI SELATAN,Sumatera Utara</item>
+        <item>TAPANULI TENGAH,Sumatera Utara</item>
+        <item>TAPANULI UTARA,Sumatera Utara</item>
+        <item>TAPIN,Kalimantan Selatan</item>
+        <item>TASIKMALAYA,Jawa Barat</item>
+        <item>TEBO,Jambi</item>
+        <item>TEGAL,Jawa Tengah</item>
+        <item>TELUK BINTUNI,Papua Barat</item>
+        <item>TELUK WONDAMA,Papua Barat</item>
+        <item>TEMANGGUNG,Jawa Tengah</item>
+        <item>TIMOR TENGAH SELATAN,Nusa Tenggara Timur</item>
+        <item>TIMOR TENGAH UTARA,Nusa Tenggara Timur</item>
+        <item>TOBA SAMOSIR,Sumatera Utara</item>
+        <item>TOJO UNA-UNA,Sulawesi Tengah</item>
+        <item>TOLIKARA,Papua</item>
+        <item>TOLI-TOLI,Sulawesi Tengah</item>
+        <item>TORAJA UTARA,Sulawesi Selatan</item>
+        <item>TRENGGALEK,Jawa Timur</item>
+        <item>TUBAN,Jawa Timur</item>
+        <item>TULANG BAWANG BARAT,Lampung</item>
+        <item>TULANGBAWANG,Lampung</item>
+        <item>TULUNGAGUNG,Jawa Timur</item>
+        <item>UNKNOWN,UNKNOWN</item>
+        <item>WAJO,Sulawesi Selatan</item>
+        <item>WAKATOBI,Sulawesi Tenggara</item>
+        <item>WAROPEN,Papua</item>
+        <item>WAY KANAN,Lampung</item>
+        <item>WONOGIRI,Jawa Tengah</item>
+        <item>WONOSOBO,Jawa Tengah</item>
+        <item>YAHUKIMO,Papua</item>
+        <item>YALIMO,Papua</item>
+    </array>
+    <array name="select_state_abbreviation">
+        <item>QLD</item>
+        <item>NSW</item>
+        <item>VIC</item>
+        <item>TAS</item>
+        <item>SA</item>
+        <item>ACT</item>
+        <item>WA</item>
+        <item>NT</item>
+    </array>
+    <array name="select_state_fullname">
+        <item>Queensland</item>
+        <item>New South Wales</item>
+        <item>Victoria</item>
+        <item>Tasmania</item>
+        <item>South Australia</item>
+        <item>Australian Capital Territory</item>
+        <item>Western Australia</item>
+        <item>Northern Territory</item>
+    </array>
+    <array name="select_title">
+        <item>Miss</item>
+        <item>Mrs</item>
+        <item>Ms</item>
+        <item>Mr</item>
+        <item>Dr</item>
+    </array>
+    <array name="select_trasfer_type">
+        <item>Telkomsel</item>
+        <item>XL</item>
+        <item>Indosat</item>
+        <item>Bank Account</item>
+    </array>
+</resources>

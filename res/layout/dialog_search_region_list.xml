@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" lib:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" lib:orientation="vertical" lib:id="@id/layout_notice_root" lib:layout_width="UNKNOWN_DATA_0x11801" lib:layout_height="wrap_content"
+    <LinearLayout lib:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" lib:orientation="vertical" lib:background="@drawable/shape_dialog_bg" lib:layout_width="UNKNOWN_DATA_0x11801" lib:layout_height="wrap_content">
+        <TextView lib:textColor="@color/n_darkgray" lib:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" lib:id="@id/dialog_title" lib:background="@drawable/shape_dialog_title_bg" lib:layout_width="match_parent" lib:layout_height="UNKNOWN_DATA_0x7f09006d" lib:text="@string/msg_select" style="@style/n_dialog_title" />
+        <EditText lib:id="@id/search_list_dialog_edittext" lib:layout_width="match_parent" lib:layout_height="UNKNOWN_DATA_0x2801" lib:layout_margin="20dp" style="@style/input_edittext" />
+        <View lib:background="@color/gray" lib:layout_width="match_parent" lib:layout_height="UNKNOWN_DATA_0x101" />
+        <ListView lib:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" lib:id="@id/search_list_dialog_listview" lib:background="#00000000" lib:layout_width="match_parent" lib:layout_height="match_parent" lib:textFilterEnabled="true" lib:divider="@color/gray" lib:dividerHeight="1dp" />
+    </LinearLayout>
+</LinearLayout>

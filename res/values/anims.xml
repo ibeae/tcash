@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <anim name="fade_in_dialog">res/anim/fade_in_dialog.xml</anim>
+    <anim name="fade_out_dialog">res/anim/fade_out_dialog.xml</anim>
+    <anim name="page_back_in_left">res/anim/page_back_in_left.xml</anim>
+    <anim name="page_back_out_right">res/anim/page_back_out_right.xml</anim>
+    <anim name="page_slide_in_right">res/anim/page_slide_in_right.xml</anim>
+    <anim name="page_slide_out_left">res/anim/page_slide_out_left.xml</anim>
+    <anim name="slide_in_bottom">res/anim/slide_in_bottom.xml</anim>
+    <anim name="slide_in_left">res/anim/slide_in_left.xml</anim>
+    <anim name="slide_out_bottom">res/anim/slide_out_bottom.xml</anim>
+    <anim name="slide_out_left">res/anim/slide_out_left.xml</anim>
+</resources>

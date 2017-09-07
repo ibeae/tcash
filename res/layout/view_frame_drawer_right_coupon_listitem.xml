@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x8001">
+    <ImageView android:id="@id/frame_drawer_right_coupon_listitem_imageview" android:background="0x0" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x8001" android:scaleType="fitXY" />
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@id/frame_drawer_right_coupon_listitem_status_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x5001" android:layout_marginLeft="30dp" android:layout_marginRight="30dp" android:layout_centerVertical="true">
+        <TextView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/frame_drawer_right_coupon_listitem_status_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" style="@style/n_white25" />
+        <TextView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/frame_drawer_right_coupon_listitem_status_date" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" style="@style/white12" />
+    </LinearLayout>
+    <ImageView android:id="@id/frame_drawer_right_coupon_listitem_tag_imageview" android:background="0x0" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitCenter" android:layout_centerInParent="true" />
+</RelativeLayout>

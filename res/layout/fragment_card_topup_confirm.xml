@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="0x0" android:layout_width="match_parent" android:layout_height="match_parent"
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@id/card_topup_confirm_layout" android:paddingBottom="19dp" android:layout_width="UNKNOWN_DATA_0x16601" android:layout_height="UNKNOWN_DATA_0x18601">
+        <Button android:id="@id/card_topup_confirm_close_button" android:background="@drawable/btn_close" android:layout_width="UNKNOWN_DATA_0x1901" android:layout_height="UNKNOWN_DATA_0x1b01" android:layout_marginBottom="12dp" />
+        <TextView android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x1101" android:layout_marginBottom="10dp" android:text="@string/subtitle_confirmation" style="@style/red15b" />
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3701" android:layout_marginBottom="32dp"
+            <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x1101" android:text="@string/msg_topup1" style="@style/darkgray15" />
+                <TextView android:id="@id/card_topup_confirm_amount_textview" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x1101" android:text="" style="@style/red15" />
+            </LinearLayout>
+            <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x1101" android:text="@string/msg_topup2" style="@style/darkgray15" />
+                <TextView android:id="@id/card_topup_confirm_card_name" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x1101" android:text="" style="@style/red15" />
+                <TextView android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x1101" android:text="@string/msg_topup3" style="@style/darkgray15" />
+                <TextView android:id="@id/card_topup_confirm_card_type" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x1101" android:text="@string/str_tcash" style="@style/red15" />
+            </LinearLayout>
+            <TextView android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x1101" android:text="@string/msg_topup4" style="@style/darkgray15" />
+        </LinearLayout>
+        <ImageView android:layout_width="UNKNOWN_DATA_0x3801" android:layout_height="UNKNOWN_DATA_0x3801" android:layout_marginBottom="37dp" android:src="@drawable/img_topup" />
+        <com.telkom.mwallet.view.Random2of6PinEditView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/pin_edit_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="20dp" />
+        <Button android:id="@id/card_topup_confirm_topup_button" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2801" android:layout_marginLeft="40dp" android:layout_marginRight="40dp" android:layout_marginBottom="20dp" android:text="@string/button_topup" style="@style/common_red_button" />
+    </LinearLayout>
+</LinearLayout>

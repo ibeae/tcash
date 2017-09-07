@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:background="@color/n_lightgray" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/tcash_fragment_layout">
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent" style="@style/tcash_scroll">
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/n_input_height">
+            <EditText android:id="@id/tcash_recipient_edittext" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f090071" android:layout_marginLeft="@dimen/n_margin_frame" android:layout_marginTop="@dimen/n_margin_frame_top_bottom" android:layout_marginRight="@dimen/n_margin_frame" android:layout_marginBottom="@dimen/n_margin_frame" android:hint="@string/telephone_phone_number" android:inputType="number|numberSigned|numberDecimal|numberPassword|phone" style="@style/n_input_edittext_bottom" />
+            <include layout="@layout/tcash_common_bottom_pin_confirm" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

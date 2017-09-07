@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" lib:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" lib:orientation="vertical" lib:id="@id/layout_notice_root" lib:layout_width="UNKNOWN_DATA_0x11d01" lib:layout_height="wrap_content"
+    <LinearLayout lib:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" lib:orientation="vertical" lib:background="@drawable/shape_dialog_bg" lib:layout_width="UNKNOWN_DATA_0x11d01" lib:layout_height="wrap_content"
+        <LinearLayout lib:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" lib:background="@drawable/shape_dialog_title_bg" lib:layout_width="match_parent" lib:layout_height="wrap_content">
+            <ImageView lib:id="@id/dialog_success_img" lib:visibility="visible" lib:layout_width="UNKNOWN_DATA_0x1801" lib:layout_height="UNKNOWN_DATA_0x1801" lib:layout_marginTop="@dimen/n_margin_frame" lib:src="@drawable/ic_dialog_success" lib:scaleType="fitXY" />
+            <ImageView lib:id="@id/dialog_failed_img" lib:visibility="gone" lib:layout_width="UNKNOWN_DATA_0x1801" lib:layout_height="UNKNOWN_DATA_0x1801" lib:layout_marginTop="@dimen/n_margin_frame" lib:src="@drawable/ic_dialog_fail" lib:scaleType="fitXY" />
+        </LinearLayout>
+        <TextView lib:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" lib:id="@id/dialog_title" lib:background="@drawable/shape_dialog_title_bg" lib:layout_width="match_parent" lib:layout_height="UNKNOWN_DATA_0x7f09006d" lib:layout_marginBottom="@dimen/n_margin_frame" lib:text="@string/title_notice" style="@style/n_dialog_title" />
+        <LinearLayout lib:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" lib:orientation="vertical" lib:paddingLeft="20dp" lib:paddingRight="20dp" lib:layout_width="match_parent" lib:layout_height="wrap_content" lib:layout_marginBottom="@dimen/n_margin_frame" lib:minHeight="70dp">
+            <TextView lib:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" lib:id="@id/notice_dialog_message" lib:layout_width="match_parent" lib:layout_height="wrap_content" lib:text="" style="@style/n_dialog_message" />
+            <TextView lib:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" lib:id="@id/notice_dialog_link" lib:visibility="gone" lib:layout_width="match_parent" lib:layout_height="wrap_content" lib:text="" style="@style/dialog_message" />
+        </LinearLayout>
+        <Button lib:id="@id/notice_dialog_button_ok" lib:layout_width="UNKNOWN_DATA_0x7c01" lib:layout_height="UNKNOWN_DATA_0x2401" lib:layout_marginLeft="20dp" lib:layout_marginTop="15dp" lib:layout_marginRight="20dp" lib:layout_marginBottom="20dp" lib:text="@string/btn_ok" style="@style/n_common_orange_button" />
+    </LinearLayout>
+</LinearLayout>

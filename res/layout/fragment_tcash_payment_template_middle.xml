@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/n_lightgray" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:paddingTop="@dimen/n_margin_frame" android:layout_width="match_parent" android:layout_height="wrap_content"
+        <LinearLayout android:orientation="vertical" android:background="@color/white" android:padding="5dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+            <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f090072">
+                <TextView android:id="@id/tcash_payment_label_id_txt" android:paddingRight="8dp" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:text="@string/pdam_id_no" android:layout_weight="1.0" style="@style/common_darkgray_textview" />
+                <TextView android:id="@id/tcash_customerid_textview" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/common_black_textview" />
+            </LinearLayout>
+            <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f090072">
+                <TextView android:paddingRight="8dp" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:text="@string/tcash_credit_card_your_bill" android:layout_weight="1.0" style="@style/common_darkgray_textview" />
+                <TextView android:id="@id/tcash_payment_your_bill_textview" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/common_black_textview" />
+            </LinearLayout>
+            <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f090072">
+                <TextView android:paddingRight="8dp" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:text="@string/tcash_credit_card_min_payment" android:layout_weight="1.0" style="@style/common_darkgray_textview" />
+                <TextView android:id="@id/tcash_payment_min_payment_textview" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/common_black_textview" />
+            </LinearLayout>
+        </LinearLayout>
+        <EditText android:id="@id/tcash_payment_put" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f090071" android:layout_marginLeft="@dimen/n_margin_frame" android:layout_marginTop="@dimen/n_margin_frame_top_bottom" android:layout_marginRight="@dimen/n_margin_frame" android:hint="@string/hint_put_payment" android:inputType="number|numberSigned|numberDecimal|numberPassword|phone" style="@style/n_input_edittext" />
+    </LinearLayout>
+    <Button android:id="@id/tcash_payment_next_button" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f090071" android:layout_marginLeft="@dimen/n_margin_frame" android:layout_marginRight="@dimen/n_margin_frame" android:layout_marginBottom="50dp" android:text="@string/btn_next" android:layout_alignParentBottom="true" style="@style/common_orange_button" />
+</RelativeLayout>

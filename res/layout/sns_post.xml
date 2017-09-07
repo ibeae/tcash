@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/background" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:background="@drawable/fb_title" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="21dp" android:textColor="0x106000b" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/sns_title" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2d01" android:text="@string/message" />
+        <Button android:textSize="14dp" android:textColor="0x106000b" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/postBtn" android:background="@drawable/onclick_fbpost" android:paddingLeft="13dp" android:paddingRight="13dp" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x2d01" android:text="@string/post" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="18dp" android:layout_marginRight="18dp">
+        <TextView android:textSize="21dp" android:textColor="@color/lightslate2" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/to" android:paddingTop="20dp" android:paddingRight="13dp" android:paddingBottom="20dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="To." />
+        <TextView android:textSize="21dp" android:textColor="@color/darkslate" android:id="@id/toEdit" android:background="0x106000d" android:clickable="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="" android:singleLine="true" android:layout_toRightOf="@id/to" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <ImageView android:layout_width="match_parent" android:layout_height="wrap_content" android:src="@drawable/line_2d" />
+    <View android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1901" />
+    <EditText android:textSize="21dp" android:textColor="@color/darkslate" android:id="@id/contentEdit" android:background="0x106000d" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="18dp" android:layout_marginRight="18dp" android:text="@string/body_message" android:singleLine="false" />
+</LinearLayout>

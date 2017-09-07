@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" lib:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" lib:orientation="vertical" lib:id="@id/layout_notice_root" lib:layout_width="UNKNOWN_DATA_0x11d01" lib:layout_height="wrap_content"
+    <LinearLayout lib:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" lib:orientation="vertical" lib:background="@drawable/shape_dialog_bg" lib:layout_width="UNKNOWN_DATA_0x11d01" lib:layout_height="wrap_content">
+        <TextView lib:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" lib:id="@id/dialog_title" lib:layout_width="match_parent" lib:layout_height="UNKNOWN_DATA_0x7f09006d" lib:text="@string/title_date_dialog" style="@style/n_dialog_title" />
+        <View lib:background="@color/n_lightgray" lib:layout_width="match_parent" lib:layout_height="UNKNOWN_DATA_0x101" lib:layout_marginBottom="20dp" />
+        <DatePicker lib:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" lib:id="@id/date_dialog_datepicker" lib:layout_width="wrap_content" lib:layout_height="wrap_content" lib:spinnersShown="true" lib:calendarViewShown="false" />
+        <Button lib:id="@id/date_dialog_button_ok" lib:layout_width="UNKNOWN_DATA_0x7c01" lib:layout_height="UNKNOWN_DATA_0x2401" lib:layout_marginLeft="20dp" lib:layout_marginTop="20dp" lib:layout_marginRight="20dp" lib:layout_marginBottom="20dp" lib:text="@string/btn_ok" style="@style/n_common_orange_button" />
+    </LinearLayout>
+</LinearLayout>

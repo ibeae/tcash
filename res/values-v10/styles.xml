@@ -1,0 +1,605 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="App.Theme" parent="@android:style/Theme.Holo">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:textCursorDrawable">@null</item>
+    </style>
+    <style name="amount_text">
+        <item name="android:textSize">@dimen/pay_amount_font_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="black14">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="black14b">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="black15b">
+        <item name="android:textSize">15.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="black16">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="black16b">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="black17">
+        <item name="android:textSize">@dimen/medium_font_size</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="black17b">
+        <item name="android:textSize">@dimen/medium_font_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="black18">
+        <item name="android:textSize">@dimen/font18</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="black19">
+        <item name="android:textSize">19.0sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="black20">
+        <item name="android:textSize">20.0sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="black20b">
+        <item name="android:textSize">20.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="black22b">
+        <item name="android:textSize">22.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="black23">
+        <item name="android:textSize">23.0sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="black24">
+        <item name="android:textSize">24.0sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="black24b">
+        <item name="android:textSize">24.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="black25">
+        <item name="android:textSize">25.0sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="black30b">
+        <item name="android:textSize">30.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="black50">
+        <item name="android:textSize">50.0sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="bottom_back_color">
+        <item name="android:background">@color/lightorange</item>
+    </style>
+    <style name="btn_picker" parent="@style/darkgray18">
+        <item name="android:background">@drawable/btn_picker_selector</item>
+    </style>
+    <style name="card_checkbox_textview">
+        <item name="android:gravity">center|left</item>
+        <item name="android:paddingLeft">20.0dip</item>
+    </style>
+    <style name="card_default_card_button">
+        <item name="android:background">@drawable/btn_defaultcard_selector</item>
+    </style>
+    <style name="card_home_default_card_button">
+        <item name="android:background">@drawable/img_defaultcard_dis</item>
+    </style>
+    <style name="card_listitem_empty_card_textview">
+        <item name="android:textSize">9.0dip</item>
+        <item name="android:textColor">@color/lightgray</item>
+    </style>
+    <style name="card_text">
+        <item name="android:textSize">@dimen/card_text_font</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="card_top_balance">
+        <item name="android:textSize">23.0dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/red</item>
+    </style>
+    <style name="card_top_balance_coin">
+        <item name="android:textSize">14.0dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/red</item>
+    </style>
+    <style name="card_topup_button">
+        <item name="android:background">@drawable/btn_topup_selector</item>
+    </style>
+    <style name="checkbox_button">
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/btn_check_selector</item>
+    </style>
+    <style name="checkbox_layout">
+        <item name="android:gravity">center|left</item>
+        <item name="android:paddingLeft">20.0dip</item>
+    </style>
+    <style name="checkbox_textview">
+        <item name="android:gravity">center|left</item>
+        <item name="android:paddingLeft">20.0dip</item>
+    </style>
+    <style name="common_black_textview" parent="@style/n_black16">
+        <item name="android:gravity">center|left</item>
+    </style>
+    <style name="common_darkgray_textview" parent="@style/darkgray16">
+        <item name="android:gravity">center|left</item>
+    </style>
+    <style name="common_flat_orange_button">
+        <item name="android:textSize">12.0dip</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/btn_flat_orange_selector</item>
+        <item name="android:padding">0.0dip</item>
+    </style>
+    <style name="common_gray_text">
+        <item name="android:textSize">@dimen/txt_button_font_size</item>
+        <item name="android:textColor">@color/gray</item>
+    </style>
+    <style name="common_gray_textview" parent="@style/gray16">
+        <item name="android:gravity">center|left</item>
+    </style>
+    <style name="common_orange_button">
+        <item name="android:textSize">@dimen/common_red_button_font_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/btn_common_orange_selector</item>
+    </style>
+    <style name="common_orange_text">
+        <item name="android:textSize">@dimen/txt_button_font_size</item>
+        <item name="android:textColor">@color/orange</item>
+    </style>
+    <style name="common_red_button">
+        <item name="android:textSize">@dimen/common_red_button_font_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/btn_common_red_selector</item>
+    </style>
+    <style name="common_red_text">
+        <item name="android:textSize">@dimen/txt_button_font_size</item>
+        <item name="android:textColor">@color/red</item>
+    </style>
+    <style name="common_scroll">
+        <item name="android:scrollbars">none</item>
+        <item name="android:fadingEdge">none</item>
+        <item name="android:overScrollMode">never</item>
+    </style>
+    <style name="coupon_nfc">
+        <item name="android:src">@drawable/img_nfctag</item>
+    </style>
+    <style name="coupon_nfc_topin" parent="@style/orange18b">
+        <item name="android:gravity">center</item>
+        <item name="android:background">@null</item>
+    </style>
+    <style name="coupon_tab" parent="@style/red16b">
+        <item name="android:textColor">@color/color_coupon_tab_selector</item>
+        <item name="android:background">@drawable/tab_coupontab_selector</item>
+    </style>
+    <style name="couponlist">
+        <item name="android:background">@color/lightorange</item>
+    </style>
+    <style name="darkgray12">
+        <item name="android:textSize">12.0dip</item>
+        <item name="android:textColor">@color/n_darkgray</item>
+    </style>
+    <style name="darkgray13">
+        <item name="android:textSize">13.0dip</item>
+        <item name="android:textColor">@color/n_darkgray</item>
+    </style>
+    <style name="darkgray14">
+        <item name="android:textSize">15.0dip</item>
+        <item name="android:textColor">@color/n_darkgray</item>
+    </style>
+    <style name="darkgray15">
+        <item name="android:textSize">15.0dip</item>
+        <item name="android:textColor">@color/n_darkgray</item>
+    </style>
+    <style name="darkgray15b">
+        <item name="android:textSize">15.0dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/n_darkgray</item>
+    </style>
+    <style name="darkgray16">
+        <item name="android:textSize">16.0dip</item>
+        <item name="android:textColor">@color/n_darkgray</item>
+    </style>
+    <style name="darkgray16b">
+        <item name="android:textSize">16.0dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/n_darkgray</item>
+    </style>
+    <style name="darkgray17">
+        <item name="android:textSize">17.0dip</item>
+        <item name="android:textColor">@color/n_darkgray</item>
+    </style>
+    <style name="darkgray18">
+        <item name="android:textSize">18.0dip</item>
+        <item name="android:textColor">@color/n_darkgray</item>
+    </style>
+    <style name="darkgray18b">
+        <item name="android:textSize">18.0dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/n_darkgray</item>
+    </style>
+    <style name="darkgray20b">
+        <item name="android:textSize">20.0dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/n_darkgray</item>
+    </style>
+    <style name="darkgray24b">
+        <item name="android:textSize">24.0dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/n_darkgray</item>
+    </style>
+    <style name="darkgray27b">
+        <item name="android:textSize">27.0dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/n_darkgray</item>
+    </style>
+    <style name="dialog_animation">
+        <item name="android:windowEnterAnimation">@anim/slide_in_bottom</item>
+        <item name="android:windowExitAnimation">@anim/slide_out_bottom</item>
+    </style>
+    <style name="dialog_animation_fade">
+        <item name="android:windowEnterAnimation">@anim/fade_in_dialog</item>
+        <item name="android:windowExitAnimation">@anim/fade_out_dialog</item>
+    </style>
+    <style name="dialog_button">
+        <item name="android:textSize">18.0dip</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/btn_dialogue_selector</item>
+    </style>
+    <style name="dialog_message">
+        <item name="android:textSize">18.0dip</item>
+        <item name="android:textColor">@color/n_darkgray</item>
+    </style>
+    <style name="dialog_title">
+        <item name="android:textSize">18.0dip</item>
+        <item name="android:textColor">@color/n_darkgray</item>
+    </style>
+    <style name="fragment_scroll">
+        <item name="android:scrollbars">none</item>
+        <item name="android:fadingEdge">none</item>
+        <item name="android:overScrollMode">never</item>
+    </style>
+    <style name="gray12">
+        <item name="android:textSize">12.0dip</item>
+        <item name="android:textColor">@color/gray</item>
+    </style>
+    <style name="gray13">
+        <item name="android:textSize">13.0dip</item>
+        <item name="android:textColor">@color/gray</item>
+    </style>
+    <style name="gray14">
+        <item name="android:textSize">12.0dip</item>
+        <item name="android:textColor">@color/gray</item>
+    </style>
+    <style name="gray15">
+        <item name="android:textSize">15.0dip</item>
+        <item name="android:textColor">@color/gray</item>
+    </style>
+    <style name="gray16">
+        <item name="android:textSize">16.0dip</item>
+        <item name="android:textColor">@color/gray</item>
+    </style>
+    <style name="gray16b">
+        <item name="android:textSize">16.0dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/gray</item>
+    </style>
+    <style name="gray18">
+        <item name="android:textSize">18.0dip</item>
+        <item name="android:textColor">@color/gray</item>
+    </style>
+    <style name="gray18b">
+        <item name="android:textSize">18.0dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/gray</item>
+    </style>
+    <style name="gray24">
+        <item name="android:textSize">24.0dip</item>
+        <item name="android:textColor">@color/gray</item>
+    </style>
+    <style name="history_list_bold">
+        <item name="android:textSize">@dimen/button_font_small</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="info_message">
+        <item name="android:textSize">16.0dip</item>
+        <item name="android:textColor">@color/gray</item>
+    </style>
+    <style name="input_edittext" parent="@style/darkgray18">
+        <item name="android:gravity">left</item>
+        <item name="android:background">@drawable/edittext_selector</item>
+        <item name="android:minHeight">40.0dip</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textCursorDrawable">@null</item>
+    </style>
+    <style name="input_multiline_edittext" parent="@style/input_edittext">
+        <item name="android:maxLines">2</item>
+    </style>
+    <style name="input_pin" parent="@style/darkgray16b">
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/img_inputcell</item>
+        <item name="android:padding">0.0dip</item>
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:maxLength">1</item>
+    </style>
+    <style name="main_button">
+        <item name="android:textSize">@dimen/main_button_font_size</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="orange10">
+        <item name="android:textSize">10.0dip</item>
+        <item name="android:textColor">@color/orange</item>
+    </style>
+    <style name="orange12">
+        <item name="android:textSize">12.0dip</item>
+        <item name="android:textColor">@color/orange</item>
+    </style>
+    <style name="orange14">
+        <item name="android:textSize">14.0dip</item>
+        <item name="android:textColor">@color/orange</item>
+    </style>
+    <style name="orange16">
+        <item name="android:textSize">16.0dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/orange</item>
+    </style>
+    <style name="orange18">
+        <item name="android:textSize">18.0dip</item>
+        <item name="android:textColor">@color/orange</item>
+    </style>
+    <style name="orange18b">
+        <item name="android:textSize">18.0dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/orange</item>
+    </style>
+    <style name="orange20b">
+        <item name="android:textSize">20.0dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/orange</item>
+    </style>
+    <style name="pay_date">
+        <item name="android:textSize">@dimen/pay_date_font</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="picker_imageview">
+        <item name="android:background">@null</item>
+        <item name="android:src">@drawable/btn_picker_selector</item>
+    </style>
+    <style name="popActivityStyle" parent="@android:style/Theme.Translucent">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="red12">
+        <item name="android:textSize">12.0dip</item>
+        <item name="android:textColor">@color/red</item>
+    </style>
+    <style name="red14">
+        <item name="android:textSize">12.0dip</item>
+        <item name="android:textColor">@color/red</item>
+    </style>
+    <style name="red15">
+        <item name="android:textSize">15.0dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/red</item>
+    </style>
+    <style name="red15b">
+        <item name="android:textSize">15.0dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/red</item>
+    </style>
+    <style name="red16">
+        <item name="android:textSize">16.0dip</item>
+        <item name="android:textColor">@color/red</item>
+    </style>
+    <style name="red16b">
+        <item name="android:textSize">16.0dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/red</item>
+    </style>
+    <style name="red18">
+        <item name="android:textSize">18.0dip</item>
+        <item name="android:textColor">@color/red</item>
+    </style>
+    <style name="red18b">
+        <item name="android:textSize">18.0dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/red</item>
+    </style>
+    <style name="red20b">
+        <item name="android:textSize">20.0dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/red</item>
+    </style>
+    <style name="red30b">
+        <item name="android:textSize">30.0dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/red</item>
+    </style>
+    <style name="setting_menu">
+        <item name="android:textSize">@dimen/setting_menu_font26</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="small_desc">
+        <item name="android:textSize">16.0dip</item>
+        <item name="android:textColor">@color/n_darkgray</item>
+    </style>
+    <style name="tcash_bottom_layout">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:background">@color/n_lightgray</item>
+        <item name="android:paddingBottom">18.0dip</item>
+    </style>
+    <style name="tcash_forget_pin_button" parent="@style/red16">
+        <item name="android:background">@null</item>
+    </style>
+    <style name="tcash_fragment_layout">
+        <item name="android:background">@null</item>
+        <item name="android:paddingBottom">8.0dip</item>
+    </style>
+    <style name="tcash_fragment_title">
+        <item name="android:textSize">14.0dip</item>
+        <item name="android:textColor">@color/red</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="tcash_fragment_title_bold">
+        <item name="android:textSize">14.0dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/red</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="tcash_main_button">
+        <item name="android:textSize">16.0dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@drawable/btn_menu_selector</item>
+    </style>
+    <style name="tcash_main_button_txt">
+        <item name="android:textSize">16.0dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="tcash_menu_dialog" parent="@android:style/Theme.Holo.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@android:color/transparent</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+    </style>
+    <style name="tcash_menu_scroll">
+        <item name="android:paddingLeft">25.0dip</item>
+        <item name="android:paddingRight">25.0dip</item>
+        <item name="android:scrollbars">none</item>
+        <item name="android:fadingEdge">none</item>
+        <item name="android:overScrollMode">never</item>
+    </style>
+    <style name="tcash_scroll">
+        <item name="android:paddingLeft">40.0dip</item>
+        <item name="android:paddingRight">40.0dip</item>
+        <item name="android:scrollbars">none</item>
+        <item name="android:fadingEdge">none</item>
+        <item name="android:overScrollMode">never</item>
+    </style>
+    <style name="tcash_sub_menu_head">
+        <item name="android:textSize">16.0dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/img_sub_head</item>
+    </style>
+    <style name="tcash_sub_menu_head_noicon" parent="@style/tcash_sub_menu_head">
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="tcash_time_edittext">
+        <item name="android:textSize">23.0dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/red</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/img_inputcell</item>
+        <item name="android:padding">0.0dip</item>
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+    </style>
+    <style name="tcash_token_edittext">
+        <item name="android:textSize">20.0dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/n_darkgray</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/shape_edittext_token</item>
+        <item name="android:padding">0.0dip</item>
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+    </style>
+    <style name="tcash_top_balance">
+        <item name="android:textSize">25.0dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="tcash_top_balance_coin">
+        <item name="android:textSize">16.0dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/n_darkgray</item>
+    </style>
+    <style name="tcash_top_layout">
+        <item name="android:background">@null</item>
+        <item name="android:paddingTop">25.0dip</item>
+        <item name="android:paddingBottom">18.0dip</item>
+    </style>
+    <style name="tcash_top_logo">
+        <item name="android:src">@drawable/img_tcash_card</item>
+    </style>
+    <style name="tcash_top_service_description">
+        <item name="android:textSize">13.0dip</item>
+        <item name="android:textColor">@color/n_darkgray</item>
+    </style>
+    <style name="tcash_top_service_type">
+        <item name="android:textSize">14.0dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/red</item>
+    </style>
+    <style name="titlebar_text">
+        <item name="android:textSize">@dimen/title_font_size</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/red</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="titlebar_twallet">
+        <item name="android:textSize">@dimen/title_font_size</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="white15">
+        <item name="android:textSize">15.0sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="white15b">
+        <item name="android:textSize">15.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="white16">
+        <item name="android:textSize">16.0dip</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="white19b">
+        <item name="android:textSize">@dimen/button_font_small</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="white20">
+        <item name="android:textSize">20.0sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="white25">
+        <item name="android:textSize">25.0sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+</resources>

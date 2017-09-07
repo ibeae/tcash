@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:background="0x0" android:layout_width="match_parent" android:layout_height="match_parent"
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@id/setting_general_menu_button_layout" android:background="@color/white" android:paddingBottom="19dp" android:layout_width="UNKNOWN_DATA_0x16601" android:layout_height="UNKNOWN_DATA_0x1a101">
+        <RelativeLayout android:id="@id/setting_main_general_button" android:clickable="true" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f090073" style="@style/n_tcash_sub_menu_head">
+            <TextView android:id="@id/sub_menu_title_textview" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/title_setting_general" android:layout_centerInParent="true" style="@style/n_tcash_sub_menu_head_txt" />
+            <Button android:id="@id/setting_general_menu_slide_button" android:layout_width="UNKNOWN_DATA_0x1801" android:layout_height="UNKNOWN_DATA_0x1801" android:layout_marginLeft="@dimen/n_margin_frame" android:layout_marginRight="@dimen/n_margin_frame" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/n_fragment_menu_slide_down" />
+        </RelativeLayout>
+        <ScrollView android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x13b01" style="@style/n_tcash_menu_scroll">
+            <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:background="0x0" android:layout_width="match_parent" android:layout_height="match_parent">
+                <Button android:id="@id/setting_general_menu_notification_button" android:visibility="gone" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f090077" android:text="@string/setting_general_news_button" style="@style/n_submenu" />
+                <Button android:id="@id/setting_general_menu_language_button" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f090077" android:text="@string/setting_general_language_button" style="@style/n_submenu" />
+                <Button android:id="@id/setting_general_menu_profile_button" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f090077" android:text="@string/setting_general_profile_button" style="@style/n_submenu" />
+                <Button android:id="@id/setting_general_menu_about_twallet_button" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f090077" android:text="@string/setting_general_about_twallet_button" style="@style/n_submenu" />
+                <Button android:id="@id/logout_button" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f090077" android:text="@string/logout" style="@style/n_submenu" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>

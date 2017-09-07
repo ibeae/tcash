@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" lib:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" lib:orientation="vertical" lib:id="@id/layout_notice_root" lib:layout_width="UNKNOWN_DATA_0x11d01" lib:layout_height="wrap_content"
+    <LinearLayout lib:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" lib:orientation="vertical" lib:background="@drawable/shape_dialog_bg" lib:layout_width="UNKNOWN_DATA_0x11d01" lib:layout_height="wrap_content">
+        <TextView lib:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" lib:id="@id/dialog_title" lib:background="@drawable/shape_dialog_title_bg" lib:layout_width="match_parent" lib:layout_height="UNKNOWN_DATA_0x7f09006d" lib:layout_marginBottom="16dp" lib:text="@string/title_notice" style="@style/n_dialog_title" />
+        <TextView lib:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" lib:id="@id/notice_dialog_message" lib:paddingLeft="20dp" lib:paddingRight="20dp" lib:layout_width="match_parent" lib:layout_height="wrap_content" lib:layout_marginBottom="16dp" lib:minHeight="70dp" lib:text="" style="@style/n_dialog_message" />
+        <LinearLayout lib:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" lib:orientation="horizontal" lib:layout_width="match_parent" lib:layout_height="wrap_content" lib:layout_marginLeft="20dp" lib:layout_marginTop="@dimen/margin_midium" lib:layout_marginRight="20dp" lib:layout_marginBottom="24dp">
+            <Button lib:id="@id/notice_dialog_button_cancel" lib:layout_width="UNKNOWN_DATA_0x1" lib:layout_height="UNKNOWN_DATA_0x2401" lib:text="@string/btn_cancel" lib:layout_weight="1.0" style="@style/n_common_default_button" />
+            <Button lib:id="@id/notice_dialog_button_ok" lib:layout_width="UNKNOWN_DATA_0x1" lib:layout_height="UNKNOWN_DATA_0x2401" lib:layout_marginLeft="@dimen/margin_midium" lib:text="@string/btn_done1" lib:layout_weight="1.0" style="@style/n_common_orange_button" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:background="@color/n_lightgray" android:padding="@dimen/n_margin_frame" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/coupon_code_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="50dp" android:text="@string/msg_barcode" style="@style/n_black16" />
+    <ImageView android:id="@id/couponQRcode" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x11801" />
+    <ImageView android:id="@id/couponBarcode" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x11801" android:layout_height="UNKNOWN_DATA_0x7801" />
+    <TextView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/coupon_redeem_topin_text" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="30dp" android:text="Or
+ Enter Merchant PIN codee" style="@style/n_red14" />
+    <Button android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/coupon_redeem_topin_button" android:background="0x0" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="30dp" android:text="@string/button_here" style="@style/n_red14" />
+</LinearLayout>

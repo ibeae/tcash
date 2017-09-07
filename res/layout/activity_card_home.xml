@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/background" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0xbe01" android:layout_marginTop="69dp" android:layout_marginBottom="4dp">
+        <Button android:id="@id/card_home_main_card_button" android:background="@drawable/card_sha" android:layout_width="UNKNOWN_DATA_0x11801" android:layout_height="UNKNOWN_DATA_0xb001" android:layout_alignParentTop="true" android:layout_centerInParent="true" />
+        <Button android:id="@id/card_home_default_card_button" android:layout_width="UNKNOWN_DATA_0x2801" android:layout_height="UNKNOWN_DATA_0x2801" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" style="@style/card_home_default_card_button" />
+        <Button android:id="@id/card_home_topup_button" android:layout_width="UNKNOWN_DATA_0x4201" android:layout_height="UNKNOWN_DATA_0x4901" android:layout_marginRight="15dp" android:layout_marginBottom="15dp" android:layout_alignRight="@id/card_home_main_card_button" android:layout_alignBottom="@id/card_home_main_card_button" style="@style/card_topup_button" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <ScrollView android:id="@id/tcash_airtime_bottom_layout_scrollview" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="36dp" style="@style/tcash_scroll">
+            <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@id/tcash_airtime_content_layout" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <RelativeLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:layout_width="UNKNOWN_DATA_0x11801" android:layout_height="UNKNOWN_DATA_0x1901" android:layout_marginBottom="27dp">
+                    <TextView android:id="@id/card_home_rp_textview" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x1901" android:text="" style="@style/card_top_balance" />
+                    <TextView android:id="@id/card_home_rp_coin_textview" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x1301" android:layout_marginLeft="3dp" android:text="" android:layout_toRightOf="@id/card_home_rp_textview" style="@style/card_top_balance_coin" />
+                </RelativeLayout>
+                <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="24dp">
+                    <TextView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/cardhome_card_name_textview" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/card_home_megacash" android:layout_weight="0.5" style="@style/darkgray15" />
+                    <TextView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/cardhome_card_type_textview" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/card_home_prepaid" android:layout_weight="0.5" style="@style/darkgray15" />
+                </LinearLayout>
+                <TextView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/cardhome_card_number_textview" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1101" android:layout_marginBottom="28dp" android:text="" style="@style/gray15" />
+                <RelativeLayout android:id="@id/card_home_pay_wave_button" android:background="@drawable/btn_menu_selector" android:paddingLeft="10dp" android:clickable="true" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f09001b" android:layout_marginBottom="10dp">
+                    <TextView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/card_home_paywave" android:layout_centerInParent="true" style="@style/tcash_main_button_txt" />
+                    <ImageView android:layout_width="UNKNOWN_DATA_0x1801" android:layout_height="UNKNOWN_DATA_0x1801" android:src="@drawable/img_btnmenu07" android:scaleType="fitXY" android:layout_centerVertical="true" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@id/card_home_card_history_button" android:background="@drawable/btn_menu_selector" android:paddingLeft="10dp" android:clickable="true" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f09001b" android:layout_marginBottom="10dp">
+                    <TextView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/card_home_history" android:layout_centerInParent="true" style="@style/tcash_main_button_txt" />
+                    <ImageView android:layout_width="UNKNOWN_DATA_0x1801" android:layout_height="UNKNOWN_DATA_0x1801" android:src="@drawable/img_btnmenu06" android:scaleType="fitXY" android:layout_centerVertical="true" />
+                </RelativeLayout>
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+</LinearLayout>

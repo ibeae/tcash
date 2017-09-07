@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" facebook:orientation="vertical" facebook:background="#fff" facebook:layout_width="match_parent" facebook:layout_height="match_parent"
+    <LinearLayout facebook:orientation="vertical" facebook:id="@id/main_ui_container" facebook:background="#fff" facebook:layout_width="match_parent" facebook:layout_height="match_parent">
+        <com.facebook.widget.LoginButton facebook:id="@id/login_button" facebook:layout_width="wrap_content" facebook:layout_height="wrap_content" facebook:layout_marginTop="5dp" facebook:confirm_logout="false" facebook:fetch_user_info="true" />
+        <LinearLayout facebook:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" facebook:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" facebook:orientation="vertical" facebook:layout_width="UNKNOWN_DATA_0x9601" facebook:layout_height="wrap_content">
+            <TextView facebook:textSize="18sp" facebook:textColor="#333" facebook:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" facebook:id="@id/greeting" facebook:layout_width="wrap_content" facebook:layout_height="wrap_content" facebook:layout_marginLeft="10dp" />
+            <com.facebook.widget.ProfilePictureView facebook:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" facebook:id="@id/profilePicture" facebook:layout_width="wrap_content" facebook:layout_height="wrap_content" facebook:layout_marginBottom="10dp" facebook:preset_size="-3" />
+            <Button facebook:id="@id/postStatusUpdateButton" facebook:layout_width="match_parent" facebook:layout_height="wrap_content" facebook:text="Post Status Update" />
+        </LinearLayout>
+    </LinearLayout>
+    <FrameLayout facebook:id="@id/fragment_container" facebook:layout_width="match_parent" facebook:layout_height="match_parent" />
+</LinearLayout>

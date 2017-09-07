@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@id/pageArea" android:background="@color/background" android:layout_width="match_parent" android:layout_height="match_parent">
+    <EditText android:id="@id/editText1" android:background="#550000" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1e01" android:layout_margin="20dp" android:text="" />
+    <com.telkom.mwallet.view.Random2of6PinEditView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/pin_edit_view" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <Button android:id="@id/button1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" />
+</LinearLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/com.telkom.mwallet" telkom:orientation="vertical" telkom:background="@color/n_lightgray" telkom:layout_width="match_parent" telkom:layout_height="match_parent"
+    <LinearLayout telkom:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" telkom:orientation="horizontal" telkom:layout_width="match_parent" telkom:layout_height="UNKNOWN_DATA_0x7f09007b">
+        <TextView telkom:textColor="@color/n_darkgray" telkom:id="@id/tcash_noti_msg_textview" telkom:layout_width="wrap_content" telkom:layout_height="wrap_content" telkom:layout_marginRight="5dp" style="@style/tcash_fragment_title" />
+        <TextView telkom:textColor="@color/n_black" telkom:id="@id/tcash_noti_title_textview" telkom:layout_width="wrap_content" telkom:layout_height="wrap_content" style="@style/tcash_fragment_title_bold" />
+    </LinearLayout>
+    <ScrollView telkom:layout_width="match_parent" telkom:layout_height="match_parent" style="@style/tcash_scroll">
+        <LinearLayout telkom:orientation="vertical" telkom:layout_width="match_parent" telkom:layout_height="wrap_content"
+            <LinearLayout telkom:orientation="vertical" telkom:background="@color/white" telkom:padding="5dp" telkom:layout_width="match_parent" telkom:layout_height="wrap_content"
+                <LinearLayout telkom:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" telkom:orientation="horizontal" telkom:layout_width="match_parent" telkom:layout_height="UNKNOWN_DATA_0x7f090072">
+                    <TextView telkom:id="@id/tcash_purchase_label_id_txt" telkom:paddingRight="8dp" telkom:layout_width="UNKNOWN_DATA_0x1" telkom:layout_height="wrap_content" telkom:text="@string/pdam_id_no" telkom:layout_weight="1.0" style="@style/common_darkgray_textview" />
+                    <TextView telkom:id="@id/tcash_purchase_content_id_txt" telkom:layout_width="UNKNOWN_DATA_0x1" telkom:layout_height="wrap_content" telkom:layout_weight="1.0" style="@style/common_black_textview" />
+                </LinearLayout>
+                <LinearLayout telkom:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" telkom:orientation="horizontal" telkom:layout_width="match_parent" telkom:layout_height="UNKNOWN_DATA_0x7f090072">
+                    <TextView telkom:id="@id/tcash_purchase_label_name_txt" telkom:paddingRight="8dp" telkom:layout_width="UNKNOWN_DATA_0x1" telkom:layout_height="wrap_content" telkom:text="@string/name" telkom:layout_weight="1.0" style="@style/common_darkgray_textview" />
+                    <TextView telkom:id="@id/tcash_purchase_content_name_txt" telkom:layout_width="UNKNOWN_DATA_0x1" telkom:layout_height="wrap_content" telkom:layout_weight="1.0" style="@style/common_black_textview" />
+                </LinearLayout>
+                <LinearLayout telkom:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" telkom:orientation="horizontal" telkom:layout_width="match_parent" telkom:layout_height="UNKNOWN_DATA_0x7f090072">
+                    <TextView telkom:id="@id/tcash_purchase_label_amount_txt" telkom:paddingRight="8dp" telkom:layout_width="UNKNOWN_DATA_0x1" telkom:layout_height="wrap_content" telkom:text="@string/amount" telkom:layout_weight="1.0" style="@style/common_darkgray_textview" />
+                    <TextView telkom:id="@id/tcash_purchase_content_amount_txt" telkom:layout_width="UNKNOWN_DATA_0x1" telkom:layout_height="wrap_content" telkom:layout_weight="1.0" style="@style/common_black_textview" />
+                </LinearLayout>
+                <LinearLayout telkom:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" telkom:orientation="horizontal" telkom:layout_width="match_parent" telkom:layout_height="UNKNOWN_DATA_0x7f090072">
+                    <TextView telkom:id="@id/tcash_purchase_label_fee_txt" telkom:paddingRight="8dp" telkom:layout_width="UNKNOWN_DATA_0x1" telkom:layout_height="wrap_content" telkom:text="@string/fee" telkom:layout_weight="1.0" style="@style/common_darkgray_textview" />
+                    <TextView telkom:id="@id/tcash_purchase_content_fee_txt" telkom:layout_width="UNKNOWN_DATA_0x1" telkom:layout_height="wrap_content" telkom:layout_weight="1.0" style="@style/common_black_textview" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout telkom:orientation="vertical" telkom:visibility="gone" telkom:layout_width="match_parent" telkom:layout_height="wrap_content"
+                <LinearLayout telkom:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" telkom:orientation="vertical" telkom:background="@color/white" telkom:padding="@dimen/n_margin_frame" telkom:layout_width="match_parent" telkom:layout_height="wrap_content" telkom:layout_marginTop="@dimen/n_margin_frame">
+                    <ImageView telkom:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" telkom:layout_width="UNKNOWN_DATA_0xf01" telkom:layout_height="UNKNOWN_DATA_0x1501" telkom:src="@drawable/ic_pin_lock" telkom:scaleType="fitXY" />
+                    <TextView telkom:layout_width="wrap_content" telkom:layout_height="wrap_content" telkom:layout_marginTop="13dp" telkom:text="@string/enter_tcash_pin" style="@style/black17b" />
+                    <com.telkom.mwallet.view.Random2of6PinEditView telkom:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" telkom:id="@id/pin_edit_view" telkom:layout_width="wrap_content" telkom:layout_height="wrap_content" telkom:layout_marginTop="@dimen/n_margin_frame" telkom:pinWidth="@dimen/pin_width" telkom:pinHeight="@dimen/pin_height" />
+                </LinearLayout>
+                <TextView telkom:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" telkom:id="@id/tcash_forget_pin_button" telkom:layout_width="wrap_content" telkom:layout_height="wrap_content" telkom:layout_marginTop="14dp" telkom:layout_marginBottom="7dp" telkom:text="@string/tcash_forget_pin" style="@style/red16" />
+            </LinearLayout>
+            <LinearLayout telkom:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" telkom:orientation="horizontal" telkom:layout_width="match_parent" telkom:layout_height="UNKNOWN_DATA_0x7f090071" telkom:layout_marginTop="@dimen/n_margin_frame" style="@style/checkbox_layout">
+                <Button telkom:id="@id/tcash_set_favorite_button" telkom:layout_width="UNKNOWN_DATA_0x1901" telkom:layout_height="UNKNOWN_DATA_0x1b01" style="@style/checkbox_button" />
+                <TextView telkom:textSize="15dp" telkom:textColor="@color/darkgray" telkom:paddingLeft="5dp" telkom:layout_width="wrap_content" telkom:layout_height="wrap_content" telkom:text="@string/set_as_favorite" style="@style/checkbox_textview" />
+            </LinearLayout>
+            <EditText telkom:id="@id/tcash_title_favorite_edittext" telkom:visibility="gone" telkom:layout_width="match_parent" telkom:layout_height="UNKNOWN_DATA_0x7f090071" telkom:layout_marginLeft="@dimen/n_margin_frame" telkom:layout_marginTop="@dimen/n_margin_frame" telkom:layout_marginRight="@dimen/n_margin_frame" telkom:hint="@string/hint_favorite_title" telkom:inputType="text|textCapCharacters|textCapWords|textCapSentences|textAutoCorrect|textAutoComplete|textMultiLine|textImeMultiLine|textNoSuggestions|textUri|textEmailAddress|textEmailSubject|textShortMessage|textLongMessage|textPersonName|textPostalAddress|textPassword|textVisiblePassword|textWebEditText|textFilter|textPhonetic|textWebEmailAddress|textWebPassword|phone" style="@style/n_input_edittext" />
+            <Button telkom:id="@id/tcash_confirm_button" telkom:layout_width="match_parent" telkom:layout_height="UNKNOWN_DATA_0x7f090071" telkom:layout_marginLeft="@dimen/n_margin_frame" telkom:layout_marginTop="@dimen/n_margin_frame" telkom:layout_marginRight="@dimen/n_margin_frame" telkom:text="@string/btn_confirm" style="@style/common_orange_button" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

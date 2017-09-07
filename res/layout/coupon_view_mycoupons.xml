@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="2.0">
+        <ListView android:id="@id/coupon_list_mycoupons" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:cacheColorHint="0x106000d" android:divider="0x106000d" android:dividerHeight="0dp" />
+        <TextView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/coupon_txt_mycoup_nolist" android:layout_width="match_parent" android:layout_height="match_parent" android:text="" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="2.0">
+        <ListView android:id="@id/coupon_list_mycoupons_redeemed" android:background="@color/orange" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:cacheColorHint="0x106000d" android:divider="0x106000d" android:dividerHeight="0dp" />
+    </LinearLayout>
+</LinearLayout>

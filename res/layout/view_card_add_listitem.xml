@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:id="@id/card_add_listitem_layout" android:background="@color/white" android:paddingLeft="@dimen/n_margin_frame" android:paddingRight="@dimen/n_margin_frame" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x6f01">
+    <RelativeLayout android:layout_width="UNKNOWN_DATA_0x8201" android:layout_height="UNKNOWN_DATA_0x5001" android:layout_marginTop="@dimen/n_margin_frame">
+        <ImageView android:id="@id/card_add_listitem_imageview" android:background="0x0" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitXY" />
+    </RelativeLayout>
+    <RelativeLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="16dp" android:layout_marginTop="20dp" android:layout_marginBottom="16dp">
+        <TextView android:ellipsize="end" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/card_add_listitem_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="" android:maxLines="2" style="@style/n_black16" />
+        <TextView android:ellipsize="end" android:id="@id/card_add_listitem_desc" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="Add your ..... Reward Card here" android:maxLines="2" android:layout_below="@id/card_add_listitem_title" style="@style/n_black14" />
+    </RelativeLayout>
+</LinearLayout>

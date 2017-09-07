@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:id="@id/scroll_frame" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@id/home_tcash_layout" android:background="0x0" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/home_web_view" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x298ccc21" android:layout_marginBottom="48.9dp" />
+            <TextView android:textSize="24sp" android:textColor="@color/n_black" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/tcash_balance" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x1c01" android:text="Rp 0" android:layout_centerHorizontal="true" />
+            <RelativeLayout android:layout_width="UNKNOWN_DATA_0x11801" android:layout_height="wrap_content"
+                <RelativeLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@id/home_tcash_progress" android:clickable="true" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7801" />
+                <ImageButton android:id="@id/home_tcash_button" android:background="@drawable/btn_main_tcash_below" android:layout_width="UNKNOWN_DATA_0x5801" android:layout_height="UNKNOWN_DATA_0x1601" android:layout_marginTop="10dp" android:layout_marginBottom="10dp" android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <Button android:textSize="14sp" android:textStyle="bold" android:textColor="@color/cash_in_red" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/home_cash_in" android:background="@drawable/shape_btn_home_cash" android:layout_width="UNKNOWN_DATA_0x5a01" android:layout_height="UNKNOWN_DATA_0x2401" android:layout_marginTop="20dp" android:layout_marginBottom="47dp" android:text="@string/msg_home_cashin" />
+            <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:background="@color/menu_background" android:layout_width="match_parent" android:layout_height="wrap_content"
+                <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@id/home_menu_topup" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10dp" android:layout_weight="1.0">
+                    <RelativeLayout android:background="@drawable/round_button" android:layout_width="UNKNOWN_DATA_0x4001" android:layout_height="UNKNOWN_DATA_0x4001" android:layout_marginTop="16dp">
+                        <ImageView android:id="@id/ic_topup" android:background="@drawable/ic_topup" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+                    </RelativeLayout>
+                    <TextView android:textSize="12sp" android:textColor="#9197a4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="@string/menu_topup" />
+                </LinearLayout>
+                <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@id/home_menu_halo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10dp" android:layout_weight="1.0">
+                    <RelativeLayout android:background="@drawable/round_button" android:layout_width="UNKNOWN_DATA_0x4001" android:layout_height="UNKNOWN_DATA_0x4001" android:layout_marginTop="16dp">
+                        <ImageView android:id="@id/ic_halo" android:background="@drawable/ic_halo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+                    </RelativeLayout>
+                    <TextView android:textSize="12sp" android:textColor="#9197a4" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="@string/menu_halo" />
+                </LinearLayout>
+                <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@id/home_menu_pln" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10dp" android:layout_weight="1.0">
+                    <RelativeLayout android:background="@drawable/round_button" android:layout_width="UNKNOWN_DATA_0x4001" android:layout_height="UNKNOWN_DATA_0x4001" android:layout_marginTop="16dp">
+                        <ImageView android:id="@id/ic_pln" android:background="@drawable/ic_pln" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+                    </RelativeLayout>
+                    <TextView android:textSize="12sp" android:textColor="#9197a4" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="@string/menu_pln" />
+                </LinearLayout>
+                <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@id/home_menu_water" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10dp" android:layout_weight="1.0">
+                    <RelativeLayout android:background="@drawable/round_button" android:layout_width="UNKNOWN_DATA_0x4001" android:layout_height="UNKNOWN_DATA_0x4001" android:layout_marginTop="16dp">
+                        <ImageView android:id="@id/ic_water" android:background="@drawable/ic_water" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+                    </RelativeLayout>
+                    <TextView android:textSize="12sp" android:textColor="#9197a4" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="@string/menu_water" />
+                </LinearLayout>
+                <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@id/home_menu_internet" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10dp" android:layout_weight="1.0">
+                    <RelativeLayout android:background="@drawable/round_button" android:layout_width="UNKNOWN_DATA_0x4001" android:layout_height="UNKNOWN_DATA_0x4001" android:layout_marginTop="16dp">
+                        <ImageView android:id="@id/ic_internet" android:background="@drawable/ic_internet" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+                    </RelativeLayout>
+                    <TextView android:textSize="12sp" android:textColor="#9197a4" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="@string/menu_internet" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:background="#ec1c24" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x101" />
+            <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:background="@color/white" android:layout_width="match_parent" android:layout_height="wrap_content"
+                <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@id/home_menu_pay" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <ImageView android:id="@id/ic_payment" android:background="@drawable/ic_payment" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp" />
+                    <TextView android:textSize="12sp" android:textColor="#9197a4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="@string/menu_pay" />
+                </LinearLayout>
+                <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@id/home_menu_share" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <ImageView android:id="@id/ic_share" android:background="@drawable/ic_share" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp" />
+                    <TextView android:textSize="12sp" android:textColor="#9197a4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="@string/menu_share" />
+                </LinearLayout>
+                <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@id/home_menu_scan" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <ImageView android:id="@id/ic_scan" android:background="@drawable/ic_scan" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp" />
+                    <TextView android:textSize="12sp" android:textColor="#9197a4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="@string/menu_scan" />
+                </LinearLayout>
+                <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@id/home_menu_token" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <ImageView android:id="@id/ic_token" android:background="@drawable/ic_token" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp" />
+                    <TextView android:textSize="12sp" android:textColor="#9197a4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="@string/menu_token" />
+                </LinearLayout>
+                <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@id/home_menu_history" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <ImageView android:id="@id/ic_history" android:background="@drawable/ic_history" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp" />
+                    <TextView android:textSize="12sp" android:textColor="#9197a4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="@string/menu_history" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" lib:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" lib:orientation="vertical" lib:id="@id/layout_notice_root" lib:layout_width="UNKNOWN_DATA_0x11801" lib:layout_height="wrap_content"
+    <LinearLayout lib:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" lib:orientation="vertical" lib:background="@drawable/shape_dialog_bg" lib:layout_width="UNKNOWN_DATA_0x11801" lib:layout_height="wrap_content">
+        <TextView lib:textColor="@color/n_darkgray" lib:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" lib:id="@id/dialog_title" lib:background="@drawable/shape_dialog_title_bg" lib:layout_width="match_parent" lib:layout_height="UNKNOWN_DATA_0x7f09006d" lib:text="@string/msg_select" style="@style/n_dialog_title" />
+        <LinearLayout lib:orientation="vertical" lib:id="@id/list_dialog_noti_layout" lib:visibility="gone" lib:layout_width="match_parent" lib:layout_height="wrap_content">
+            <TextView lib:textSize="10dp" lib:textColor="@color/n_darkgray" lib:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" lib:background="@drawable/shape_dialog_title_bg" lib:layout_width="match_parent" lib:layout_height="UNKNOWN_DATA_0x1e01" lib:layout_marginTop="5dp" lib:layout_marginBottom="5dp" lib:text="@string/type_your_area" />
+            <View lib:background="@color/n_lightgray" lib:layout_width="match_parent" lib:layout_height="UNKNOWN_DATA_0x101" />
+        </LinearLayout>
+        <ListView lib:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" lib:id="@id/list_dialog_listview" lib:paddingLeft="@dimen/n_margin_frame" lib:paddingRight="@dimen/n_margin_frame" lib:layout_width="match_parent" lib:layout_height="match_parent" lib:divider="@color/n_lightgray" lib:dividerHeight="1dp" />
+    </LinearLayout>
+</LinearLayout>

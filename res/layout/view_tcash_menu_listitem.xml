@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/white" android:paddingLeft="@dimen/n_margin_frame" android:paddingRight="@dimen/n_margin_frame" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f090077">
+        <TextView android:id="@id/tcash_menu_title_button" android:focusable="false" android:clickable="false" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/n_submenu" />
+        <ImageView android:id="@id/tcash_menu_arrow_imageview" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x1801" android:layout_height="UNKNOWN_DATA_0x1801" android:src="@drawable/ic_chevron_right" android:scaleType="fitXY" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</LinearLayout>
